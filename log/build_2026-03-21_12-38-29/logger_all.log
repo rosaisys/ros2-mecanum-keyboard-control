@@ -1,0 +1,234 @@
+[0.208s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'smart_car_core_demo'][0m
+[0.209s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['smart_car_core_demo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fffa03c45b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fffa03c4040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fffa03c4040>>, mixin_verb=('build',))[0m
+[0.299s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.299s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.299s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.299s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ubuntu/ros2_wsorincp'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.319s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'ignore'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'ignore_ament_install'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['colcon_pkg']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'colcon_pkg'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['colcon_meta']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'colcon_meta'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['ros']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'ros'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['cmake', 'python']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'cmake'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'python'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extensions ['python_setup_py']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws) by extension 'python_setup_py'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/build) by extension 'ignore'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/build) ignored
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/install) by extension 'ignore'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/install) ignored
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/log) by extension 'ignore'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/log) ignored
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'ignore'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'ignore_ament_install'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['colcon_pkg']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'colcon_pkg'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['colcon_meta']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'colcon_meta'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['ros']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'ros'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['cmake', 'python']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'cmake'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'python'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extensions ['python_setup_py']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src) by extension 'python_setup_py'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extension 'ignore'
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extension 'ignore_ament_install'
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extensions ['colcon_pkg']
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extension 'colcon_pkg'
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extensions ['colcon_meta']
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extension 'colcon_meta'
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extensions ['ros']
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(jianpankongzhiws/src/demo_cpp_pkg) by extension 'ros'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'jianpankongzhiws/src/demo_cpp_pkg' with type 'ros.ament_cmake' and name 'demo_cpp_pkg'[0m
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'ignore'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'ignore_ament_install'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['colcon_pkg']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'colcon_pkg'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['colcon_meta']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'colcon_meta'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['ros']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'ros'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['cmake', 'python']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'cmake'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'python'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extensions ['python_setup_py']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples) by extension 'python_setup_py'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/build) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/build) by extension 'ignore'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/build) ignored
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'ignore'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'ignore_ament_install'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['colcon_pkg']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'colcon_pkg'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['colcon_meta']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'colcon_meta'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['ros']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'ros'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['cmake', 'python']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'cmake'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'python'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extensions ['python_setup_py']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/docs) by extension 'python_setup_py'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/install) by extension 'ignore'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/install) ignored
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/log) by extension 'ignore'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/log) ignored
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extension 'ignore'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extension 'ignore_ament_install'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extensions ['colcon_pkg']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extension 'colcon_pkg'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extensions ['colcon_meta']
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extension 'colcon_meta'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extensions ['ros']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_core_examples/smart_car_core_demo) by extension 'ros'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ros2_core_examples/smart_car_core_demo' with type 'ros.ament_cmake' and name 'smart_car_core_demo'[0m
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extension 'ignore_ament_install'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extensions ['colcon_pkg']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extension 'colcon_pkg'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extensions ['colcon_meta']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extension 'colcon_meta'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extensions ['ros']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_robot_controller_msgs) by extension 'ros'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros_robot_controller_msgs' with type 'ros.ament_cmake' and name 'ros_robot_controller_msgs'[0m
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.350s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'demo_cpp_pkg' in 'jianpankongzhiws/src/demo_cpp_pkg'
+[0.350s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros_robot_controller_msgs' in 'src/ros_robot_controller_msgs'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_target' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_car_core_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'smart_car_core_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo', 'merge_install': False, 'path': '/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.351s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.352s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.352s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo' with build type 'ament_cmake'
+[0.353s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo'
+[0.356s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.369s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4[0m
+[16.467s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4[0m
+[16.512s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo[0m
+[16.550s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(smart_car_core_demo)
+[16.551s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo[0m
+[16.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo' for CMake module files
+[16.562s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo' for CMake config files
+[16.562s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('smart_car_core_demo', 'cmake_prefix_path')
+[16.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.ps1'
+[16.565s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.dsv'
+[16.567s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.sh'
+[16.569s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib'
+[16.570s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/bin'
+[16.570s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/pkgconfig/smart_car_core_demo.pc'
+[16.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/python3.10/site-packages'
+[16.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/bin'
+[16.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.ps1'
+[16.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv'
+[16.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.sh'
+[16.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.bash'
+[16.587s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.zsh'
+[16.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/colcon-core/packages/smart_car_core_demo)
+[16.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(smart_car_core_demo)
+[16.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo' for CMake module files
+[16.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo' for CMake config files
+[16.617s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('smart_car_core_demo', 'cmake_prefix_path')
+[16.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.ps1'
+[16.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.dsv'
+[16.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/hook/cmake_prefix_path.sh'
+[16.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib'
+[16.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/bin'
+[16.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/pkgconfig/smart_car_core_demo.pc'
+[16.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/python3.10/site-packages'
+[16.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/bin'
+[16.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.ps1'
+[16.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv'
+[16.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.sh'
+[16.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.bash'
+[16.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.zsh'
+[16.623s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/colcon-core/packages/smart_car_core_demo)
+[16.624s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[16.624s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[16.624s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[16.625s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[16.644s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.644s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.644s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.644s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[16.644s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11[0m
+[16.645s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[16.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/ros2_wsorincp/install/local_setup.ps1'
+[16.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ubuntu/ros2_wsorincp/install/_local_setup_util_ps1.py'
+[16.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/ros2_wsorincp/install/setup.ps1'
+[16.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/ros2_wsorincp/install/local_setup.sh'
+[16.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ubuntu/ros2_wsorincp/install/_local_setup_util_sh.py'
+[16.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/ros2_wsorincp/install/setup.sh'
+[16.655s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/ros2_wsorincp/install/local_setup.bash'
+[16.657s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/ros2_wsorincp/install/setup.bash'
+[16.659s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/ros2_wsorincp/install/local_setup.zsh'
+[16.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/ros2_wsorincp/install/setup.zsh'

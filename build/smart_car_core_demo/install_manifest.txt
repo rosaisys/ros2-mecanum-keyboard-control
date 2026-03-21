@@ -1,4 +1,5 @@
 /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher
+/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber
 /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch/topic_demo.launch.py
 /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config/params.yaml
 /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo

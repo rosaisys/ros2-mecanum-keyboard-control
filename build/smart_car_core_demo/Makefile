@@ -210,6 +210,19 @@ speed_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/build
 .PHONY : speed_publisher/fast
 
+#=============================================================================
+# Target rules for targets named speed_subscriber
+
+# Build rule for target.
+speed_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed_subscriber
+.PHONY : speed_subscriber
+
+# fast build rule for target.
+speed_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/build
+.PHONY : speed_subscriber/fast
+
 src/smart_car_core_demo/speed_publisher.o: src/smart_car_core_demo/speed_publisher.cpp.o
 .PHONY : src/smart_car_core_demo/speed_publisher.o
 
@@ -234,6 +247,30 @@ src/smart_car_core_demo/speed_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.s
 .PHONY : src/smart_car_core_demo/speed_publisher.cpp.s
 
+src/smart_car_core_demo/speed_subscriber.o: src/smart_car_core_demo/speed_subscriber.cpp.o
+.PHONY : src/smart_car_core_demo/speed_subscriber.o
+
+# target to build an object file
+src/smart_car_core_demo/speed_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o
+.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.o
+
+src/smart_car_core_demo/speed_subscriber.i: src/smart_car_core_demo/speed_subscriber.cpp.i
+.PHONY : src/smart_car_core_demo/speed_subscriber.i
+
+# target to preprocess a source file
+src/smart_car_core_demo/speed_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.i
+.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.i
+
+src/smart_car_core_demo/speed_subscriber.s: src/smart_car_core_demo/speed_subscriber.cpp.s
+.PHONY : src/smart_car_core_demo/speed_subscriber.s
+
+# target to generate assembly for a file
+src/smart_car_core_demo/speed_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.s
+.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... smart_car_core_demo_uninstall"
 	@echo "... uninstall"
 	@echo "... speed_publisher"
+	@echo "... speed_subscriber"
 	@echo "... src/smart_car_core_demo/speed_publisher.o"
 	@echo "... src/smart_car_core_demo/speed_publisher.i"
 	@echo "... src/smart_car_core_demo/speed_publisher.s"
+	@echo "... src/smart_car_core_demo/speed_subscriber.o"
+	@echo "... src/smart_car_core_demo/speed_subscriber.i"
+	@echo "... src/smart_car_core_demo/speed_subscriber.s"
 .PHONY : help
 
 

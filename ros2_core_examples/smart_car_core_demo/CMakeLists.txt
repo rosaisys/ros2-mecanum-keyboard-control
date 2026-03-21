@@ -12,6 +12,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(rclcpp_action REQUIRED)
+find_package(ros_robot_controller_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -37,9 +38,18 @@ ament_target_dependencies(speed_publisher
   geometry_msgs
 )
 
+add_executable(speed_subscriber src/smart_car_core_demo/speed_subscriber.cpp)
+ament_target_dependencies(speed_subscriber
+  rclcpp
+  geometry_msgs
+  std_msgs
+  ros_robot_controller_msgs
+)
+
 # 安装可执行文件
 install(TARGETS
   speed_publisher
+  speed_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -62,6 +72,7 @@ ament_export_dependencies(
   std_msgs
   std_srvs
   rclcpp_action
+  ros_robot_controller_msgs
 )
 
 ament_package()

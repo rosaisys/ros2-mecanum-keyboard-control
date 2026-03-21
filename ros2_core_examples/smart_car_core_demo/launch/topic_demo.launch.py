@@ -1,5 +1,5 @@
 # 智能车话题示例启动文件
-# 启动车速发布节点
+# 启动车速发布和订阅节点
 
 from launch import LaunchDescription
 from launch_ros.actions import Node
@@ -11,19 +11,14 @@ def generate_launch_description():
             package='smart_car_core_demo',
             executable='speed_publisher',
             name='speed_publisher',
-            output='screen',
-            parameters=[{
-                'linear_speed': 0.5,
-                'angular_speed': 0.2,
-                'publish_rate': 10.0
-            }]
+            output='screen'
         ),
         
-        # 可以在这里添加其他节点，如传感器订阅节点等
-        # Node(
-        #     package='smart_car_core_demo',
-        #     executable='sensor_subscriber',
-        #     name='sensor_subscriber',
-        #     output='screen'
-        # ),
+        # 车速订阅节点（简化版）
+        Node(
+            package='smart_car_core_demo',
+            executable='speed_subscriber_simple',
+            name='speed_subscriber_simple',
+            output='screen'
+        ),
     ])

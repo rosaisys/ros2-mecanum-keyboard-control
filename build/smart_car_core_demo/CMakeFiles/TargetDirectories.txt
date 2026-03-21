@@ -1,6 +1,7 @@
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/uninstall.dir
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/smart_car_core_demo_uninstall.dir
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_publisher.dir
+/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_subscriber.dir
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/test.dir
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/edit_cache.dir
 /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/rebuild_cache.dir

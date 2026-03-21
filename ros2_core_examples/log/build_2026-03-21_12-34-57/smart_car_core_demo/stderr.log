@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kros_robot_controller_msgs/msg/motor_state.hpp: No such file or directory
+    9 | #include [01;31m[K"ros_robot_controller_msgs/msg/motor_state.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/speed_subscriber.dir/build.make:76: CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

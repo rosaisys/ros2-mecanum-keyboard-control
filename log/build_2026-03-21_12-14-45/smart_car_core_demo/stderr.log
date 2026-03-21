@@ -1,0 +1,29 @@
+/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber_simple.cpp: In member function ‘void SpeedSubscriberSimple::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)’:
+/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber_simple.cpp:118:27: error: no match for ‘operator=’ (operand types are ‘std_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type’ {aka ‘std::vector<float>’} and ‘std::vector<double, std::allocator<double> >’)
+  118 |         motors_msg.data = motor_speeds;
+      |                           ^~~~~~~~~~~~
+In file included from /usr/include/c++/11/vector:72,
+                 from /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber_simple.cpp:3:
+/usr/include/c++/11/bits/vector.tcc:198:5: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = float; _Alloc = std::allocator<float>]’
+  198 |     vector<_Tp, _Alloc>::
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11/bits/vector.tcc:199:42: note:   no known conversion for argument 1 from ‘std::vector<double, std::allocator<double> >’ to ‘const std::vector<float>&’
+  199 |     operator=(const vector<_Tp, _Alloc>& __x)
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/c++/11/vector:67,
+                 from /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber_simple.cpp:3:
+/usr/include/c++/11/bits/stl_vector.h:709:7: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = float; _Alloc = std::allocator<float>]’
+  709 |       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_vector.h:709:26: note:   no known conversion for argument 1 from ‘std::vector<double, std::allocator<double> >’ to ‘std::vector<float>&&’
+  709 |       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 ~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_vector.h:730:7: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = float; _Alloc = std::allocator<float>]’
+  730 |       operator=(initializer_list<value_type> __l)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_vector.h:730:46: note:   no known conversion for argument 1 from ‘std::vector<double, std::allocator<double> >’ to ‘std::initializer_list<float>’
+  730 |       operator=(initializer_list<value_type> __l)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+gmake[2]: *** [CMakeFiles/speed_subscriber_simple.dir/build.make:76: CMakeFiles/speed_subscriber_simple.dir/src/smart_car_core_demo/speed_subscriber_simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/speed_subscriber_simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
