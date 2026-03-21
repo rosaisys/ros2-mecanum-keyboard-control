@@ -1,0 +1,22 @@
+# 智能车核心示例参数配置文件
+# 这些参数可以在运行时动态调整
+
+smart_car_core_demo:
+  ros__parameters:
+    # 车速控制参数
+    linear_speed: 0.5      # 线速度 (m/s)
+    angular_speed: 0.2     # 角速度 (rad/s)
+    publish_rate: 10.0     # 发布频率 (Hz)
+    
+    # 安全参数
+    emergency_stop_threshold: 0.1  # 紧急停止阈值
+    battery_warning_level: 11.5    # 电池警告电压 (V)
+    battery_critical_level: 11.0   # 电池临界电压 (V)
+    
+    # 动作参数
+    countdown_duration: 10.0       # 倒计时持续时间 (秒)
+    navigation_timeout: 30.0       # 导航超时时间 (秒)
+    
+    # 调试参数
+    debug_mode: false              # 调试模式
+    log_level: "INFO"              # 日志级别
