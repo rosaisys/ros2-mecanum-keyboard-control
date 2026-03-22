@@ -21,7 +21,7 @@ class SpeedPublisher : public rclcpp::Node {
     SpeedPublisher() : Node("speed_publisher") {
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
         timer_ = this->create_wall_timer(
-            100ms, 
+            1s, 
             std::bind(&SpeedPublisher::timer_callback, this)
         );
     }
@@ -29,12 +29,12 @@ class SpeedPublisher : public rclcpp::Node {
    private:  // ✅ 私有成员，保护封装性
     void timer_callback() {
         auto message = geometry_msgs::msg::Twist();
-        message.linear.x = 0.5;  // 设置线速度为0.5 m/s
+        message.linear.x = 0.3;  // 设置线速度为0.1 m/s
         message.linear.y = 0.0; 
         message.linear.z = 0.0;
         message.angular.x = 0.0;
         message.angular.y = 0.0;
-        message.angular.z = 0.2; // 设置角速度为0.2 rad/s
+        message.angular.z = 0.0; // 设置角速度为0.0 rad/s
         publisher_->publish(message);
 
         // 打印日志
