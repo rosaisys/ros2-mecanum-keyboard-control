@@ -1,0 +1,4 @@
+[01m[K/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp:204:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  204 |     std::signal(SIGINT, []([01;35m[Kint sig[m[K) {
+      |                            [01;35m[K~~~~^~~[m[K

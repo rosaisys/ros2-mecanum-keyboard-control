@@ -1,24 +1,36 @@
-# 智能车话题示例启动文件
-# 启动车速发布和订阅节点
-
+# 话题演示启动文件
+# 启动速度发布者和订阅者节点
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        # 车速发布节点
+        # ROS机器人控制器节点
+        Node(
+            package='ros_robot_controller',
+            executable='ros_robot_controller',
+            name='ros_robot_controller',
+            output='screen',
+            parameters=[{'imu_frame': 'imu_link'}]
+        ),
+
+        # 速度订阅者节点
+        Node(
+            package='smart_car_core_demo',
+            executable='speed_subscriber',
+            name='speed_subscriber',
+            output='screen'
+        ),
+      
+        # 速度发布者节点
         Node(
             package='smart_car_core_demo',
             executable='speed_publisher',
             name='speed_publisher',
-            output='screen'
+            output='screen',
+            parameters=[{'publish_frequency': 10.0}]  # 10Hz发布频率
         ),
         
-        # 车速订阅节点（简化版）
-        Node(
-            package='smart_car_core_demo',
-            executable='speed_subscriber_simple',
-            name='speed_subscriber_simple',
-            output='screen'
-        ),
+  
+
     ])

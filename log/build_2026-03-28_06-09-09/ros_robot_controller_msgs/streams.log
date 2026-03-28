@@ -1,0 +1,508 @@
+[0.079s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs -- -j4 -l4
+[0.291s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_generator_c[0m
+[0.301s] [  0%] Built target ros_robot_controller_msgs__cpp
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_cpp[0m
+[0.384s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.387s] [  0%] Built target ament_cmake_python_copy_ros_robot_controller_msgs
+[0.396s] [ 12%] Built target ros_robot_controller_msgs__rosidl_generator_c
+[0.433s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.452s] [ 24%] Built target ros_robot_controller_msgs__rosidl_typesupport_cpp
+[0.496s] [ 36%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[0.553s] [ 48%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_introspection_c[0m
+[0.601s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_c[0m
+[0.693s] [ 60%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_c
+[0.697s] [ 72%] Built target ros_robot_controller_msgs__rosidl_typesupport_c
+[0.710s] [ 84%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c
+[0.794s] [ 84%] Built target ros_robot_controller_msgs
+[0.864s] [ 85%] Built target ros_robot_controller_msgs__py
+[0.922s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_generator_py[0m
+[1.058s] [ 96%] Built target ros_robot_controller_msgs__rosidl_generator_py
+[1.101s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.114s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.119s] [35m[1mConsolidate compiler generated dependencies of target ros_robot_controller_msgs__rosidl_typesupport_c__pyext[0m
+[1.135s] [ 97%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.174s] [ 99%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[1.224s] [100%] Built target ros_robot_controller_msgs__rosidl_typesupport_c__pyext
+[1.507s] running egg_info
+[1.529s] writing ros_robot_controller_msgs.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ros_robot_controller_msgs.egg-info/dependency_links.txt
+[1.531s] writing top-level names to ros_robot_controller_msgs.egg-info/top_level.txt
+[2.419s] reading manifest file 'ros_robot_controller_msgs.egg-info/SOURCES.txt'
+[2.420s] writing manifest file 'ros_robot_controller_msgs.egg-info/SOURCES.txt'
+[2.515s] [100%] Built target ament_cmake_python_build_ros_robot_controller_msgs_egg
+[2.545s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs -- -j4 -l4
+[3.286s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs
+[3.297s] -- Install configuration: ""
+[3.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/ros_robot_controller_msgs
+[3.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[3.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[3.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/buzzer_state.h
+[3.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_pwm_servo_cmd.h
+[3.299s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servos_position.h
+[3.299s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_bus_servo_cmd.h
+[3.299s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_bus_servo_state.h
+[3.300s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_pwm_servo_state.h
+[3.300s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motors_state.h
+[3.300s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.300s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/bus_servo_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/pwm_servo_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motor_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/oled_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/led_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/button_state.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/sbus.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__functions.c
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__functions.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.h
+[3.301s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__functions.h
+[3.302s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__functions.c
+[3.302s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.h
+[3.302s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__functions.h
+[3.303s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.h
+[3.303s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__struct.h
+[3.303s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__functions.h
+[3.303s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__struct.h
+[3.304s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__functions.h
+[3.304s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.h
+[3.304s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__functions.h
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__functions.h
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__functions.h
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__struct.h
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.h
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__functions.c
+[3.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__functions.h
+[3.306s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__functions.c
+[3.306s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__functions.h
+[3.306s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__functions.c
+[3.306s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__struct.h
+[3.306s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__struct.h
+[3.307s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__functions.h
+[3.307s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__functions.c
+[3.307s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.h
+[3.307s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__struct.h
+[3.308s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__functions.h
+[3.308s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.h
+[3.308s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__functions.c
+[3.308s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__functions.c
+[3.308s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__struct.h
+[3.309s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.h
+[3.309s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__struct.h
+[3.309s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__struct.h
+[3.309s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__functions.c
+[3.309s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__struct.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__functions.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__struct.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.h
+[3.310s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.h
+[3.311s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__functions.c
+[3.311s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__struct.h
+[3.311s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__functions.c
+[3.311s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__functions.c
+[3.312s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__functions.c
+[3.312s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__functions.c
+[3.313s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__functions.c
+[3.313s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__functions.h
+[3.313s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__struct.h
+[3.313s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__struct.h
+[3.314s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.h
+[3.314s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__struct.h
+[3.314s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.h
+[3.315s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__functions.h
+[3.315s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servo_position.h
+[3.315s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[3.316s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_bus_servo_state.h
+[3.317s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[3.317s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__functions.h
+[3.317s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__functions.h
+[3.317s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.h
+[3.317s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__functions.c
+[3.318s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__struct.h
+[3.318s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__functions.c
+[3.318s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.h
+[3.318s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__struct.h
+[3.318s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_pwm_servo_state.h
+[3.319s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/library_path.sh
+[3.342s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/library_path.dsv
+[3.343s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_c.so
+[3.344s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_c.so" to ""
+[3.344s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[3.344s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[3.345s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.345s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[3.345s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.345s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_fastrtps_c.h
+[3.345s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[3.346s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h
+[3.346s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_fastrtps_c.h
+[3.346s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.347s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_fastrtps_c.h
+[3.347s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_fastrtps_c.h
+[3.348s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.348s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_fastrtps_c.h
+[3.348s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_fastrtps_c.h
+[3.369s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_fastrtps_c.h
+[3.370s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.370s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_fastrtps_c.h
+[3.370s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_fastrtps_c.h
+[3.371s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[3.371s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[3.371s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.371s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_fastrtps_c.h
+[3.372s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[3.396s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.397s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[3.397s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[3.397s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/pwm_servo_state.hpp
+[3.397s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motor_state.hpp
+[3.397s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servo_position.hpp
+[3.398s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_pwm_servo_cmd.hpp
+[3.398s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/sbus.hpp
+[3.398s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motors_state.hpp
+[3.399s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_bus_servo_state.hpp
+[3.399s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_pwm_servo_state.hpp
+[3.400s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/led_state.hpp
+[3.401s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/oled_state.hpp
+[3.401s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/buzzer_state.hpp
+[3.401s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/bus_servo_state.hpp
+[3.402s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/button_state.hpp
+[3.402s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[3.402s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__traits.hpp
+[3.402s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__builder.hpp
+[3.402s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__builder.hpp
+[3.403s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__traits.hpp
+[3.403s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__struct.hpp
+[3.403s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__struct.hpp
+[3.404s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__traits.hpp
+[3.404s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__struct.hpp
+[3.404s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__traits.hpp
+[3.406s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__builder.hpp
+[3.407s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__traits.hpp
+[3.407s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__builder.hpp
+[3.407s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__builder.hpp
+[3.407s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__struct.hpp
+[3.407s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__traits.hpp
+[3.408s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__struct.hpp
+[3.408s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__builder.hpp
+[3.408s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__traits.hpp
+[3.409s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__traits.hpp
+[3.409s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__struct.hpp
+[3.409s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__struct.hpp
+[3.409s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__struct.hpp
+[3.410s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__builder.hpp
+[3.410s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__traits.hpp
+[3.410s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__traits.hpp
+[3.411s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__struct.hpp
+[3.411s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__traits.hpp
+[3.411s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__traits.hpp
+[3.412s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__struct.hpp
+[3.412s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__struct.hpp
+[3.412s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__builder.hpp
+[3.413s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__builder.hpp
+[3.413s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__builder.hpp
+[3.413s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__builder.hpp
+[3.414s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__struct.hpp
+[3.414s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__struct.hpp
+[3.414s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__struct.hpp
+[3.415s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__traits.hpp
+[3.415s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__traits.hpp
+[3.415s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__struct.hpp
+[3.416s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__builder.hpp
+[3.416s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__builder.hpp
+[3.416s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__builder.hpp
+[3.417s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__builder.hpp
+[3.417s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__traits.hpp
+[3.417s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_bus_servo_cmd.hpp
+[3.418s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servos_position.hpp
+[3.418s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[3.418s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_pwm_servo_state.hpp
+[3.418s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_bus_servo_state.hpp
+[3.419s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[3.419s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__struct.hpp
+[3.419s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__builder.hpp
+[3.419s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__traits.hpp
+[3.420s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__struct.hpp
+[3.420s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__traits.hpp
+[3.420s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__builder.hpp
+[3.421s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[3.421s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[3.421s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.421s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[3.421s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.422s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.422s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.422s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_fastrtps_cpp.hpp
+[3.423s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_fastrtps_cpp.hpp
+[3.423s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/dds_fastrtps
+[3.423s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.424s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_fastrtps_cpp.hpp
+[3.424s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.424s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.425s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.425s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.425s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.426s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.426s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.426s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.427s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[3.427s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[3.428s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.428s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.428s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/dds_fastrtps
+[3.428s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.504s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.505s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[3.505s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[3.505s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.505s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[3.505s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_introspection_c.h
+[3.529s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.c
+[3.556s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_introspection_c.h
+[3.831s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.c
+[3.848s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.c
+[3.875s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_introspection_c.h
+[3.901s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.c
+[3.980s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_introspection_c.h
+[3.980s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_introspection_c.h
+[4.130s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_introspection_c.h
+[4.172s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.c
+[4.200s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_introspection_c.h
+[4.227s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.c
+[4.253s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.c
+[4.280s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_introspection_c.h
+[4.305s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.c
+[4.331s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.c
+[4.358s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.c
+[4.385s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_introspection_c.h
+[4.386s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.c
+[4.438s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.c
+[4.465s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.c
+[4.490s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_introspection_c.h
+[4.517s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.c
+[4.543s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_introspection_c.h
+[4.569s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_introspection_c.h
+[4.595s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_introspection_c.h
+[4.621s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.c
+[4.648s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_introspection_c.h
+[4.674s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[4.701s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[4.701s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[4.701s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.c
+[4.727s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.c
+[4.753s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_introspection_c.h
+[4.780s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_introspection_c.h
+[4.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_c.so
+[4.807s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.807s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_c.so
+[4.808s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_c.so" to ""
+[4.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs
+[4.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg
+[4.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail
+[4.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_introspection_cpp.hpp
+[4.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.cpp
+[4.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_introspection_cpp.hpp
+[4.811s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.cpp
+[4.811s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.cpp
+[4.811s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_introspection_cpp.hpp
+[4.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp
+[4.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_introspection_cpp.hpp
+[4.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.cpp
+[4.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.cpp
+[4.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.cpp
+[4.814s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.814s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.cpp
+[4.814s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.cpp
+[4.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.cpp
+[4.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_introspection_cpp.hpp
+[4.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.cpp
+[4.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.cpp
+[4.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_introspection_cpp.hpp
+[4.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.cpp
+[4.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.cpp
+[4.818s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.cpp
+[4.818s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[4.819s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_introspection_cpp.hpp
+[4.819s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.cpp
+[4.819s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv
+[4.819s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail
+[4.819s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.cpp
+[4.820s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.cpp
+[4.821s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[4.955s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.955s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_cpp.so
+[4.955s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[4.955s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/pythonpath.sh
+[4.955s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/pythonpath.dsv
+[4.956s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info
+[4.956s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/libros_robot_controller_msgs__rosidl_generator_py.so
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motor_state.py
+[4.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_pwm_servo_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_bus_servo_cmd_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_oled_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_button_state.py
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servo_position_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_button_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_led_state.py
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_led_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servos_position.py
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_bus_servo_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_buzzer_state_s.c
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_bus_servo_cmd.py
+[4.959s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_pwm_servo_cmd_s.c
+[4.960s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motors_state_s.c
+[4.960s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_pwm_servo_state_s.c
+[4.960s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motors_state.py
+[4.961s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motor_state_s.c
+[4.961s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_pwm_servo_state.py
+[4.961s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servos_position_s.c
+[4.961s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_bus_servo_state_s.c
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servo_position.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_pwm_servo_cmd.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_sbus.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_bus_servo_state.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_bus_servo_state.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_sbus_s.c
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_pwm_servo_state.py
+[4.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_oled_state.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_buzzer_state.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/__init__.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_pwm_servo_state.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_bus_servo_state_s.c
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_bus_servo_state.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_pwm_servo_state_s.c
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/__init__.py
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_c.c
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/__init__.py
+[5.168s] Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs'...
+[5.169s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/__init__.py'...
+[5.169s] Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg'...
+[5.169s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/__init__.py'...
+[5.169s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_bus_servo_state.py'...
+[5.170s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_button_state.py'...
+[5.170s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_buzzer_state.py'...
+[5.171s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_bus_servo_cmd.py'...
+[5.171s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_pwm_servo_cmd.py'...
+[5.171s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_led_state.py'...
+[5.171s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motor_state.py'...
+[5.171s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motors_state.py'...
+[5.177s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_oled_state.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_pwm_servo_state.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_sbus.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servo_position.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servos_position.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_bus_servo_state.py'...
+[5.178s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_pwm_servo_state.py'...
+[5.179s] Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv'...
+[5.179s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/__init__.py'...
+[5.179s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_bus_servo_state.py'...
+[5.179s] Compiling '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_pwm_servo_state.py'...
+[5.192s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.192s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.192s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.192s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.192s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.192s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.200s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_py.so
+[5.200s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_py.so" to ""
+[5.200s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BusServoState.idl
+[5.218s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ButtonState.idl
+[5.245s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BuzzerState.idl
+[5.276s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/LedState.idl
+[5.298s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorState.idl
+[5.323s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorsState.idl
+[5.349s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/PWMServoState.idl
+[5.376s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/Sbus.idl
+[5.402s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/OLEDState.idl
+[5.429s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetBusServoState.idl
+[5.456s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServoPosition.idl
+[5.482s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServosPosition.idl
+[5.508s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetPWMServoState.idl
+[5.534s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetBusServoCmd.idl
+[5.560s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetPWMServoCmd.idl
+[5.587s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState.idl
+[5.613s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState.idl
+[5.639s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BusServoState.msg
+[5.665s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ButtonState.msg
+[5.693s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BuzzerState.msg
+[5.718s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/LedState.msg
+[5.758s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorState.msg
+[5.784s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorsState.msg
+[5.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/PWMServoState.msg
+[5.837s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/Sbus.msg
+[5.864s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/OLEDState.msg
+[5.891s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetBusServoState.msg
+[5.916s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServoPosition.msg
+[5.943s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServosPosition.msg
+[5.998s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetPWMServoState.msg
+[6.023s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetBusServoCmd.msg
+[6.049s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetPWMServoCmd.msg
+[6.076s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState.srv
+[6.102s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState_Request.msg
+[6.102s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState_Response.msg
+[6.103s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState.srv
+[6.129s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState_Request.msg
+[6.129s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState_Response.msg
+[6.131s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/package_run_dependencies/ros_robot_controller_msgs
+[6.132s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/parent_prefix_path/ros_robot_controller_msgs
+[6.156s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/ament_prefix_path.sh
+[6.184s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/ament_prefix_path.dsv
+[6.184s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/path.sh
+[6.208s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/path.dsv
+[6.208s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.bash
+[6.209s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.sh
+[6.209s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.zsh
+[6.210s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.dsv
+[6.210s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.dsv
+[6.211s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/packages/ros_robot_controller_msgs
+[6.212s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cExport.cmake
+[6.212s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.213s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.214s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.214s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cppExport.cmake
+[6.215s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.215s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.216s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.216s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.217s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cExport.cmake
+[6.217s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.218s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.219s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.219s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cppExport.cmake
+[6.220s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.220s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_pyExport.cmake
+[6.221s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.221s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[6.222s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.223s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.223s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.223s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.224s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.224s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.225s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgsConfig.cmake
+[6.225s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgsConfig-version.cmake
+[6.226s] -- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.xml
+[6.229s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs

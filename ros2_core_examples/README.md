@@ -85,6 +85,7 @@ cd ~/ros2_ws
 colcon build --packages-select smart_car_core_demo
 source install/setup.bash
 
+# 方法1：使用ros2 run单独运行节点
 # 测试话题功能
 ros2 run smart_car_core_demo speed_publisher
 
@@ -93,6 +94,10 @@ ros2 run smart_car_core_demo emergency_stop_server
 
 # 测试动作功能
 ros2 run smart_car_core_demo countdown_park_server
+
+# 方法2：使用launch文件启动多个节点
+# 启动话题演示（包含速度发布者、订阅者和机器人控制器）
+ros2 launch smart_car_core_demo topic_demo.launch.py
 ```
 
 ## 学习路径建议

@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber")

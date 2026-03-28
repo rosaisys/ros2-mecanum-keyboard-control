@@ -1,0 +1,1422 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (ros_robot_controller) JobQueued: {'identifier': 'ros_robot_controller', 'dependencies': OrderedDict()}
+[0.000502] (ros_robot_controller_msgs) JobQueued: {'identifier': 'ros_robot_controller_msgs', 'dependencies': OrderedDict()}
+[0.000529] (smart_car_core_demo) JobQueued: {'identifier': 'smart_car_core_demo', 'dependencies': OrderedDict()}
+[0.001083] (ros_robot_controller) JobStarted: {'identifier': 'ros_robot_controller'}
+[0.099711] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.300891] (-) TimerEvent: {}
+[0.401214] (-) TimerEvent: {}
+[0.501534] (-) TimerEvent: {}
+[0.601865] (-) TimerEvent: {}
+[0.702312] (-) TimerEvent: {}
+[0.802659] (-) TimerEvent: {}
+[0.903099] (-) TimerEvent: {}
+[1.003519] (-) TimerEvent: {}
+[1.103893] (-) TimerEvent: {}
+[1.204209] (-) TimerEvent: {}
+[1.304522] (-) TimerEvent: {}
+[1.404854] (-) TimerEvent: {}
+[1.505252] (-) TimerEvent: {}
+[1.605736] (-) TimerEvent: {}
+[1.706231] (-) TimerEvent: {}
+[1.806656] (-) TimerEvent: {}
+[1.907238] (-) TimerEvent: {}
+[2.007749] (-) TimerEvent: {}
+[2.063587] (ros_robot_controller_msgs) JobStarted: {'identifier': 'ros_robot_controller_msgs'}
+[2.067040] (smart_car_core_demo) JobStarted: {'identifier': 'smart_car_core_demo'}
+[2.107857] (-) TimerEvent: {}
+[2.208274] (-) TimerEvent: {}
+[2.309330] (-) TimerEvent: {}
+[2.410053] (-) TimerEvent: {}
+[2.510508] (-) TimerEvent: {}
+[2.610963] (-) TimerEvent: {}
+[2.711426] (-) TimerEvent: {}
+[2.811891] (-) TimerEvent: {}
+[2.912535] (-) TimerEvent: {}
+[3.013435] (-) TimerEvent: {}
+[3.063274] (ros_robot_controller_msgs) JobProgress: {'identifier': 'ros_robot_controller_msgs', 'progress': 'cmake'}
+[3.113551] (-) TimerEvent: {}
+[3.164063] (ros_robot_controller_msgs) JobProgress: {'identifier': 'ros_robot_controller_msgs', 'progress': 'build'}
+[3.166432] (ros_robot_controller_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 50781 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e8ff81af-f1e5-440c-abe0-1b9f21ce4d4d.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e763ceedb8.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs'), ('SSH_CONNECTION', '192.168.10.1 50781 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[3.213645] (-) TimerEvent: {}
+[3.314087] (-) TimerEvent: {}
+[3.368540] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'cmake'}
+[3.414218] (-) TimerEvent: {}
+[3.514910] (-) TimerEvent: {}
+[3.567730] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'build'}
+[3.567863] (smart_car_core_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 50781 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e8ff81af-f1e5-440c-abe0-1b9f21ce4d4d.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e763ceedb8.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'), ('SSH_CONNECTION', '192.168.10.1 50781 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[3.615014] (-) TimerEvent: {}
+[3.715385] (-) TimerEvent: {}
+[3.815894] (-) TimerEvent: {}
+[3.916390] (-) TimerEvent: {}
+[4.016745] (-) TimerEvent: {}
+[4.117084] (-) TimerEvent: {}
+[4.217436] (-) TimerEvent: {}
+[4.317782] (-) TimerEvent: {}
+[4.418140] (-) TimerEvent: {}
+[4.518825] (-) TimerEvent: {}
+[4.972064] (-) TimerEvent: {}
+[5.072643] (-) TimerEvent: {}
+[5.173178] (-) TimerEvent: {}
+[5.273701] (-) TimerEvent: {}
+[5.374242] (-) TimerEvent: {}
+[5.474833] (-) TimerEvent: {}
+[5.575622] (-) TimerEvent: {}
+[5.676123] (-) TimerEvent: {}
+[5.776713] (-) TimerEvent: {}
+[5.877250] (-) TimerEvent: {}
+[5.978097] (-) TimerEvent: {}
+[6.078847] (-) TimerEvent: {}
+[6.179877] (-) TimerEvent: {}
+[6.280211] (-) TimerEvent: {}
+[6.380846] (-) TimerEvent: {}
+[6.481480] (-) TimerEvent: {}
+[6.582101] (-) TimerEvent: {}
+[6.682447] (-) TimerEvent: {}
+[6.782817] (-) TimerEvent: {}
+[6.883182] (-) TimerEvent: {}
+[6.983530] (-) TimerEvent: {}
+[7.083929] (-) TimerEvent: {}
+[7.184408] (-) TimerEvent: {}
+[7.284814] (-) TimerEvent: {}
+[7.385486] (-) TimerEvent: {}
+[7.486175] (-) TimerEvent: {}
+[7.586848] (-) TimerEvent: {}
+[7.687250] (-) TimerEvent: {}
+[7.787875] (-) TimerEvent: {}
+[7.888766] (-) TimerEvent: {}
+[7.989305] (-) TimerEvent: {}
+[8.089820] (-) TimerEvent: {}
+[8.190176] (-) TimerEvent: {}
+[8.290525] (-) TimerEvent: {}
+[8.390877] (-) TimerEvent: {}
+[8.491237] (-) TimerEvent: {}
+[8.591703] (-) TimerEvent: {}
+[8.692058] (-) TimerEvent: {}
+[8.792394] (-) TimerEvent: {}
+[8.892894] (-) TimerEvent: {}
+[8.993439] (-) TimerEvent: {}
+[9.093996] (-) TimerEvent: {}
+[9.194535] (-) TimerEvent: {}
+[9.295085] (-) TimerEvent: {}
+[9.395651] (-) TimerEvent: {}
+[9.496180] (-) TimerEvent: {}
+[10.066550] (-) TimerEvent: {}
+[10.166902] (-) TimerEvent: {}
+[10.267659] (-) TimerEvent: {}
+[10.368162] (-) TimerEvent: {}
+[10.468488] (-) TimerEvent: {}
+[10.568804] (-) TimerEvent: {}
+[10.669144] (-) TimerEvent: {}
+[10.769474] (-) TimerEvent: {}
+[10.869791] (-) TimerEvent: {}
+[10.970111] (-) TimerEvent: {}
+[11.070473] (-) TimerEvent: {}
+[11.170957] (-) TimerEvent: {}
+[11.271290] (-) TimerEvent: {}
+[11.371623] (-) TimerEvent: {}
+[11.471948] (-) TimerEvent: {}
+[11.572288] (-) TimerEvent: {}
+[11.672635] (-) TimerEvent: {}
+[11.773014] (-) TimerEvent: {}
+[11.873365] (-) TimerEvent: {}
+[11.973710] (-) TimerEvent: {}
+[12.074069] (-) TimerEvent: {}
+[12.174454] (-) TimerEvent: {}
+[12.275258] (-) TimerEvent: {}
+[12.375810] (-) TimerEvent: {}
+[12.476346] (-) TimerEvent: {}
+[12.576696] (-) TimerEvent: {}
+[12.677235] (-) TimerEvent: {}
+[12.777855] (-) TimerEvent: {}
+[12.878521] (-) TimerEvent: {}
+[12.978950] (-) TimerEvent: {}
+[13.079610] (-) TimerEvent: {}
+[13.180281] (-) TimerEvent: {}
+[13.280936] (-) TimerEvent: {}
+[13.381371] (-) TimerEvent: {}
+[13.482036] (-) TimerEvent: {}
+[13.582709] (-) TimerEvent: {}
+[13.683392] (-) TimerEvent: {}
+[13.784130] (-) TimerEvent: {}
+[13.884559] (-) TimerEvent: {}
+[13.990142] (-) TimerEvent: {}
+[14.090661] (-) TimerEvent: {}
+[14.194119] (-) TimerEvent: {}
+[14.295013] (-) TimerEvent: {}
+[14.396086] (-) TimerEvent: {}
+[14.496992] (-) TimerEvent: {}
+[14.729733] (-) TimerEvent: {}
+[14.830324] (-) TimerEvent: {}
+[14.930880] (-) TimerEvent: {}
+[15.031431] (-) TimerEvent: {}
+[15.131981] (-) TimerEvent: {}
+[15.242122] (-) TimerEvent: {}
+[15.346134] (-) TimerEvent: {}
+[15.446725] (-) TimerEvent: {}
+[15.550146] (-) TimerEvent: {}
+[15.651875] (-) TimerEvent: {}
+[15.752414] (-) TimerEvent: {}
+[15.853042] (-) TimerEvent: {}
+[15.953569] (-) TimerEvent: {}
+[16.054080] (-) TimerEvent: {}
+[16.154720] (-) TimerEvent: {}
+[16.255099] (-) TimerEvent: {}
+[16.355689] (-) TimerEvent: {}
+[16.456229] (-) TimerEvent: {}
+[16.556769] (-) TimerEvent: {}
+[16.657296] (-) TimerEvent: {}
+[16.757844] (-) TimerEvent: {}
+[16.858273] (-) TimerEvent: {}
+[16.958869] (-) TimerEvent: {}
+[17.059417] (-) TimerEvent: {}
+[17.159777] (-) TimerEvent: {}
+[17.260175] (-) TimerEvent: {}
+[17.360727] (-) TimerEvent: {}
+[17.461184] (-) TimerEvent: {}
+[17.561498] (-) TimerEvent: {}
+[17.661831] (-) TimerEvent: {}
+[17.762264] (-) TimerEvent: {}
+[17.862586] (-) TimerEvent: {}
+[17.962964] (-) TimerEvent: {}
+[18.063416] (-) TimerEvent: {}
+[18.163754] (-) TimerEvent: {}
+[18.264153] (-) TimerEvent: {}
+[18.364691] (-) TimerEvent: {}
+[18.465242] (-) TimerEvent: {}
+[18.565830] (-) TimerEvent: {}
+[18.666195] (-) TimerEvent: {}
+[18.766780] (-) TimerEvent: {}
+[18.867344] (-) TimerEvent: {}
+[18.967910] (-) TimerEvent: {}
+[19.068525] (-) TimerEvent: {}
+[19.168941] (-) TimerEvent: {}
+[19.269586] (-) TimerEvent: {}
+[19.370288] (-) TimerEvent: {}
+[19.470941] (-) TimerEvent: {}
+[19.571652] (-) TimerEvent: {}
+[19.672083] (-) TimerEvent: {}
+[19.772787] (-) TimerEvent: {}
+[19.873443] (-) TimerEvent: {}
+[19.973869] (-) TimerEvent: {}
+[20.074539] (-) TimerEvent: {}
+[20.175219] (-) TimerEvent: {}
+[20.276013] (-) TimerEvent: {}
+[20.376656] (-) TimerEvent: {}
+[20.477086] (-) TimerEvent: {}
+[20.578160] (-) TimerEvent: {}
+[20.679035] (-) TimerEvent: {}
+[20.779683] (-) TimerEvent: {}
+[20.880122] (-) TimerEvent: {}
+[20.980519] (-) TimerEvent: {}
+[21.080925] (-) TimerEvent: {}
+[21.181339] (-) TimerEvent: {}
+[21.282122] (-) TimerEvent: {}
+[21.382783] (-) TimerEvent: {}
+[21.483399] (-) TimerEvent: {}
+[21.584069] (-) TimerEvent: {}
+[21.684737] (-) TimerEvent: {}
+[21.785576] (-) TimerEvent: {}
+[21.886194] (-) TimerEvent: {}
+[21.986872] (-) TimerEvent: {}
+[22.087538] (-) TimerEvent: {}
+[22.188249] (-) TimerEvent: {}
+[22.288972] (-) TimerEvent: {}
+[22.389689] (-) TimerEvent: {}
+[22.490311] (-) TimerEvent: {}
+[22.590973] (-) TimerEvent: {}
+[22.691647] (-) TimerEvent: {}
+[22.792274] (-) TimerEvent: {}
+[22.892906] (-) TimerEvent: {}
+[22.993540] (-) TimerEvent: {}
+[23.094190] (-) TimerEvent: {}
+[23.194854] (-) TimerEvent: {}
+[23.295486] (-) TimerEvent: {}
+[23.396117] (-) TimerEvent: {}
+[23.496750] (-) TimerEvent: {}
+[23.597440] (-) TimerEvent: {}
+[23.698125] (-) TimerEvent: {}
+[23.798761] (-) TimerEvent: {}
+[23.899406] (-) TimerEvent: {}
+[24.000608] (-) TimerEvent: {}
+[24.101047] (-) TimerEvent: {}
+[24.201446] (-) TimerEvent: {}
+[24.301836] (-) TimerEvent: {}
+[24.402234] (-) TimerEvent: {}
+[24.502650] (-) TimerEvent: {}
+[25.008472] (-) TimerEvent: {}
+[25.108880] (-) TimerEvent: {}
+[25.209310] (-) TimerEvent: {}
+[25.309736] (-) TimerEvent: {}
+[25.410125] (-) TimerEvent: {}
+[25.510569] (-) TimerEvent: {}
+[25.610951] (-) TimerEvent: {}
+[25.711327] (-) TimerEvent: {}
+[25.811741] (-) TimerEvent: {}
+[25.912151] (-) TimerEvent: {}
+[26.013182] (-) TimerEvent: {}
+[26.114162] (-) TimerEvent: {}
+[26.214563] (-) TimerEvent: {}
+[26.315189] (-) TimerEvent: {}
+[26.415859] (-) TimerEvent: {}
+[26.516509] (-) TimerEvent: {}
+[26.616921] (-) TimerEvent: {}
+[26.717564] (-) TimerEvent: {}
+[26.818284] (-) TimerEvent: {}
+[26.918918] (-) TimerEvent: {}
+[27.019316] (-) TimerEvent: {}
+[27.119720] (-) TimerEvent: {}
+[27.220136] (-) TimerEvent: {}
+[27.320603] (-) TimerEvent: {}
+[27.421000] (-) TimerEvent: {}
+[27.521402] (-) TimerEvent: {}
+[27.621810] (-) TimerEvent: {}
+[27.722238] (-) TimerEvent: {}
+[27.822648] (-) TimerEvent: {}
+[27.923041] (-) TimerEvent: {}
+[28.023445] (-) TimerEvent: {}
+[28.124081] (-) TimerEvent: {}
+[28.224495] (-) TimerEvent: {}
+[28.325181] (-) TimerEvent: {}
+[28.425829] (-) TimerEvent: {}
+[28.526503] (-) TimerEvent: {}
+[28.627341] (-) TimerEvent: {}
+[28.728096] (-) TimerEvent: {}
+[28.829087] (-) TimerEvent: {}
+[28.929594] (-) TimerEvent: {}
+[29.030061] (-) TimerEvent: {}
+[29.130395] (-) TimerEvent: {}
+[29.230890] (-) TimerEvent: {}
+[29.331441] (-) TimerEvent: {}
+[29.431934] (-) TimerEvent: {}
+[29.532640] (-) TimerEvent: {}
+[29.633098] (-) TimerEvent: {}
+[29.966587] (smart_car_core_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o\x1b[0m\n'}
+[29.967129] (-) TimerEvent: {}
+[30.067582] (-) TimerEvent: {}
+[30.167934] (-) TimerEvent: {}
+[30.268447] (-) TimerEvent: {}
+[30.369036] (-) TimerEvent: {}
+[30.469599] (-) TimerEvent: {}
+[30.759549] (ros_robot_controller_msgs) StdoutLine: {'line': b'[  0%] Built target ros_robot_controller_msgs__cpp\n'}
+[30.759952] (-) TimerEvent: {}
+[30.860349] (-) TimerEvent: {}
+[30.960859] (-) TimerEvent: {}
+[31.061262] (-) TimerEvent: {}
+[31.162097] (-) TimerEvent: {}
+[31.262677] (-) TimerEvent: {}
+[31.363240] (-) TimerEvent: {}
+[31.463786] (-) TimerEvent: {}
+[31.564322] (-) TimerEvent: {}
+[31.664942] (-) TimerEvent: {}
+[31.765488] (-) TimerEvent: {}
+[31.866088] (-) TimerEvent: {}
+[31.966626] (-) TimerEvent: {}
+[32.067216] (-) TimerEvent: {}
+[32.167793] (-) TimerEvent: {}
+[32.268601] (-) TimerEvent: {}
+[32.369171] (-) TimerEvent: {}
+[32.470153] (-) TimerEvent: {}
+[32.570735] (-) TimerEvent: {}
+[32.671379] (-) TimerEvent: {}
+[32.775019] (-) TimerEvent: {}
+[32.876517] (-) TimerEvent: {}
+[32.977097] (-) TimerEvent: {}
+[33.077641] (-) TimerEvent: {}
+[33.178478] (-) TimerEvent: {}
+[33.279022] (-) TimerEvent: {}
+[33.379400] (-) TimerEvent: {}
+[33.482541] (-) TimerEvent: {}
+[33.583475] (-) TimerEvent: {}
+[33.683873] (-) TimerEvent: {}
+[33.784534] (-) TimerEvent: {}
+[33.885156] (-) TimerEvent: {}
+[33.985867] (-) TimerEvent: {}
+[34.087058] (-) TimerEvent: {}
+[34.190555] (-) TimerEvent: {}
+[34.291905] (-) TimerEvent: {}
+[34.398414] (-) TimerEvent: {}
+[34.498910] (-) TimerEvent: {}
+[34.601205] (-) TimerEvent: {}
+[34.710294] (-) TimerEvent: {}
+[34.818203] (-) TimerEvent: {}
+[34.918705] (-) TimerEvent: {}
+[35.019261] (-) TimerEvent: {}
+[35.119749] (-) TimerEvent: {}
+[35.220507] (-) TimerEvent: {}
+[35.321060] (-) TimerEvent: {}
+[35.422012] (-) TimerEvent: {}
+[35.808041] (-) TimerEvent: {}
+[35.909487] (-) TimerEvent: {}
+[36.010409] (-) TimerEvent: {}
+[36.112889] (-) TimerEvent: {}
+[36.213403] (-) TimerEvent: {}
+[36.313744] (-) TimerEvent: {}
+[36.414091] (-) TimerEvent: {}
+[36.514457] (-) TimerEvent: {}
+[36.615100] (-) TimerEvent: {}
+[36.716479] (-) TimerEvent: {}
+[36.816977] (-) TimerEvent: {}
+[36.917335] (-) TimerEvent: {}
+[37.017721] (-) TimerEvent: {}
+[37.118222] (-) TimerEvent: {}
+[37.218584] (-) TimerEvent: {}
+[37.319057] (-) TimerEvent: {}
+[37.420161] (-) TimerEvent: {}
+[37.520702] (-) TimerEvent: {}
+[37.621068] (-) TimerEvent: {}
+[37.721438] (-) TimerEvent: {}
+[37.821895] (-) TimerEvent: {}
+[37.922214] (-) TimerEvent: {}
+[38.022565] (-) TimerEvent: {}
+[38.123058] (-) TimerEvent: {}
+[38.224831] (-) TimerEvent: {}
+[38.325256] (-) TimerEvent: {}
+[38.425834] (-) TimerEvent: {}
+[38.526344] (-) TimerEvent: {}
+[38.626734] (-) TimerEvent: {}
+[38.727237] (-) TimerEvent: {}
+[38.827567] (-) TimerEvent: {}
+[38.928085] (-) TimerEvent: {}
+[39.028605] (-) TimerEvent: {}
+[39.129118] (-) TimerEvent: {}
+[39.229713] (-) TimerEvent: {}
+[39.330354] (-) TimerEvent: {}
+[39.430988] (-) TimerEvent: {}
+[39.531642] (-) TimerEvent: {}
+[39.632438] (-) TimerEvent: {}
+[39.733065] (-) TimerEvent: {}
+[39.833468] (-) TimerEvent: {}
+[39.934108] (-) TimerEvent: {}
+[40.034808] (-) TimerEvent: {}
+[40.138109] (-) TimerEvent: {}
+[40.238549] (-) TimerEvent: {}
+[40.339165] (-) TimerEvent: {}
+[40.439850] (-) TimerEvent: {}
+[40.882341] (-) TimerEvent: {}
+[40.982765] (-) TimerEvent: {}
+[41.083196] (-) TimerEvent: {}
+[41.183608] (-) TimerEvent: {}
+[41.284024] (-) TimerEvent: {}
+[41.384415] (-) TimerEvent: {}
+[41.484801] (-) TimerEvent: {}
+[41.585211] (-) TimerEvent: {}
+[41.685602] (-) TimerEvent: {}
+[41.785976] (-) TimerEvent: {}
+[41.886560] (-) TimerEvent: {}
+[41.913778] (ros_robot_controller_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_ros_robot_controller_msgs\n'}
+[41.986916] (-) TimerEvent: {}
+[42.087517] (-) TimerEvent: {}
+[42.188033] (-) TimerEvent: {}
+[42.288789] (-) TimerEvent: {}
+[42.389792] (-) TimerEvent: {}
+[42.490303] (-) TimerEvent: {}
+[42.590883] (-) TimerEvent: {}
+[42.691530] (-) TimerEvent: {}
+[42.792048] (-) TimerEvent: {}
+[42.892652] (-) TimerEvent: {}
+[42.993227] (-) TimerEvent: {}
+[43.093631] (-) TimerEvent: {}
+[43.194145] (-) TimerEvent: {}
+[43.294504] (-) TimerEvent: {}
+[43.394982] (-) TimerEvent: {}
+[43.495344] (-) TimerEvent: {}
+[43.595832] (-) TimerEvent: {}
+[43.696170] (-) TimerEvent: {}
+[43.796544] (-) TimerEvent: {}
+[43.897140] (-) TimerEvent: {}
+[43.997926] (-) TimerEvent: {}
+[44.098471] (-) TimerEvent: {}
+[44.199052] (-) TimerEvent: {}
+[44.299421] (-) TimerEvent: {}
+[44.402168] (-) TimerEvent: {}
+[44.502732] (-) TimerEvent: {}
+[44.603262] (-) TimerEvent: {}
+[44.703783] (-) TimerEvent: {}
+[44.804170] (-) TimerEvent: {}
+[44.904666] (-) TimerEvent: {}
+[45.005067] (-) TimerEvent: {}
+[45.105565] (-) TimerEvent: {}
+[45.205922] (-) TimerEvent: {}
+[45.306447] (-) TimerEvent: {}
+[45.407895] (-) TimerEvent: {}
+[45.508358] (-) TimerEvent: {}
+[45.770139] (-) TimerEvent: {}
+[45.870623] (-) TimerEvent: {}
+[45.970948] (-) TimerEvent: {}
+[46.071270] (-) TimerEvent: {}
+[46.171603] (-) TimerEvent: {}
+[46.271956] (-) TimerEvent: {}
+[46.372409] (-) TimerEvent: {}
+[46.472854] (-) TimerEvent: {}
+[46.520443] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 12%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[46.572981] (-) TimerEvent: {}
+[46.673439] (-) TimerEvent: {}
+[46.773765] (-) TimerEvent: {}
+[46.874062] (-) TimerEvent: {}
+[46.974409] (-) TimerEvent: {}
+[47.074806] (-) TimerEvent: {}
+[47.175222] (-) TimerEvent: {}
+[47.275609] (-) TimerEvent: {}
+[47.376020] (-) TimerEvent: {}
+[47.476515] (-) TimerEvent: {}
+[47.576928] (-) TimerEvent: {}
+[47.677384] (-) TimerEvent: {}
+[47.777821] (-) TimerEvent: {}
+[47.878236] (-) TimerEvent: {}
+[47.978629] (-) TimerEvent: {}
+[48.079048] (-) TimerEvent: {}
+[48.179449] (-) TimerEvent: {}
+[48.279844] (-) TimerEvent: {}
+[48.380331] (-) TimerEvent: {}
+[48.480769] (-) TimerEvent: {}
+[48.581399] (-) TimerEvent: {}
+[48.682782] (-) TimerEvent: {}
+[48.786136] (-) TimerEvent: {}
+[48.886787] (-) TimerEvent: {}
+[48.987514] (-) TimerEvent: {}
+[49.086907] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 24%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp\n'}
+[49.087582] (-) TimerEvent: {}
+[49.188242] (-) TimerEvent: {}
+[49.288958] (-) TimerEvent: {}
+[49.393494] (-) TimerEvent: {}
+[49.494161] (-) TimerEvent: {}
+[49.594704] (-) TimerEvent: {}
+[49.695624] (-) TimerEvent: {}
+[49.796442] (-) TimerEvent: {}
+[49.897185] (-) TimerEvent: {}
+[49.997537] (-) TimerEvent: {}
+[50.097876] (-) TimerEvent: {}
+[50.198247] (-) TimerEvent: {}
+[50.298709] (-) TimerEvent: {}
+[50.399216] (-) TimerEvent: {}
+[50.499832] (-) TimerEvent: {}
+[50.935685] (-) TimerEvent: {}
+[51.036030] (-) TimerEvent: {}
+[51.136405] (-) TimerEvent: {}
+[51.202993] (ros_robot_controller_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[51.231937] (ros_robot_controller_msgs) StdoutLine: {'line': b'writing ros_robot_controller_msgs.egg-info/PKG-INFO\n'}
+[51.232227] (ros_robot_controller_msgs) StdoutLine: {'line': b'writing dependency_links to ros_robot_controller_msgs.egg-info/dependency_links.txt\n'}
+[51.232409] (ros_robot_controller_msgs) StdoutLine: {'line': b'writing top-level names to ros_robot_controller_msgs.egg-info/top_level.txt\n'}
+[51.236480] (-) TimerEvent: {}
+[51.336834] (-) TimerEvent: {}
+[51.437402] (-) TimerEvent: {}
+[51.538394] (-) TimerEvent: {}
+[51.641168] (-) TimerEvent: {}
+[51.741623] (-) TimerEvent: {}
+[51.842246] (-) TimerEvent: {}
+[51.943316] (-) TimerEvent: {}
+[52.044294] (-) TimerEvent: {}
+[52.144823] (-) TimerEvent: {}
+[52.245328] (-) TimerEvent: {}
+[52.345715] (-) TimerEvent: {}
+[52.446587] (-) TimerEvent: {}
+[52.546911] (-) TimerEvent: {}
+[52.647469] (-) TimerEvent: {}
+[52.748080] (-) TimerEvent: {}
+[52.848443] (-) TimerEvent: {}
+[52.948971] (-) TimerEvent: {}
+[53.049555] (-) TimerEvent: {}
+[53.150189] (-) TimerEvent: {}
+[53.250722] (-) TimerEvent: {}
+[53.351265] (-) TimerEvent: {}
+[53.451611] (-) TimerEvent: {}
+[53.552144] (-) TimerEvent: {}
+[53.652761] (-) TimerEvent: {}
+[53.753255] (-) TimerEvent: {}
+[53.853925] (-) TimerEvent: {}
+[53.954533] (-) TimerEvent: {}
+[54.055112] (-) TimerEvent: {}
+[54.155728] (-) TimerEvent: {}
+[54.256646] (-) TimerEvent: {}
+[54.357223] (-) TimerEvent: {}
+[54.457938] (-) TimerEvent: {}
+[54.558713] (-) TimerEvent: {}
+[54.659358] (-) TimerEvent: {}
+[54.759994] (-) TimerEvent: {}
+[54.860418] (-) TimerEvent: {}
+[54.960833] (-) TimerEvent: {}
+[55.061704] (-) TimerEvent: {}
+[55.162113] (-) TimerEvent: {}
+[55.262528] (-) TimerEvent: {}
+[55.363097] (-) TimerEvent: {}
+[55.463652] (-) TimerEvent: {}
+[55.564434] (-) TimerEvent: {}
+[55.666357] (-) TimerEvent: {}
+[55.767341] (-) TimerEvent: {}
+[55.867870] (-) TimerEvent: {}
+[55.870213] (ros_robot_controller_msgs) StdoutLine: {'line': b"reading manifest file 'ros_robot_controller_msgs.egg-info/SOURCES.txt'\n"}
+[55.872832] (ros_robot_controller_msgs) StdoutLine: {'line': b"writing manifest file 'ros_robot_controller_msgs.egg-info/SOURCES.txt'\n"}
+[55.968259] (-) TimerEvent: {}
+[55.995956] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_build_ros_robot_controller_msgs_egg\n'}
+[56.068376] (-) TimerEvent: {}
+[56.094614] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 36%] Built target ros_robot_controller_msgs__rosidl_typesupport_cpp\n'}
+[56.164508] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 48%] Built target ros_robot_controller_msgs__rosidl_generator_c\n'}
+[56.169334] (-) TimerEvent: {}
+[56.282296] (-) TimerEvent: {}
+[56.296256] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 60%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c\n'}
+[56.360124] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 72%] Built target ros_robot_controller_msgs__rosidl_typesupport_c\n'}
+[56.382685] (-) TimerEvent: {}
+[56.458443] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 84%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_c\n'}
+[56.483049] (-) TimerEvent: {}
+[56.504761] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 84%] Built target ros_robot_controller_msgs\n'}
+[56.550525] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 85%] Built target ros_robot_controller_msgs__py\n'}
+[56.583202] (-) TimerEvent: {}
+[56.650354] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 96%] Built target ros_robot_controller_msgs__rosidl_generator_py\n'}
+[56.683430] (-) TimerEvent: {}
+[56.708408] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 97%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[56.754341] (ros_robot_controller_msgs) StdoutLine: {'line': b'[ 98%] Built target ros_robot_controller_msgs__rosidl_typesupport_c__pyext\n'}
+[56.785413] (-) TimerEvent: {}
+[56.818115] (ros_robot_controller_msgs) StdoutLine: {'line': b'[100%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[56.862003] (ros_robot_controller_msgs) CommandEnded: {'returncode': 0}
+[56.885827] (-) TimerEvent: {}
+[56.987290] (-) TimerEvent: {}
+[57.087953] (-) TimerEvent: {}
+[57.137888] (ros_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros_robot_controller', 'build', '--build-base', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build', 'install', '--record', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller', 'env': {'PYTHON_BASIC_REPL': '1', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.10.1 50781 2222', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.112.0', 'NVM_BIN': '/home/ubuntu/.nvm/versions/node/v20.11.1/bin', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-e8ff81af-f1e5-440c-abe0-1b9f21ce4d4d.sock', 'NVM_INC': '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node', 'LC_CTYPE': 'C.UTF-8', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/ubuntu/.nvm', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871-1/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-e763ceedb8.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller', 'SSH_CONNECTION': '192.168.10.1 50781 192.168.10.2 2222', 'NVM_CD_FLAGS': '', 'COLCON': '1', 'PYTHONPATH': '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages:'}, 'shell': False}
+[57.188084] (-) TimerEvent: {}
+[57.289451] (-) TimerEvent: {}
+[57.391132] (-) TimerEvent: {}
+[57.492066] (-) TimerEvent: {}
+[57.594460] (-) TimerEvent: {}
+[57.698256] (-) TimerEvent: {}
+[57.800941] (-) TimerEvent: {}
+[57.901445] (-) TimerEvent: {}
+[57.936653] (ros_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[57.992256] (ros_robot_controller) StdoutLine: {'line': b'writing ../../../build/ros_robot_controller/ros_robot_controller.egg-info/PKG-INFO\n'}
+[57.996244] (ros_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/dependency_links.txt\n'}
+[58.001361] (ros_robot_controller) StdoutLine: {'line': b'writing entry points to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/entry_points.txt\n'}
+[58.001727] (-) TimerEvent: {}
+[58.002015] (ros_robot_controller) StdoutLine: {'line': b'writing requirements to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/requires.txt\n'}
+[58.002303] (ros_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/top_level.txt\n'}
+[58.104068] (-) TimerEvent: {}
+[58.207571] (-) TimerEvent: {}
+[58.276168] (ros_robot_controller_msgs) JobProgress: {'identifier': 'ros_robot_controller_msgs', 'progress': 'install'}
+[58.307361] (ros_robot_controller_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 50781 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e8ff81af-f1e5-440c-abe0-1b9f21ce4d4d.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e763ceedb8.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs'), ('SSH_CONNECTION', '192.168.10.1 50781 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[58.313435] (-) TimerEvent: {}
+[58.334939] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[58.335417] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/ros_robot_controller_msgs\n'}
+[58.336770] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.336941] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.337043] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/buzzer_state.h\n'}
+[58.338049] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_pwm_servo_cmd.h\n'}
+[58.341573] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servos_position.h\n'}
+[58.341727] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_bus_servo_cmd.h\n'}
+[58.341823] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_bus_servo_state.h\n'}
+[58.341931] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_pwm_servo_state.h\n'}
+[58.342484] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motors_state.h\n'}
+[58.343155] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[58.344397] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/bus_servo_state.h\n'}
+[58.344638] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/pwm_servo_state.h\n'}
+[58.344769] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motor_state.h\n'}
+[58.346877] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/oled_state.h\n'}
+[58.348515] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/led_state.h\n'}
+[58.348803] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/button_state.h\n'}
+[58.348958] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/sbus.h\n'}
+[58.349156] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.351817] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__functions.c\n'}
+[58.352487] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__functions.h\n'}
+[58.352857] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.h\n'}
+[58.353213] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.h\n'}
+[58.353647] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__functions.h\n'}
+[58.353893] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__functions.c\n'}
+[58.354099] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.h\n'}
+[58.356714] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__functions.h\n'}
+[58.356961] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.h\n'}
+[58.357111] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__struct.h\n'}
+[58.357241] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__functions.h\n'}
+[58.357370] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__struct.h\n'}
+[58.357521] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__functions.h\n'}
+[58.357650] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.h\n'}
+[58.357774] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__functions.h\n'}
+[58.357891] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__functions.h\n'}
+[58.358015] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__functions.h\n'}
+[58.358180] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__struct.h\n'}
+[58.358295] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.h\n'}
+[58.358406] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__functions.c\n'}
+[58.358496] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__functions.h\n'}
+[58.358606] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__functions.c\n'}
+[58.358720] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__functions.h\n'}
+[58.358828] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__functions.c\n'}
+[58.358924] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__struct.h\n'}
+[58.359058] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__struct.h\n'}
+[58.359161] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__functions.h\n'}
+[58.359281] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__functions.c\n'}
+[58.360825] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.h\n'}
+[58.361115] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__struct.h\n'}
+[58.361316] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__functions.h\n'}
+[58.361461] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.h\n'}
+[58.361596] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__functions.c\n'}
+[58.361913] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__functions.c\n'}
+[58.362251] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__struct.h\n'}
+[58.362611] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.h\n'}
+[58.362816] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__struct.h\n'}
+[58.362941] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__struct.h\n'}
+[58.363073] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__functions.c\n'}
+[58.363191] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__struct.h\n'}
+[58.363424] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__functions.h\n'}
+[58.363548] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__struct.h\n'}
+[58.363718] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.h\n'}
+[58.365072] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.h\n'}
+[58.365619] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.h\n'}
+[58.365870] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.h\n'}
+[58.366046] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__functions.c\n'}
+[58.370193] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__struct.h\n'}
+[58.370604] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__functions.c\n'}
+[58.370771] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__functions.c\n'}
+[58.370917] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__functions.c\n'}
+[58.371247] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__functions.c\n'}
+[58.371421] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__functions.c\n'}
+[58.373365] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__functions.h\n'}
+[58.374088] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__struct.h\n'}
+[58.374366] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__struct.h\n'}
+[58.374533] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.h\n'}
+[58.374677] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__struct.h\n'}
+[58.374815] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.h\n'}
+[58.374957] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__functions.h\n'}
+[58.375119] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servo_position.h\n'}
+[58.375279] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.375404] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_bus_servo_state.h\n'}
+[58.376019] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.379543] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__functions.h\n'}
+[58.379730] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__functions.h\n'}
+[58.379878] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.h\n'}
+[58.380029] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__functions.c\n'}
+[58.380154] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__struct.h\n'}
+[58.380322] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__functions.c\n'}
+[58.380477] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.h\n'}
+[58.380643] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__struct.h\n'}
+[58.380769] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_pwm_servo_state.h\n'}
+[58.380891] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/library_path.sh\n'}
+[58.381039] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/library_path.dsv\n'}
+[58.381171] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_c.so\n'}
+[58.381288] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.381402] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.381511] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[58.385213] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.386181] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.386682] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.386946] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.387225] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.387454] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[58.387688] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.391824] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.392277] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_fastrtps_c.h\n'}
+[58.392577] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.392836] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.393064] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_fastrtps_c.h\n'}
+[58.393270] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.393530] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.393773] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_fastrtps_c.h\n'}
+[58.394012] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[58.398583] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.398878] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.399088] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.399300] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_fastrtps_c.h\n'}
+[58.399538] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[58.403036] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.403771] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.404017] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/pwm_servo_state.hpp\n'}
+[58.404239] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motor_state.hpp\n'}
+[58.404443] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servo_position.hpp\n'}
+[58.406947] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_pwm_servo_cmd.hpp\n'}
+[58.411062] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/sbus.hpp\n'}
+[58.411294] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/motors_state.hpp\n'}
+[58.411501] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_bus_servo_state.hpp\n'}
+[58.411825] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/set_pwm_servo_state.hpp\n'}
+[58.412020] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/led_state.hpp\n'}
+[58.412199] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/oled_state.hpp\n'}
+[58.412390] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/buzzer_state.hpp\n'}
+[58.412574] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/bus_servo_state.hpp\n'}
+[58.412787] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/button_state.hpp\n'}
+[58.412971] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.413162] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__traits.hpp\n'}
+[58.413335] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__builder.hpp\n'}
+[58.413529] (-) TimerEvent: {}
+[58.414775] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__builder.hpp\n'}
+[58.415218] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__traits.hpp\n'}
+[58.415473] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__struct.hpp\n'}
+[58.415712] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__struct.hpp\n'}
+[58.415907] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__traits.hpp\n'}
+[58.416107] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__struct.hpp\n'}
+[58.416313] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__traits.hpp\n'}
+[58.416515] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__builder.hpp\n'}
+[58.416715] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__traits.hpp\n'}
+[58.416918] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__builder.hpp\n'}
+[58.417136] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__builder.hpp\n'}
+[58.417350] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__struct.hpp\n'}
+[58.417591] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__traits.hpp\n'}
+[58.417855] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__struct.hpp\n'}
+[58.418143] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__builder.hpp\n'}
+[58.418370] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__traits.hpp\n'}
+[58.418561] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__traits.hpp\n'}
+[58.418745] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__struct.hpp\n'}
+[58.418947] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__struct.hpp\n'}
+[58.419123] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__struct.hpp\n'}
+[58.419285] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__builder.hpp\n'}
+[58.419437] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__traits.hpp\n'}
+[58.419588] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__traits.hpp\n'}
+[58.419771] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__struct.hpp\n'}
+[58.419951] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__traits.hpp\n'}
+[58.420138] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__traits.hpp\n'}
+[58.420325] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__struct.hpp\n'}
+[58.420517] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__struct.hpp\n'}
+[58.420710] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__builder.hpp\n'}
+[58.420894] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__builder.hpp\n'}
+[58.421063] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__builder.hpp\n'}
+[58.421218] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__builder.hpp\n'}
+[58.421390] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__struct.hpp\n'}
+[58.421573] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__struct.hpp\n'}
+[58.421772] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__struct.hpp\n'}
+[58.421998] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__traits.hpp\n'}
+[58.422317] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__traits.hpp\n'}
+[58.422525] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__struct.hpp\n'}
+[58.422723] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__builder.hpp\n'}
+[58.422943] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__builder.hpp\n'}
+[58.423171] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__builder.hpp\n'}
+[58.423413] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__builder.hpp\n'}
+[58.423640] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__traits.hpp\n'}
+[58.423869] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/get_bus_servo_cmd.hpp\n'}
+[58.424109] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/servos_position.hpp\n'}
+[58.424346] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.425281] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_pwm_servo_state.hpp\n'}
+[58.425995] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/get_bus_servo_state.hpp\n'}
+[58.426402] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.426630] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__struct.hpp\n'}
+[58.426874] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__builder.hpp\n'}
+[58.427108] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__traits.hpp\n'}
+[58.427323] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__struct.hpp\n'}
+[58.427522] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__traits.hpp\n'}
+[58.427749] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__builder.hpp\n'}
+[58.427977] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.428198] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.428402] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[58.428617] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.428846] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.429059] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.429249] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.429425] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.429684] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.429946] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/dds_fastrtps\n'}
+[58.430239] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.430454] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.430677] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.430907] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.431095] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.432278] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.432545] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.432762] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.432957] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.433162] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.433330] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.433534] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.433747] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.433998] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[58.434341] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/dds_fastrtps\n'}
+[58.434568] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[58.434781] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.434987] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.435233] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[58.435473] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.435688] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_introspection_c.h\n'}
+[58.435914] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.c\n'}
+[58.436131] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_introspection_c.h\n'}
+[58.436629] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.c\n'}
+[58.436957] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.c\n'}
+[58.437185] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_introspection_c.h\n'}
+[58.437391] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.c\n'}
+[58.437609] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.437898] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_introspection_c.h\n'}
+[58.438231] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.438856] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.c\n'}
+[58.439117] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_introspection_c.h\n'}
+[58.439332] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.c\n'}
+[58.439551] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.c\n'}
+[58.439763] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_introspection_c.h\n'}
+[58.439970] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.c\n'}
+[58.440148] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.c\n'}
+[58.440335] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.c\n'}
+[58.440534] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.440715] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.c\n'}
+[58.440884] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.c\n'}
+[58.441059] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.c\n'}
+[58.441247] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_introspection_c.h\n'}
+[58.441426] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.c\n'}
+[58.441611] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_introspection_c.h\n'}
+[58.441785] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_introspection_c.h\n'}
+[58.441956] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.442281] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.c\n'}
+[58.442548] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_introspection_c.h\n'}
+[58.442775] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[58.442979] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.443166] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.443354] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.c\n'}
+[58.444601] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.c\n'}
+[58.445376] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.445596] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_introspection_c.h\n'}
+[58.445773] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_c.so\n'}
+[58.445927] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_c.so\n'}
+[58.446150] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs\n'}
+[58.446332] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg\n'}
+[58.446490] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail\n'}
+[58.446649] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.446808] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.446979] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.447149] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.447322] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__type_support.cpp\n'}
+[58.447562] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/sbus__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.447828] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__type_support.cpp\n'}
+[58.448107] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_pwm_servo_cmd__type_support.cpp\n'}
+[58.448382] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.448617] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.448827] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servos_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.449130] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_pwm_servo_state__type_support.cpp\n'}
+[58.449374] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/led_state__type_support.cpp\n'}
+[58.449615] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__type_support.cpp\n'}
+[58.449874] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.450181] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__type_support.cpp\n'}
+[58.450447] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/pwm_servo_state__type_support.cpp\n'}
+[58.450683] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/oled_state__type_support.cpp\n'}
+[58.450925] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/set_bus_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.451781] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.452078] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motors_state__type_support.cpp\n'}
+[58.452322] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/get_bus_servo_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.452549] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__type_support.cpp\n'}
+[58.452758] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/button_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.452974] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__type_support.cpp\n'}
+[58.453175] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/bus_servo_state__type_support.cpp\n'}
+[58.453366] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__type_support.cpp\n'}
+[58.453562] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.453765] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/buzzer_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.453984] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/msg/detail/servo_position__type_support.cpp\n'}
+[58.454265] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv\n'}
+[58.454483] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail\n'}
+[58.454722] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.454944] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__type_support.cpp\n'}
+[58.455179] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_pwm_servo_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.455397] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/include/ros_robot_controller_msgs/ros_robot_controller_msgs/srv/detail/get_bus_servo_state__type_support.cpp\n'}
+[58.455610] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[58.455821] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_cpp.so\n'}
+[58.456622] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/pythonpath.sh\n'}
+[58.456930] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/pythonpath.dsv\n'}
+[58.457187] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info\n'}
+[58.457425] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[58.457669] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[58.457928] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[58.458300] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[58.458576] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs\n'}
+[58.458844] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[58.459117] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.459379] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/libros_robot_controller_msgs__rosidl_generator_py.so\n'}
+[58.459633] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg\n'}
+[58.459881] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motor_state.py\n'}
+[58.460131] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_pwm_servo_state_s.c\n'}
+[58.460364] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_bus_servo_cmd_s.c\n'}
+[58.460664] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_oled_state_s.c\n'}
+[58.460917] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_button_state.py\n'}
+[58.461163] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servo_position_s.c\n'}
+[58.461418] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_button_state_s.c\n'}
+[58.461675] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_led_state.py\n'}
+[58.461942] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_led_state_s.c\n'}
+[58.462344] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servos_position.py\n'}
+[58.462577] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_bus_servo_state_s.c\n'}
+[58.462805] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_buzzer_state_s.c\n'}
+[58.463045] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_bus_servo_cmd.py\n'}
+[58.463262] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_pwm_servo_cmd_s.c\n'}
+[58.463476] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motors_state_s.c\n'}
+[58.463690] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_pwm_servo_state_s.c\n'}
+[58.463884] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motors_state.py\n'}
+[58.464086] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_motor_state_s.c\n'}
+[58.464305] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_pwm_servo_state.py\n'}
+[58.464543] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servos_position_s.c\n'}
+[58.464745] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_bus_servo_state_s.c\n'}
+[58.464952] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_servo_position.py\n'}
+[58.465167] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_get_pwm_servo_cmd.py\n'}
+[58.465378] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_sbus.py\n'}
+[58.465610] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_bus_servo_state.py\n'}
+[58.465866] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_bus_servo_state.py\n'}
+[58.466723] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_sbus_s.c\n'}
+[58.467037] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_set_pwm_servo_state.py\n'}
+[58.467243] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_oled_state.py\n'}
+[58.467442] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/_buzzer_state.py\n'}
+[58.467638] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg/__init__.py\n'}
+[58.467820] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv\n'}
+[58.468006] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_pwm_servo_state.py\n'}
+[58.468201] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_bus_servo_state_s.c\n'}
+[58.468447] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_bus_servo_state.py\n'}
+[58.468670] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/_get_pwm_servo_state_s.c\n'}
+[58.468870] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv/__init__.py\n'}
+[58.469052] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[58.469230] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.469398] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/_ros_robot_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[58.469565] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.469745] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/__init__.py\n'}
+[58.514714] (-) TimerEvent: {}
+[58.580559] (ros_robot_controller_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs'...\n"}
+[58.580801] (ros_robot_controller_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/msg'...\n"}
+[58.580885] (ros_robot_controller_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/srv'...\n"}
+[58.614861] (-) TimerEvent: {}
+[58.621705] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.622719] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.625640] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages/ros_robot_controller_msgs/ros_robot_controller_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[58.630074] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_py.so\n'}
+[58.630592] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BusServoState.idl\n'}
+[58.631039] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ButtonState.idl\n'}
+[58.631347] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BuzzerState.idl\n'}
+[58.631577] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/LedState.idl\n'}
+[58.632153] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorState.idl\n'}
+[58.632463] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorsState.idl\n'}
+[58.632698] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/PWMServoState.idl\n'}
+[58.638368] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/Sbus.idl\n'}
+[58.638713] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/OLEDState.idl\n'}
+[58.638987] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetBusServoState.idl\n'}
+[58.639663] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServoPosition.idl\n'}
+[58.640018] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServosPosition.idl\n'}
+[58.640286] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetPWMServoState.idl\n'}
+[58.640520] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetBusServoCmd.idl\n'}
+[58.640726] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetPWMServoCmd.idl\n'}
+[58.640906] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState.idl\n'}
+[58.641069] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState.idl\n'}
+[58.641220] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BusServoState.msg\n'}
+[58.641374] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ButtonState.msg\n'}
+[58.641544] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/BuzzerState.msg\n'}
+[58.641725] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/LedState.msg\n'}
+[58.641894] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorState.msg\n'}
+[58.642277] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/MotorsState.msg\n'}
+[58.642557] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/PWMServoState.msg\n'}
+[58.646529] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/Sbus.msg\n'}
+[58.646878] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/OLEDState.msg\n'}
+[58.647246] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetBusServoState.msg\n'}
+[58.647558] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServoPosition.msg\n'}
+[58.647837] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/ServosPosition.msg\n'}
+[58.648073] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/SetPWMServoState.msg\n'}
+[58.648340] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetBusServoCmd.msg\n'}
+[58.648954] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/msg/GetPWMServoCmd.msg\n'}
+[58.649249] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState.srv\n'}
+[58.649484] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState_Request.msg\n'}
+[58.649855] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetBusServoState_Response.msg\n'}
+[58.650125] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState.srv\n'}
+[58.650362] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState_Request.msg\n'}
+[58.650566] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/srv/GetPWMServoState_Response.msg\n'}
+[58.650759] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/package_run_dependencies/ros_robot_controller_msgs\n'}
+[58.650945] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/parent_prefix_path/ros_robot_controller_msgs\n'}
+[58.651147] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/ament_prefix_path.sh\n'}
+[58.658293] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/ament_prefix_path.dsv\n'}
+[58.662162] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/path.sh\n'}
+[58.662466] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/environment/path.dsv\n'}
+[58.662739] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.bash\n'}
+[58.662995] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.sh\n'}
+[58.663234] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.zsh\n'}
+[58.663443] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/local_setup.dsv\n'}
+[58.663649] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.dsv\n'}
+[58.663842] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ament_index/resource_index/packages/ros_robot_controller_msgs\n'}
+[58.664028] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cExport.cmake\n'}
+[58.664226] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[58.666569] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[58.667210] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[58.667411] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_cppExport.cmake\n'}
+[58.667615] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[58.667797] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[58.667967] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[58.668137] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[58.668305] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cExport.cmake\n'}
+[58.668484] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[58.668689] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[58.674680] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[58.676670] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[58.677066] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[58.677278] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_pyExport.cmake\n'}
+[58.677481] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/export_ros_robot_controller_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[58.677673] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[58.677867] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[58.678082] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[58.678337] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[58.678535] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[58.678728] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[58.678927] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[58.679105] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgsConfig.cmake\n'}
+[58.679292] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake/ros_robot_controller_msgsConfig-version.cmake\n'}
+[58.679478] (ros_robot_controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.xml\n'}
+[58.689458] (ros_robot_controller) StdoutLine: {'line': b"reading manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'\n"}
+[58.690317] (ros_robot_controller_msgs) CommandEnded: {'returncode': 0}
+[58.695467] (ros_robot_controller) StdoutLine: {'line': b"writing manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'\n"}
+[58.697528] (ros_robot_controller) StdoutLine: {'line': b'running build\n'}
+[58.697764] (ros_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[58.697868] (ros_robot_controller) StdoutLine: {'line': b'copying ros_robot_controller/ros_robot_controller_sdk.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller\n'}
+[58.697986] (ros_robot_controller) StdoutLine: {'line': b'copying ros_robot_controller/ros_robot_controller_node.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller\n'}
+[58.702158] (ros_robot_controller) StdoutLine: {'line': b'copying ros_robot_controller/__init__.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller\n'}
+[58.702550] (ros_robot_controller) StdoutLine: {'line': b'running install\n'}
+[58.714996] (-) TimerEvent: {}
+[58.717921] (ros_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[58.751481] (ros_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[58.752018] (ros_robot_controller) StdoutLine: {'line': b'copying resource/ros_robot_controller -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ament_index/resource_index/packages\n'}
+[58.752602] (ros_robot_controller) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ros_robot_controller\n'}
+[58.753691] (ros_robot_controller) StdoutLine: {'line': b'copying launch/ros_robot_controller.launch.py -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ros_robot_controller/launch\n'}
+[58.755627] (ros_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[58.775336] (ros_robot_controller) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages/ros_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[58.775544] (ros_robot_controller) StdoutLine: {'line': b'Copying ../../../build/ros_robot_controller/ros_robot_controller.egg-info to /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages/ros_robot_controller-0.0.0-py3.10.egg-info\n'}
+[58.786139] (ros_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[58.815132] (-) TimerEvent: {}
+[58.915725] (-) TimerEvent: {}
+[58.927424] (ros_robot_controller) StdoutLine: {'line': b'Installing ros_robot_controller script to /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/ros_robot_controller\n'}
+[58.927750] (ros_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log'\n"}
+[59.015905] (-) TimerEvent: {}
+[59.068700] (ros_robot_controller) CommandEnded: {'returncode': 0}
+[59.091332] (ros_robot_controller) JobEnded: {'identifier': 'ros_robot_controller', 'rc': 0}
+[59.116004] (-) TimerEvent: {}
+[59.216962] (-) TimerEvent: {}
+[59.314908] (ros_robot_controller_msgs) JobEnded: {'identifier': 'ros_robot_controller_msgs', 'rc': 0}
+[59.317010] (-) TimerEvent: {}
+[59.417220] (-) TimerEvent: {}
+[59.517937] (-) TimerEvent: {}
+[59.618694] (-) TimerEvent: {}
+[59.719096] (-) TimerEvent: {}
+[59.822177] (-) TimerEvent: {}
+[59.925079] (-) TimerEvent: {}
+[60.026346] (-) TimerEvent: {}
+[60.127026] (-) TimerEvent: {}
+[60.227904] (-) TimerEvent: {}
+[60.328594] (-) TimerEvent: {}
+[60.430331] (-) TimerEvent: {}
+[60.533260] (-) TimerEvent: {}
+[60.633936] (-) TimerEvent: {}
+[60.737159] (-) TimerEvent: {}
+[60.837725] (-) TimerEvent: {}
+[60.938150] (-) TimerEvent: {}
+[61.039747] (-) TimerEvent: {}
+[61.140282] (-) TimerEvent: {}
+[61.241670] (-) TimerEvent: {}
+[61.346161] (-) TimerEvent: {}
+[61.446679] (-) TimerEvent: {}
+[61.547116] (-) TimerEvent: {}
+[61.647646] (-) TimerEvent: {}
+[61.748066] (-) TimerEvent: {}
+[61.848562] (-) TimerEvent: {}
+[61.949005] (-) TimerEvent: {}
+[62.052696] (-) TimerEvent: {}
+[62.153058] (-) TimerEvent: {}
+[62.253563] (-) TimerEvent: {}
+[62.354062] (-) TimerEvent: {}
+[62.454458] (-) TimerEvent: {}
+[62.555603] (-) TimerEvent: {}
+[62.655991] (-) TimerEvent: {}
+[62.760381] (-) TimerEvent: {}
+[62.863580] (-) TimerEvent: {}
+[62.964108] (-) TimerEvent: {}
+[63.064589] (-) TimerEvent: {}
+[63.166082] (-) TimerEvent: {}
+[63.266643] (-) TimerEvent: {}
+[63.368319] (-) TimerEvent: {}
+[63.468739] (-) TimerEvent: {}
+[63.569259] (-) TimerEvent: {}
+[63.670017] (-) TimerEvent: {}
+[63.771284] (-) TimerEvent: {}
+[63.872280] (-) TimerEvent: {}
+[63.973646] (-) TimerEvent: {}
+[64.074942] (-) TimerEvent: {}
+[64.176090] (-) TimerEvent: {}
+[64.277209] (-) TimerEvent: {}
+[64.377665] (-) TimerEvent: {}
+[64.478993] (-) TimerEvent: {}
+[64.579492] (-) TimerEvent: {}
+[64.680410] (-) TimerEvent: {}
+[64.781266] (-) TimerEvent: {}
+[64.884077] (-) TimerEvent: {}
+[64.984611] (-) TimerEvent: {}
+[65.085391] (-) TimerEvent: {}
+[65.185941] (-) TimerEvent: {}
+[65.286400] (-) TimerEvent: {}
+[65.386930] (-) TimerEvent: {}
+[65.489057] (-) TimerEvent: {}
+[65.589557] (-) TimerEvent: {}
+[65.690354] (-) TimerEvent: {}
+[65.794304] (-) TimerEvent: {}
+[65.895052] (-) TimerEvent: {}
+[65.995571] (-) TimerEvent: {}
+[66.096001] (-) TimerEvent: {}
+[66.199353] (-) TimerEvent: {}
+[66.300732] (-) TimerEvent: {}
+[66.401843] (-) TimerEvent: {}
+[66.506483] (-) TimerEvent: {}
+[66.607174] (-) TimerEvent: {}
+[66.707697] (-) TimerEvent: {}
+[66.808168] (-) TimerEvent: {}
+[66.908615] (-) TimerEvent: {}
+[67.009049] (-) TimerEvent: {}
+[67.109366] (-) TimerEvent: {}
+[67.209932] (-) TimerEvent: {}
+[67.311106] (-) TimerEvent: {}
+[67.412515] (-) TimerEvent: {}
+[67.514323] (-) TimerEvent: {}
+[67.615257] (-) TimerEvent: {}
+[67.629454] (smart_car_core_demo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable speed_publisher\x1b[0m\n'}
+[67.715364] (-) TimerEvent: {}
+[67.816736] (-) TimerEvent: {}
+[67.917502] (-) TimerEvent: {}
+[68.020655] (-) TimerEvent: {}
+[68.121485] (-) TimerEvent: {}
+[68.222589] (-) TimerEvent: {}
+[68.316652] (smart_car_core_demo) StdoutLine: {'line': b'[ 50%] Built target speed_publisher\n'}
+[68.322731] (-) TimerEvent: {}
+[68.362817] (smart_car_core_demo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o\x1b[0m\n'}
+[68.422846] (-) TimerEvent: {}
+[68.526303] (-) TimerEvent: {}
+[68.626779] (-) TimerEvent: {}
+[68.727181] (-) TimerEvent: {}
+[68.829348] (-) TimerEvent: {}
+[68.929829] (-) TimerEvent: {}
+[69.031103] (-) TimerEvent: {}
+[69.132101] (-) TimerEvent: {}
+[69.233286] (-) TimerEvent: {}
+[69.333822] (-) TimerEvent: {}
+[69.435997] (-) TimerEvent: {}
+[69.536526] (-) TimerEvent: {}
+[69.637224] (-) TimerEvent: {}
+[69.739562] (-) TimerEvent: {}
+[69.839976] (-) TimerEvent: {}
+[69.941335] (-) TimerEvent: {}
+[70.046150] (-) TimerEvent: {}
+[70.146726] (-) TimerEvent: {}
+[70.247239] (-) TimerEvent: {}
+[70.348247] (-) TimerEvent: {}
+[70.449607] (-) TimerEvent: {}
+[70.553628] (-) TimerEvent: {}
+[70.656031] (-) TimerEvent: {}
+[70.756938] (-) TimerEvent: {}
+[70.858081] (-) TimerEvent: {}
+[70.962353] (-) TimerEvent: {}
+[71.062980] (-) TimerEvent: {}
+[71.163442] (-) TimerEvent: {}
+[71.264032] (-) TimerEvent: {}
+[71.365176] (-) TimerEvent: {}
+[71.467080] (-) TimerEvent: {}
+[71.567559] (-) TimerEvent: {}
+[71.668192] (-) TimerEvent: {}
+[71.769908] (-) TimerEvent: {}
+[71.870574] (-) TimerEvent: {}
+[71.972150] (-) TimerEvent: {}
+[72.073738] (-) TimerEvent: {}
+[72.176213] (-) TimerEvent: {}
+[72.277609] (-) TimerEvent: {}
+[72.380103] (-) TimerEvent: {}
+[72.494626] (-) TimerEvent: {}
+[72.595155] (-) TimerEvent: {}
+[72.698403] (-) TimerEvent: {}
+[72.802211] (-) TimerEvent: {}
+[72.902822] (-) TimerEvent: {}
+[73.003296] (-) TimerEvent: {}
+[73.103891] (-) TimerEvent: {}
+[73.206166] (-) TimerEvent: {}
+[73.306738] (-) TimerEvent: {}
+[73.407247] (-) TimerEvent: {}
+[73.508443] (-) TimerEvent: {}
+[73.608882] (-) TimerEvent: {}
+[73.709976] (-) TimerEvent: {}
+[73.813682] (-) TimerEvent: {}
+[73.914888] (-) TimerEvent: {}
+[74.016320] (-) TimerEvent: {}
+[74.117015] (-) TimerEvent: {}
+[74.218507] (-) TimerEvent: {}
+[74.320166] (-) TimerEvent: {}
+[74.420629] (-) TimerEvent: {}
+[74.520966] (-) TimerEvent: {}
+[74.621306] (-) TimerEvent: {}
+[74.721623] (-) TimerEvent: {}
+[74.821894] (-) TimerEvent: {}
+[74.922210] (-) TimerEvent: {}
+[75.022550] (-) TimerEvent: {}
+[75.122992] (-) TimerEvent: {}
+[75.224182] (-) TimerEvent: {}
+[75.325618] (-) TimerEvent: {}
+[75.426194] (-) TimerEvent: {}
+[75.526695] (-) TimerEvent: {}
+[75.610214] (smart_car_core_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[75.610543] (smart_car_core_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp:204:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.610682] (smart_car_core_demo) StderrLine: {'line': b'  204 |     std::signal(SIGINT, [](\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K) {\n'}
+[75.610773] (smart_car_core_demo) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[75.628028] (-) TimerEvent: {}
+[75.728457] (-) TimerEvent: {}
+[75.828956] (-) TimerEvent: {}
+[75.929332] (-) TimerEvent: {}
+[76.029802] (-) TimerEvent: {}
+[76.130211] (-) TimerEvent: {}
+[76.230720] (-) TimerEvent: {}
+[76.331217] (-) TimerEvent: {}
+[76.434131] (-) TimerEvent: {}
+[76.534635] (-) TimerEvent: {}
+[76.635049] (-) TimerEvent: {}
+[76.735541] (-) TimerEvent: {}
+[76.835951] (-) TimerEvent: {}
+[76.936400] (-) TimerEvent: {}
+[77.036768] (-) TimerEvent: {}
+[77.137263] (-) TimerEvent: {}
+[77.237723] (-) TimerEvent: {}
+[77.338131] (-) TimerEvent: {}
+[77.438577] (-) TimerEvent: {}
+[77.538931] (-) TimerEvent: {}
+[77.639416] (-) TimerEvent: {}
+[77.739868] (-) TimerEvent: {}
+[77.840230] (-) TimerEvent: {}
+[77.940681] (-) TimerEvent: {}
+[78.041041] (-) TimerEvent: {}
+[78.141469] (-) TimerEvent: {}
+[78.241788] (-) TimerEvent: {}
+[78.342094] (-) TimerEvent: {}
+[78.442389] (-) TimerEvent: {}
+[78.542665] (-) TimerEvent: {}
+[78.642972] (-) TimerEvent: {}
+[78.743386] (-) TimerEvent: {}
+[78.843670] (-) TimerEvent: {}
+[78.943967] (-) TimerEvent: {}
+[79.044305] (-) TimerEvent: {}
+[79.144600] (-) TimerEvent: {}
+[79.244892] (-) TimerEvent: {}
+[79.345210] (-) TimerEvent: {}
+[79.445581] (-) TimerEvent: {}
+[79.545855] (-) TimerEvent: {}
+[79.646228] (-) TimerEvent: {}
+[79.746670] (-) TimerEvent: {}
+[79.847277] (-) TimerEvent: {}
+[79.948051] (-) TimerEvent: {}
+[80.048644] (-) TimerEvent: {}
+[80.149414] (-) TimerEvent: {}
+[80.250013] (-) TimerEvent: {}
+[80.350779] (-) TimerEvent: {}
+[80.451139] (-) TimerEvent: {}
+[80.551881] (-) TimerEvent: {}
+[80.652359] (-) TimerEvent: {}
+[82.060332] (-) TimerEvent: {}
+[82.160826] (-) TimerEvent: {}
+[82.261215] (-) TimerEvent: {}
+[82.361720] (-) TimerEvent: {}
+[82.462101] (-) TimerEvent: {}
+[82.562495] (-) TimerEvent: {}
+[82.662718] (-) TimerEvent: {}
+[82.762965] (-) TimerEvent: {}
+[82.863223] (-) TimerEvent: {}
+[82.963558] (-) TimerEvent: {}
+[83.063958] (-) TimerEvent: {}
+[83.164233] (-) TimerEvent: {}
+[83.264410] (-) TimerEvent: {}
+[83.364584] (-) TimerEvent: {}
+[83.464778] (-) TimerEvent: {}
+[83.564934] (-) TimerEvent: {}
+[83.665096] (-) TimerEvent: {}
+[83.765271] (-) TimerEvent: {}
+[83.865442] (-) TimerEvent: {}
+[83.965621] (-) TimerEvent: {}
+[84.065783] (-) TimerEvent: {}
+[84.165952] (-) TimerEvent: {}
+[84.266134] (-) TimerEvent: {}
+[84.366308] (-) TimerEvent: {}
+[84.466484] (-) TimerEvent: {}
+[84.566654] (-) TimerEvent: {}
+[84.666829] (-) TimerEvent: {}
+[84.770117] (-) TimerEvent: {}
+[84.870517] (-) TimerEvent: {}
+[84.971278] (-) TimerEvent: {}
+[85.071865] (-) TimerEvent: {}
+[85.172636] (-) TimerEvent: {}
+[85.273227] (-) TimerEvent: {}
+[85.373685] (-) TimerEvent: {}
+[85.474058] (-) TimerEvent: {}
+[85.574657] (-) TimerEvent: {}
+[85.675031] (-) TimerEvent: {}
+[86.555388] (-) TimerEvent: {}
+[86.655798] (-) TimerEvent: {}
+[86.756561] (-) TimerEvent: {}
+[86.858691] (-) TimerEvent: {}
+[86.959204] (-) TimerEvent: {}
+[87.059825] (-) TimerEvent: {}
+[87.162145] (-) TimerEvent: {}
+[87.263390] (-) TimerEvent: {}
+[87.364302] (-) TimerEvent: {}
+[87.465317] (-) TimerEvent: {}
+[87.566634] (-) TimerEvent: {}
+[87.667517] (-) TimerEvent: {}
+[87.768929] (-) TimerEvent: {}
+[87.869773] (-) TimerEvent: {}
+[87.972653] (-) TimerEvent: {}
+[88.073342] (-) TimerEvent: {}
+[88.173841] (-) TimerEvent: {}
+[88.274968] (-) TimerEvent: {}
+[88.377030] (-) TimerEvent: {}
+[88.477710] (-) TimerEvent: {}
+[88.578573] (-) TimerEvent: {}
+[88.679171] (-) TimerEvent: {}
+[88.779967] (-) TimerEvent: {}
+[88.881233] (-) TimerEvent: {}
+[88.981756] (-) TimerEvent: {}
+[89.082756] (-) TimerEvent: {}
+[89.184668] (-) TimerEvent: {}
+[89.285053] (-) TimerEvent: {}
+[89.385841] (-) TimerEvent: {}
+[89.490149] (-) TimerEvent: {}
+[89.590670] (-) TimerEvent: {}
+[89.691076] (-) TimerEvent: {}
+[89.791605] (-) TimerEvent: {}
+[89.892172] (-) TimerEvent: {}
+[89.992837] (-) TimerEvent: {}
+[90.093331] (-) TimerEvent: {}
+[90.193877] (-) TimerEvent: {}
+[90.295158] (-) TimerEvent: {}
+[90.395979] (-) TimerEvent: {}
+[90.496655] (-) TimerEvent: {}
+[90.597469] (-) TimerEvent: {}
+[90.698232] (-) TimerEvent: {}
+[90.799387] (-) TimerEvent: {}
+[90.900118] (-) TimerEvent: {}
+[91.000923] (-) TimerEvent: {}
+[91.101757] (-) TimerEvent: {}
+[91.206384] (-) TimerEvent: {}
+[91.306988] (-) TimerEvent: {}
+[91.407560] (-) TimerEvent: {}
+[91.508069] (-) TimerEvent: {}
+[91.518948] (smart_car_core_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable speed_subscriber\x1b[0m\n'}
+[91.608753] (-) TimerEvent: {}
+[91.710913] (-) TimerEvent: {}
+[91.811472] (-) TimerEvent: {}
+[91.912535] (-) TimerEvent: {}
+[92.013107] (-) TimerEvent: {}
+[92.114313] (-) TimerEvent: {}
+[92.216676] (-) TimerEvent: {}
+[92.322228] (-) TimerEvent: {}
+[92.422724] (-) TimerEvent: {}
+[92.523176] (-) TimerEvent: {}
+[92.626158] (-) TimerEvent: {}
+[92.726685] (-) TimerEvent: {}
+[92.827239] (-) TimerEvent: {}
+[92.839292] (smart_car_core_demo) StdoutLine: {'line': b'[100%] Built target speed_subscriber\n'}
+[92.871282] (smart_car_core_demo) CommandEnded: {'returncode': 0}
+[92.927413] (-) TimerEvent: {}
+[92.930453] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'install'}
+[92.933067] (smart_car_core_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 50781 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e8ff81af-f1e5-440c-abe0-1b9f21ce4d4d.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ubuntu/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e763ceedb8.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'), ('SSH_CONNECTION', '192.168.10.1 50781 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[92.953106] (smart_car_core_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[92.956416] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher\n'}
+[92.973466] (smart_car_core_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher" to ""\n'}
+[92.973801] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber\n'}
+[92.976836] (smart_car_core_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber" to ""\n'}
+[92.977447] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch\n'}
+[92.979856] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch/topic_demo.launch.py\n'}
+[92.981517] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config\n'}
+[92.982420] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config/params.yaml\n'}
+[92.984242] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo\n'}
+[92.985598] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo\n'}
+[92.993625] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.sh\n'}
+[92.995089] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.dsv\n'}
+[92.996290] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.sh\n'}
+[92.996926] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.dsv\n'}
+[92.997614] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.bash\n'}
+[92.998103] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.sh\n'}
+[92.999006] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.zsh\n'}
+[93.000142] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.dsv\n'}
+[93.001119] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv\n'}
+[93.002171] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/packages/smart_car_core_demo\n'}
+[93.003040] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[93.003936] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig.cmake\n'}
+[93.004639] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig-version.cmake\n'}
+[93.005580] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.xml\n'}
+[93.007959] (smart_car_core_demo) CommandEnded: {'returncode': 0}
+[93.027473] (-) TimerEvent: {}
+[93.070014] (smart_car_core_demo) JobEnded: {'identifier': 'smart_car_core_demo', 'rc': 0}
+[93.074200] (-) EventReactorShutdown: {}

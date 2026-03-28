@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo
+Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo
