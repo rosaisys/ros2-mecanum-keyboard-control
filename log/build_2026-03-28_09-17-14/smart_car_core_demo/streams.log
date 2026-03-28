@@ -1,0 +1,36 @@
+[3.536s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4
+[25.696s] [35m[1mConsolidate compiler generated dependencies of target speed_publisher[0m
+[25.728s] [ 25%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o[0m
+[68.097s] [ 50%] [32m[1mLinking CXX executable speed_publisher[0m
+[71.692s] [ 50%] Built target speed_publisher
+[71.829s] [ 75%] [32mBuilding CXX object CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o[0m
+[85.851s] [100%] [32m[1mLinking CXX executable speed_subscriber[0m
+[86.969s] [100%] Built target speed_subscriber
+[86.983s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4
+[87.018s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
+[87.032s] -- Install configuration: ""
+[87.035s] -- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher
+[87.038s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher" to ""
+[87.039s] -- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber
+[87.043s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber" to ""
+[87.043s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch
+[87.043s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch/topic_demo.launch.py
+[87.044s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config
+[87.044s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config/params.yaml
+[87.044s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo
+[87.044s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo
+[87.044s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.sh
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.dsv
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.sh
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.dsv
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.bash
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.sh
+[87.045s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.zsh
+[87.046s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.dsv
+[87.046s] -- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv
+[87.048s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/packages/smart_car_core_demo
+[87.048s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[87.048s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig.cmake
+[87.048s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig-version.cmake
+[87.049s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.xml
+[87.051s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo

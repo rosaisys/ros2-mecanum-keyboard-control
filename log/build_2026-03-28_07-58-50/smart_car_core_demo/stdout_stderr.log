@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o[0m
+gmake[2]: *** [CMakeFiles/speed_publisher.dir/build.make:76: CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/speed_publisher.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

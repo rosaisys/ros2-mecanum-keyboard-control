@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'ros_robot_controller'}
+[0.000539] (-) JobUnselected: {'identifier': 'ros_robot_controller_msgs'}
+[0.000754] (smart_car_core_demo) JobQueued: {'identifier': 'smart_car_core_demo', 'dependencies': OrderedDict()}
+[0.000804] (smart_car_core_demo) JobStarted: {'identifier': 'smart_car_core_demo'}
+[0.014711] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'cmake'}
+[0.018194] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'build'}
+[0.018344] (smart_car_core_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 62010 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5e6359d4-e0aa-4290-a741-1ac54d94e467.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-321431cae9.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'), ('SSH_CONNECTION', '192.168.10.1 62010 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[0.098773] (-) TimerEvent: {}
+[0.201628] (-) TimerEvent: {}
+[0.235654] (smart_car_core_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target speed_publisher\x1b[0m\n'}
+[0.263115] (smart_car_core_demo) StdoutLine: {'line': b'[ 50%] Built target speed_subscriber\n'}
+[0.288933] (smart_car_core_demo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o\x1b[0m\n'}
+[0.301784] (-) TimerEvent: {}
+[0.402935] (-) TimerEvent: {}
+[0.506134] (-) TimerEvent: {}
+[0.606910] (-) TimerEvent: {}
+[0.707286] (-) TimerEvent: {}
+[0.843916] (-) TimerEvent: {}
+[0.944664] (-) TimerEvent: {}
+[1.045100] (-) TimerEvent: {}
+[1.145790] (-) TimerEvent: {}
+[1.246667] (-) TimerEvent: {}
+[1.347394] (-) TimerEvent: {}
+[1.447879] (-) TimerEvent: {}
+[1.548558] (-) TimerEvent: {}
+[1.649028] (-) TimerEvent: {}
+[1.749656] (-) TimerEvent: {}
+[1.849994] (-) TimerEvent: {}
+[1.950587] (-) TimerEvent: {}
+[2.050959] (-) TimerEvent: {}
+[2.151390] (-) TimerEvent: {}
+[2.252008] (-) TimerEvent: {}
+[2.352392] (-) TimerEvent: {}
+[2.452743] (-) TimerEvent: {}
+[2.553154] (-) TimerEvent: {}
+[2.653612] (-) TimerEvent: {}
+[2.753920] (-) TimerEvent: {}
+[2.854317] (-) TimerEvent: {}
+[2.954643] (-) TimerEvent: {}
+[3.055110] (-) TimerEvent: {}
+[3.155466] (-) TimerEvent: {}
+[3.255906] (-) TimerEvent: {}
+[3.356221] (-) TimerEvent: {}
+[3.456538] (-) TimerEvent: {}
+[3.557381] (-) TimerEvent: {}
+[3.658251] (-) TimerEvent: {}
+[3.758787] (-) TimerEvent: {}
+[3.859562] (-) TimerEvent: {}
+[3.960147] (-) TimerEvent: {}
+[4.060593] (-) TimerEvent: {}
+[4.161757] (-) TimerEvent: {}
+[4.265465] (-) TimerEvent: {}
+[4.367286] (-) TimerEvent: {}
+[4.468256] (-) TimerEvent: {}
+[4.568914] (-) TimerEvent: {}
+[4.669504] (-) TimerEvent: {}
+[4.770309] (-) TimerEvent: {}
+[4.870784] (-) TimerEvent: {}
+[4.971440] (-) TimerEvent: {}
+[5.073376] (-) TimerEvent: {}
+[5.174421] (-) TimerEvent: {}
+[5.275099] (-) TimerEvent: {}
+[5.376060] (-) TimerEvent: {}
+[5.476690] (-) TimerEvent: {}
+[5.577644] (-) TimerEvent: {}
+[5.678081] (-) TimerEvent: {}
+[5.778641] (-) TimerEvent: {}
+[5.878950] (-) TimerEvent: {}
+[5.979369] (-) TimerEvent: {}
+[6.079924] (-) TimerEvent: {}
+[6.180691] (-) TimerEvent: {}
+[6.281117] (-) TimerEvent: {}
+[6.381685] (-) TimerEvent: {}
+[6.482394] (-) TimerEvent: {}
+[6.582873] (-) TimerEvent: {}
+[6.683423] (-) TimerEvent: {}
+[6.784173] (-) TimerEvent: {}
+[6.884737] (-) TimerEvent: {}
+[6.985509] (-) TimerEvent: {}
+[7.086052] (-) TimerEvent: {}
+[7.186766] (-) TimerEvent: {}
+[7.287343] (-) TimerEvent: {}
+[7.388086] (-) TimerEvent: {}
+[7.488611] (-) TimerEvent: {}
+[7.589332] (-) TimerEvent: {}
+[7.689840] (-) TimerEvent: {}
+[7.790623] (-) TimerEvent: {}
+[7.891391] (-) TimerEvent: {}
+[7.992121] (-) TimerEvent: {}
+[8.092673] (-) TimerEvent: {}
+[8.193420] (-) TimerEvent: {}
+[8.293965] (-) TimerEvent: {}
+[8.394727] (-) TimerEvent: {}
+[8.495480] (-) TimerEvent: {}
+[8.596044] (-) TimerEvent: {}
+[8.696555] (-) TimerEvent: {}
+[8.797283] (-) TimerEvent: {}
+[8.897799] (-) TimerEvent: {}
+[8.998551] (-) TimerEvent: {}
+[9.098969] (-) TimerEvent: {}
+[9.199716] (-) TimerEvent: {}
+[9.300134] (-) TimerEvent: {}
+[9.400873] (-) TimerEvent: {}
+[9.501455] (-) TimerEvent: {}
+[9.602186] (-) TimerEvent: {}
+[9.702716] (-) TimerEvent: {}
+[9.803497] (-) TimerEvent: {}
+[9.904160] (-) TimerEvent: {}
+[10.004701] (-) TimerEvent: {}
+[10.105494] (-) TimerEvent: {}
+[10.206234] (-) TimerEvent: {}
+[10.306783] (-) TimerEvent: {}
+[10.407533] (-) TimerEvent: {}
+[10.508288] (-) TimerEvent: {}
+[10.608857] (-) TimerEvent: {}
+[10.709496] (-) TimerEvent: {}
+[10.810222] (-) TimerEvent: {}
+[10.910610] (-) TimerEvent: {}
+[11.011322] (-) TimerEvent: {}
+[11.111717] (-) TimerEvent: {}
+[11.212436] (-) TimerEvent: {}
+[11.312827] (-) TimerEvent: {}
+[11.413558] (-) TimerEvent: {}
+[11.514091] (-) TimerEvent: {}
+[11.614830] (-) TimerEvent: {}
+[11.715529] (-) TimerEvent: {}
+[11.816055] (-) TimerEvent: {}
+[11.916785] (-) TimerEvent: {}
+[12.017528] (-) TimerEvent: {}
+[12.118082] (-) TimerEvent: {}
+[12.218831] (-) TimerEvent: {}
+[12.319545] (-) TimerEvent: {}
+[12.420094] (-) TimerEvent: {}
+[12.520947] (-) TimerEvent: {}
+[12.621901] (-) TimerEvent: {}
+[12.628196] (smart_car_core_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable speed_publisher\x1b[0m\n'}
+[12.725412] (-) TimerEvent: {}
+[12.829478] (-) TimerEvent: {}
+[12.930364] (-) TimerEvent: {}
+[13.031046] (-) TimerEvent: {}
+[13.076932] (smart_car_core_demo) StdoutLine: {'line': b'[100%] Built target speed_publisher\n'}
+[13.092191] (smart_car_core_demo) CommandEnded: {'returncode': 0}
+[13.121312] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'install'}
+[13.131894] (-) TimerEvent: {}
+[13.140560] (smart_car_core_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'], 'cwd': '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.10.1 62010 2222'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/x64:/home/ubuntu/ros2_ws/src/xf_mic_asr_offline/lib/arm64:'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v20.11.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5e6359d4-e0aa-4290-a741-1ac54d94e467.sock'), ('NVM_INC', '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-81b35a501a59f6dc.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ubuntu/.vscode-server/data/User/workspaceStorage/4904d44bfcc191dbf2184c168ea5a871/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-321431cae9.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo'), ('SSH_CONNECTION', '192.168.10.1 62010 192.168.10.2 2222'), ('NVM_CD_FLAGS', ''), ('COLCON', '1')]), 'shell': False}
+[13.159389] (smart_car_core_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.162185] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher\n'}
+[13.165968] (smart_car_core_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher" to ""\n'}
+[13.166920] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber\n'}
+[13.169479] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch\n'}
+[13.169788] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch/topic_demo.launch.py\n'}
+[13.169993] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config\n'}
+[13.170193] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config/params.yaml\n'}
+[13.170967] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo\n'}
+[13.171325] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo\n'}
+[13.171555] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.sh\n'}
+[13.176814] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.dsv\n'}
+[13.177122] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.sh\n'}
+[13.177321] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.dsv\n'}
+[13.177504] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.bash\n'}
+[13.177662] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.sh\n'}
+[13.177806] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.zsh\n'}
+[13.177948] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.dsv\n'}
+[13.178090] (smart_car_core_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv\n'}
+[13.178232] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/packages/smart_car_core_demo\n'}
+[13.178376] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.178517] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig.cmake\n'}
+[13.178658] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig-version.cmake\n'}
+[13.178797] (smart_car_core_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.xml\n'}
+[13.181495] (smart_car_core_demo) CommandEnded: {'returncode': 0}
+[13.232022] (-) TimerEvent: {}
+[13.260956] (smart_car_core_demo) JobEnded: {'identifier': 'smart_car_core_demo', 'rc': 0}
+[13.262829] (-) EventReactorShutdown: {}

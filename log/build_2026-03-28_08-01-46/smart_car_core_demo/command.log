@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4

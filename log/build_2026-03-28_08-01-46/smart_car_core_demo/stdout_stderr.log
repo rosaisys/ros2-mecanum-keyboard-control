@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable speed_publisher[0m
+[ 50%] Built target speed_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o[0m

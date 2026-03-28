@@ -1,0 +1,30 @@
+[41.847s] Invoking command in '/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller': PYTHONPATH=/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_robot_controller build --build-base /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build install --record /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log --single-version-externally-managed install_data
+[69.503s] Traceback (most recent call last):
+[69.503s]   File "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller/setup.py", line 7, in <module>
+[69.542s]     setup(
+[69.542s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 102, in setup
+[69.556s]     _install_setup_requires(attrs)
+[69.556s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 70, in _install_setup_requires
+[69.556s]     dist = MinimalDistribution(attrs)
+[69.556s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 52, in __init__
+[69.556s]     super().__init__(filtered)
+[69.556s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py", line 303, in __init__
+[69.958s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[69.958s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[69.958s]     return SelectableGroups.load(eps).select(**params)
+[69.958s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[69.958s]     ordered = sorted(eps, key=by_group)
+[69.958s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+[69.958s]     dist.entry_points for dist in unique(distributions())
+[69.958s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+[69.958s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[69.959s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+[69.959s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[69.959s]   File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+[70.118s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[70.118s]   File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+[70.118s]     return self._accessor.open(self, mode, buffering, encoding, errors,
+[70.118s]   File "/usr/lib/python3.10/codecs.py", line 309, in __init__
+[70.270s]     def __init__(self, errors='strict'):
+[70.271s] KeyboardInterrupt
+[70.341s] Invoked command in '/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller' returned '-2': PYTHONPATH=/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_robot_controller build --build-base /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build install --record /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log --single-version-externally-managed install_data

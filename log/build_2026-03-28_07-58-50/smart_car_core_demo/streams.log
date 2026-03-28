@@ -1,0 +1,6 @@
+[1.032s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4
+[22.064s] [ 25%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o[0m
+[69.554s] gmake[2]: *** [CMakeFiles/speed_publisher.dir/build.make:76: CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o] Interrupt
+[69.713s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/speed_publisher.dir/all] Interrupt
+[69.713s] gmake: *** [Makefile:146: all] Interrupt
+[69.873s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '-2': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4

@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target speed_publisher[0m
+[0.263s] [ 50%] Built target speed_subscriber
+[0.289s] [ 75%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o[0m
+[12.628s] [100%] [32m[1mLinking CXX executable speed_publisher[0m
+[13.076s] [100%] Built target speed_publisher
+[13.092s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo -- -j4 -l4
+[13.143s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
+[13.159s] -- Install configuration: ""
+[13.162s] -- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher
+[13.165s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_publisher" to ""
+[13.168s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/lib/smart_car_core_demo/speed_subscriber
+[13.169s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch
+[13.169s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/launch/topic_demo.launch.py
+[13.169s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config
+[13.170s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/config/params.yaml
+[13.170s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo
+[13.171s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo
+[13.176s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.sh
+[13.176s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/ament_prefix_path.dsv
+[13.176s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.sh
+[13.177s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/environment/path.dsv
+[13.177s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.bash
+[13.177s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.sh
+[13.177s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.zsh
+[13.177s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/local_setup.dsv
+[13.177s] -- Installing: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.dsv
+[13.178s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/ament_index/resource_index/packages/smart_car_core_demo
+[13.178s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.178s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig.cmake
+[13.178s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/cmake/smart_car_core_demoConfig-version.cmake
+[13.178s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/smart_car_core_demo/share/smart_car_core_demo/package.xml
+[13.181s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo

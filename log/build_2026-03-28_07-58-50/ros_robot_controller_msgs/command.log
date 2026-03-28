@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs -- -j4 -l4

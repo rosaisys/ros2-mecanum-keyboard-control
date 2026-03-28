@@ -201,11 +201,11 @@ int main(int argc, char *argv[]) {
     // 设置信号处理：当接收到SIGINT（Ctrl+C）时停止电机
     // 注意：在ROS2中，rclcpp::spin()会自动处理信号，但我们需要确保电机停止
     // 这里我们使用标准的signal函数来捕获信号
-    std::signal(SIGINT, [](int sig) {
-        // 这个处理函数在全局上下文中运行，无法直接访问node对象
-        // 实际停止逻辑在节点的析构函数中处理
-        std::cout << "\n接收到关闭信号(SIGINT)，准备停止电机..." << std::endl;
-    });
+    // std::signal(SIGINT, [](int sig) {
+    //     // 这个处理函数在全局上下文中运行，无法直接访问node对象
+    //     // 实际停止逻辑在节点的析构函数中处理
+    //     std::cout << "\n接收到关闭信号(SIGINT)，准备停止电机..." << std::endl;
+    // });
 
     RCLCPP_INFO(node->get_logger(), "速度订阅节点运行中...");
     RCLCPP_INFO(node->get_logger(), "按Ctrl+C停止节点并停止电机");

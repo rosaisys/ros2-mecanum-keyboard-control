@@ -1,0 +1,36 @@
+[0.592s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs': /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs -- -j4 -l4
+[23.569s] [  0%] Built target ros_robot_controller_msgs__cpp
+[30.218s] [  0%] Built target ament_cmake_python_copy_ros_robot_controller_msgs
+[32.837s] [ 12%] Built target ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[35.366s] [ 24%] Built target ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp
+[69.425s] Traceback (most recent call last):
+[69.425s]   File "/home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs/ament_cmake_python/ros_robot_controller_msgs/setup.py", line 4, in <module>
+[69.425s]     setup(
+[69.425s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 102, in setup
+[69.477s]     _install_setup_requires(attrs)
+[69.477s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 70, in _install_setup_requires
+[69.477s]     dist = MinimalDistribution(attrs)
+[69.477s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 52, in __init__
+[69.477s]     super().__init__(filtered)
+[69.477s]   File "/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py", line 303, in __init__
+[69.879s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[69.879s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[69.879s]     return SelectableGroups.load(eps).select(**params)
+[69.879s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[69.879s]     ordered = sorted(eps, key=by_group)
+[69.879s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+[69.880s]     dist.entry_points for dist in unique(distributions())
+[69.880s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+[69.880s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[69.880s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+[69.880s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[69.880s]   File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+[70.040s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[70.040s]   File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+[70.040s]     return self._accessor.open(self, mode, buffering, encoding, errors,
+[70.040s]   File "/usr/lib/python3.10/codecs.py", line 309, in __init__
+[70.192s]     def __init__(self, errors='strict'):
+[70.193s] KeyboardInterrupt
+[70.260s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ros_robot_controller_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros_robot_controller_msgs_egg] Interrupt
+[70.260s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_ros_robot_controller_msgs_egg.dir/all] Interrupt
+[70.262s] gmake: *** [Makefile:146: all] Interrupt
