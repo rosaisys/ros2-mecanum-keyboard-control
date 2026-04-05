@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_publisher.cpp" "CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o" "gcc" "CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o.d"
+  "/home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_publisher.cpp" "CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o" "gcc" "CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/keyboard_input.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

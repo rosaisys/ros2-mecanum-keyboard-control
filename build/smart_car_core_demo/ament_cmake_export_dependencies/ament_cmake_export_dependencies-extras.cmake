@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;geometry_msgs;std_msgs;std_srvs;rclcpp_action;ros_robot_controller_msgs")
+set(_exported_dependencies "rclcpp;geometry_msgs;std_msgs;std_srvs;rclcpp_action;ros_robot_controller_msgs;speed_control_msgs")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

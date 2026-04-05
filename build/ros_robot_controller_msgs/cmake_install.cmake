@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs
+# Install script for directory: /home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -424,67 +424,67 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/BusServoState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/BusServoState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/ButtonState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/ButtonState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/BuzzerState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/BuzzerState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/LedState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/LedState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/MotorState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/MotorState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/MotorsState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/MotorsState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/PWMServoState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/PWMServoState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/Sbus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/Sbus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/OLEDState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/OLEDState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/SetBusServoState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/SetBusServoState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/ServoPosition.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/ServoPosition.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/ServosPosition.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/ServosPosition.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/SetPWMServoState.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/SetPWMServoState.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/GetBusServoCmd.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/GetBusServoCmd.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/msg/GetPWMServoCmd.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/msg" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/msg/GetPWMServoCmd.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/srv" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/srv/GetBusServoState.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/srv" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/srv/GetBusServoState.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -496,7 +496,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/srv" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/srv/GetPWMServoState.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs/srv" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/srv/GetPWMServoState.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -759,7 +759,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/ros2_core_examples/src/ros_robot_controller_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_robot_controller_msgs" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

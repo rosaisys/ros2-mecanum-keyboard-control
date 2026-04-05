@@ -1,0 +1,93 @@
+[0.592s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake /home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/speed_control_msgs
+[0.793s] -- The C compiler identification is GNU 11.4.0
+[1.181s] -- The CXX compiler identification is GNU 11.4.0
+[1.211s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.532s] -- Detecting C compile features
+[1.539s] -- Detecting C compile features - done
+[1.543s] -- Detecting CXX compiler ABI info
+[1.865s] -- Detecting CXX compiler ABI info - done
+[1.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.891s] -- Detecting CXX compile features
+[1.896s] -- Detecting CXX compile features - done
+[1.908s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.870s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.989s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.195s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.484s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.550s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.550s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.550s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.550s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.592s] -- Found PythonExtra: .so  
+[6.735s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.844s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.849s] -- Added test 'lint_cmake' to check CMake code style
+[6.853s] -- Added test 'xmllint' to check XML markup files
+[6.863s] -- Configuring done
+[6.932s] -- Generating done
+[6.938s] -- Build files have been written to: /home/ubuntu/ros2_wsorincp/build/speed_control_msgs
+[6.948s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake /home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/speed_control_msgs
+[6.953s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/speed_control_msgs -- -j4 -l4
+[7.016s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.049s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.079s] [  6%] Built target ament_cmake_python_copy_speed_control_msgs
+[7.616s] running egg_info
+[7.620s] creating speed_control_msgs.egg-info
+[7.645s] writing speed_control_msgs.egg-info/PKG-INFO
+[7.647s] writing dependency_links to speed_control_msgs.egg-info/dependency_links.txt
+[7.648s] writing top-level names to speed_control_msgs.egg-info/top_level.txt
+[7.795s] [  9%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/speed_control_msgs/srv/detail/adjust_speed__functions.c.o[0m
+[7.825s] [  9%] Built target speed_control_msgs__cpp
+[7.848s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.848s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.971s] writing manifest file 'speed_control_msgs.egg-info/SOURCES.txt'
+[8.066s] reading manifest file 'speed_control_msgs.egg-info/SOURCES.txt'
+[8.067s] writing manifest file 'speed_control_msgs.egg-info/SOURCES.txt'
+[8.099s] [ 19%] [32m[1mLinking C shared library libspeed_control_msgs__rosidl_generator_c.so[0m
+[8.244s] [ 19%] Built target speed_control_msgs__rosidl_generator_c
+[8.267s] [ 19%] Built target ament_cmake_python_build_speed_control_msgs_egg
+[8.290s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.311s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.726s] [ 29%] [32mBuilding CXX object CMakeFiles/speed_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/speed_control_msgs/srv/adjust_speed__type_support.cpp.o[0m
+[8.787s] [ 32%] [32mBuilding CXX object CMakeFiles/speed_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speed_control_msgs/srv/detail/dds_fastrtps/adjust_speed__type_support.cpp.o[0m
+[9.248s] [ 35%] [32mBuilding CXX object CMakeFiles/speed_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/speed_control_msgs/srv/detail/adjust_speed__type_support.cpp.o[0m
+[9.399s] [ 38%] [32m[1mLinking CXX shared library libspeed_control_msgs__rosidl_typesupport_cpp.so[0m
+[9.443s] [ 41%] [32mBuilding CXX object CMakeFiles/speed_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/speed_control_msgs/srv/detail/adjust_speed__type_support_c.cpp.o[0m
+[9.576s] [ 41%] Built target speed_control_msgs__rosidl_typesupport_cpp
+[9.607s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.019s] [ 48%] [32m[1mLinking CXX shared library libspeed_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.230s] [ 48%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_cpp
+[10.268s] [ 51%] [32m[1mLinking CXX shared library libspeed_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.280s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.505s] [ 54%] Built target speed_control_msgs__rosidl_typesupport_introspection_cpp
+[10.676s] [ 58%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speed_control_msgs/srv/detail/adjust_speed__type_support.c.o[0m
+[10.725s] [ 61%] [32m[1mLinking CXX shared library libspeed_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.785s] [ 64%] [32m[1mLinking C shared library libspeed_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.845s] [ 64%] Built target speed_control_msgs__rosidl_typesupport_introspection_c
+[10.911s] [ 64%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_c
+[11.066s] [ 67%] [32mBuilding CXX object CMakeFiles/speed_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/speed_control_msgs/srv/adjust_speed__type_support.cpp.o[0m
+[11.162s] [ 70%] [32m[1mLinking CXX shared library libspeed_control_msgs__rosidl_typesupport_c.so[0m
+[11.216s] [ 70%] Built target speed_control_msgs__rosidl_typesupport_c
+[11.256s] [ 70%] Built target speed_control_msgs
+[11.297s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.237s] [ 74%] Built target speed_control_msgs__py
+[12.276s] [ 77%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/speed_control_msgs/srv/_adjust_speed_s.c.o[0m
+[12.472s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/speed_control_msgs/libspeed_control_msgs__rosidl_generator_py.so[0m
+[12.522s] [ 80%] Built target speed_control_msgs__rosidl_generator_py
+[12.563s] [ 90%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.564s] [ 90%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.564s] [ 90%] [32mBuilding C object CMakeFiles/speed_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.754s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.755s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.786s] [100%] [32m[1mLinking C shared library rosidl_generator_py/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.847s] [100%] Built target speed_control_msgs__rosidl_typesupport_c__pyext
+[12.854s] [100%] Built target speed_control_msgs__rosidl_typesupport_introspection_c__pyext
+[12.880s] [100%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_c__pyext

@@ -1,0 +1,55 @@
+[0.613s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake /home/ubuntu/ros2_wsorincp/src/peripherals -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo
+[0.832s] -- The C compiler identification is GNU 11.4.0
+[1.164s] -- The CXX compiler identification is GNU 11.4.0
+[1.180s] -- Detecting C compiler ABI info
+[1.496s] -- Detecting C compiler ABI info - done
+[1.554s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.558s] -- Detecting C compile features
+[1.567s] -- Detecting C compile features - done
+[1.580s] -- Detecting CXX compiler ABI info
+[1.864s] -- Detecting CXX compiler ABI info - done
+[1.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.896s] -- Detecting CXX compile features
+[1.897s] -- Detecting CXX compile features - done
+[1.913s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.935s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.481s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.537s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.574s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.179s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.313s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.598s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.794s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.276s] -- Looking for pthread.h
+[9.621s] -- Looking for pthread.h - found
+[9.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.003s] -- Found Threads: TRUE  
+[10.737s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.879s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[10.976s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[11.240s] -- Found ros_robot_controller_msgs: 0.0.0 (/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake)
+[11.371s] -- Configuring incomplete, errors occurred!
+[11.372s] See also "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/CMakeOutput.log".
+[11.372s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[11.372s]   By not providing "Findspeed_control_msgs.cmake" in CMAKE_MODULE_PATH this
+[11.372s]   project has asked CMake to find a package configuration file provided by
+[11.373s]   "speed_control_msgs", but CMake did not find one.
+[11.373s] 
+[11.373s]   Could not find a package configuration file provided by
+[11.373s]   "speed_control_msgs" with any of the following names:
+[11.373s] 
+[11.373s]     speed_control_msgsConfig.cmake
+[11.374s]     speed_control_msgs-config.cmake
+[11.374s] 
+[11.374s]   Add the installation prefix of "speed_control_msgs" to CMAKE_PREFIX_PATH or
+[11.374s]   set "speed_control_msgs_DIR" to a directory containing one of the above
+[11.374s]   files.  If "speed_control_msgs" provides a separate development package or
+[11.374s]   SDK, be sure it has been installed.
+[11.374s] 
+[11.374s] [0m
+[11.399s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake /home/ubuntu/ros2_wsorincp/src/peripherals -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo

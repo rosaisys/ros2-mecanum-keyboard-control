@@ -1,0 +1,27 @@
+[3.352s] Invoking command in '/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller': PYTHONPATH=/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_robot_controller build --build-base /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build install --record /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log --single-version-externally-managed install_data
+[4.117s] running egg_info
+[4.166s] writing ../../../build/ros_robot_controller/ros_robot_controller.egg-info/PKG-INFO
+[4.168s] writing dependency_links to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/dependency_links.txt
+[4.172s] writing entry points to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/entry_points.txt
+[4.172s] writing requirements to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/requires.txt
+[4.172s] writing top-level names to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/top_level.txt
+[4.551s] reading manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'
+[4.554s] writing manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'
+[4.555s] running build
+[4.555s] running build_py
+[4.555s] copying ros_robot_controller/ros_robot_controller_sdk.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.558s] copying ros_robot_controller/ros_robot_controller_node.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.558s] copying ros_robot_controller/__init__.py -> /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.560s] running install
+[4.575s] running install_lib
+[4.628s] running install_data
+[4.629s] copying resource/ros_robot_controller -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ament_index/resource_index/packages
+[4.629s] copying package.xml -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ros_robot_controller
+[4.629s] copying launch/ros_robot_controller.launch.py -> /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/share/ros_robot_controller/launch
+[4.629s] running install_egg_info
+[4.699s] removing '/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages/ros_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.699s] Copying ../../../build/ros_robot_controller/ros_robot_controller.egg-info to /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages/ros_robot_controller-0.0.0-py3.10.egg-info
+[4.700s] running install_scripts
+[4.787s] Installing ros_robot_controller script to /home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/ros_robot_controller
+[4.793s] writing list of installed files to '/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log'
+[4.926s] Invoked command in '/home/ubuntu/ros2_wsorincp/src/driver/ros_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_wsorincp/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_robot_controller build --build-base /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/build install --record /home/ubuntu/ros2_wsorincp/build/ros_robot_controller/install.log --single-version-externally-managed install_data

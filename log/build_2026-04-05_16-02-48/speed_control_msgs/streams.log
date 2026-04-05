@@ -1,0 +1,173 @@
+[0.036s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/speed_control_msgs -- -j4 -l4
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_generator_c[0m
+[0.183s] [  3%] Built target speed_control_msgs__cpp
+[0.207s] [ 12%] Built target speed_control_msgs__rosidl_generator_c
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_cpp[0m
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.252s] [ 12%] Built target ament_cmake_python_copy_speed_control_msgs
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.295s] [ 22%] Built target speed_control_msgs__rosidl_typesupport_introspection_cpp
+[0.302s] [ 32%] Built target speed_control_msgs__rosidl_typesupport_cpp
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.351s] [ 41%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_cpp
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_c[0m
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_introspection_c[0m
+[0.405s] [ 51%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_c
+[0.414s] [ 61%] Built target speed_control_msgs__rosidl_typesupport_c
+[0.430s] [ 70%] Built target speed_control_msgs__rosidl_typesupport_introspection_c
+[0.478s] [ 70%] Built target speed_control_msgs
+[0.531s] [ 74%] Built target speed_control_msgs__py
+[0.566s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_generator_py[0m
+[0.604s] [ 80%] Built target speed_control_msgs__rosidl_generator_py
+[0.633s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_c__pyext[0m
+[0.646s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target speed_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.671s] [ 87%] Built target speed_control_msgs__rosidl_typesupport_introspection_c__pyext
+[0.672s] [ 93%] Built target speed_control_msgs__rosidl_typesupport_c__pyext
+[0.698s] [100%] Built target speed_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.089s] running egg_info
+[1.117s] writing speed_control_msgs.egg-info/PKG-INFO
+[1.118s] writing dependency_links to speed_control_msgs.egg-info/dependency_links.txt
+[1.120s] writing top-level names to speed_control_msgs.egg-info/top_level.txt
+[1.458s] reading manifest file 'speed_control_msgs.egg-info/SOURCES.txt'
+[1.459s] writing manifest file 'speed_control_msgs.egg-info/SOURCES.txt'
+[1.594s] [100%] Built target ament_cmake_python_build_speed_control_msgs_egg
+[1.617s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --build /home/ubuntu/ros2_wsorincp/build/speed_control_msgs -- -j4 -l4
+[1.792s] Invoking command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/speed_control_msgs
+[1.805s] -- Install configuration: ""
+[1.805s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/ament_index/resource_index/rosidl_interfaces/speed_control_msgs
+[1.805s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.805s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/adjust_speed.h
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__functions.c
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__functions.h
+[1.806s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__type_support.h
+[1.807s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__struct.h
+[1.807s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/library_path.sh
+[1.807s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/library_path.dsv
+[1.807s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_c.so
+[1.808s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_c.so" to ""
+[1.808s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.808s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg
+[1.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__rosidl_typesupport_fastrtps_c.h
+[1.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_c.so
+[1.809s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.809s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg
+[1.809s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.810s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.810s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__type_support.c
+[1.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__rosidl_typesupport_introspection_c.h
+[1.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_c.so
+[1.810s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.810s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_c.so
+[1.811s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_c.so" to ""
+[1.811s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.811s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.811s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/adjust_speed.hpp
+[1.811s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.811s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__builder.hpp
+[1.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__struct.hpp
+[1.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__traits.hpp
+[1.812s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.812s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg
+[1.812s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.812s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.812s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/dds_fastrtps
+[1.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[1.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.813s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.813s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs
+[1.813s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv
+[1.813s] -- Up-to-date: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail
+[1.813s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__type_support.cpp
+[1.814s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/include/speed_control_msgs/speed_control_msgs/srv/detail/adjust_speed__rosidl_typesupport_introspection_cpp.hpp
+[1.814s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_cpp.so
+[1.814s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_cpp.so
+[1.815s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_cpp.so" to ""
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/pythonpath.sh
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/pythonpath.dsv
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs-0.0.0-py3.10.egg-info
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.815s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs
+[1.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.816s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/libspeed_control_msgs__rosidl_generator_py.so
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_c.c
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/_speed_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv/_adjust_speed.py
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv/_adjust_speed_s.c
+[1.817s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv/__init__.py
+[1.818s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.818s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.818s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/__init__.py
+[1.933s] Listing '/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs'...
+[1.934s] Compiling '/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/__init__.py'...
+[1.935s] Listing '/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv'...
+[1.935s] Compiling '/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv/__init__.py'...
+[1.935s] Compiling '/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/srv/_adjust_speed.py'...
+[1.954s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.955s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.955s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.957s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.958s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.960s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/local/lib/python3.10/dist-packages/speed_control_msgs/speed_control_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.961s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_py.so
+[1.962s] -- Set runtime path of "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_py.so" to ""
+[1.962s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/srv/AdjustSpeed.idl
+[1.962s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/srv/AdjustSpeed.srv
+[1.962s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/srv/AdjustSpeed_Request.msg
+[1.962s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/srv/AdjustSpeed_Response.msg
+[1.963s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/ament_index/resource_index/package_run_dependencies/speed_control_msgs
+[1.963s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/ament_index/resource_index/parent_prefix_path/speed_control_msgs
+[1.964s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/ament_prefix_path.sh
+[1.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/ament_prefix_path.dsv
+[1.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/path.sh
+[1.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/environment/path.dsv
+[1.965s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/local_setup.bash
+[1.969s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/local_setup.sh
+[1.969s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/local_setup.zsh
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/local_setup.dsv
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/package.dsv
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/ament_index/resource_index/packages/speed_control_msgs
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_generator_cExport.cmake
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.970s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.971s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.971s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.971s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.971s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_cExport.cmake
+[1.972s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.972s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_generator_cppExport.cmake
+[1.972s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.973s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.973s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.974s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.974s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_cppExport.cmake
+[1.975s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.975s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_generator_pyExport.cmake
+[1.976s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/export_speed_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.976s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/rosidl_cmake-extras.cmake
+[1.976s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.977s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.977s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.978s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.978s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.979s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.979s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgsConfig.cmake
+[1.979s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake/speed_control_msgsConfig-version.cmake
+[1.980s] -- Installing: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/package.xml
+[1.987s] Invoked command in '/home/ubuntu/ros2_wsorincp/build/speed_control_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces /usr/bin/cmake --install /home/ubuntu/ros2_wsorincp/build/speed_control_msgs

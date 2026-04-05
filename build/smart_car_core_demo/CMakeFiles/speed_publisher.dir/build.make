@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo
+CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
@@ -69,36 +69,63 @@ include CMakeFiles/speed_publisher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/speed_publisher.dir/flags.make
 
-CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o: CMakeFiles/speed_publisher.dir/flags.make
-CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o: /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_publisher.cpp
-CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o: CMakeFiles/speed_publisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o -MF CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o.d -o CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o -c /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_publisher.cpp
+CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o: CMakeFiles/speed_publisher.dir/flags.make
+CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o: /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_publisher.cpp
+CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o: CMakeFiles/speed_publisher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o -MF CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o.d -o CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o -c /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_publisher.cpp
 
-CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_publisher.cpp > CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.i
+CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_publisher.cpp > CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.i
 
-CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_publisher.cpp -o CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.s
+CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_publisher.cpp -o CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.s
 
 # Object files for target speed_publisher
 speed_publisher_OBJECTS = \
-"CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o"
+"CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o"
 
 # External object files for target speed_publisher
 speed_publisher_EXTERNAL_OBJECTS =
 
-speed_publisher: CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o
+speed_publisher: CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o
 speed_publisher: CMakeFiles/speed_publisher.dir/build.make
-speed_publisher: /opt/ros/humble/lib/librclcpp.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_c.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_c.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_introspection_cpp.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_cpp.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_py.so
+speed_publisher: libkeyboard_input.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
+speed_publisher: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_c.so
+speed_publisher: /home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_generator_c.so
+speed_publisher: /opt/ros/humble/lib/librclcpp.so
 speed_publisher: /opt/ros/humble/lib/liblibstatistics_collector.so
 speed_publisher: /opt/ros/humble/lib/librcl.so
 speed_publisher: /opt/ros/humble/lib/librmw_implementation.so
@@ -124,44 +151,34 @@ speed_publisher: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 speed_publisher: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 speed_publisher: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
-speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
-speed_publisher: /opt/ros/humble/lib/libtracetools.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 speed_publisher: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 speed_publisher: /opt/ros/humble/lib/librmw.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-speed_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-speed_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+speed_publisher: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 speed_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 speed_publisher: /opt/ros/humble/lib/librosidl_typesupport_c.so
 speed_publisher: /opt/ros/humble/lib/librcpputils.so
 speed_publisher: /opt/ros/humble/lib/librosidl_runtime_c.so
 speed_publisher: /opt/ros/humble/lib/librcutils.so
 speed_publisher: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+speed_publisher: /opt/ros/humble/lib/libtracetools.so
 speed_publisher: CMakeFiles/speed_publisher.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable speed_publisher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speed_publisher.dir/link.txt --verbose=$(VERBOSE)
@@ -175,6 +192,6 @@ CMakeFiles/speed_publisher.dir/clean:
 .PHONY : CMakeFiles/speed_publisher.dir/clean
 
 CMakeFiles/speed_publisher.dir/depend:
-	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speed_publisher.dir/depend
 

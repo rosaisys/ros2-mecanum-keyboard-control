@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo
+CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
@@ -198,6 +198,19 @@ smart_car_core_demo_uninstall/fast:
 .PHONY : smart_car_core_demo_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named keyboard_input
+
+# Build rule for target.
+keyboard_input: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_input
+.PHONY : keyboard_input
+
+# fast build rule for target.
+keyboard_input/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/build
+.PHONY : keyboard_input/fast
+
+#=============================================================================
 # Target rules for targets named speed_publisher
 
 # Build rule for target.
@@ -209,6 +222,19 @@ speed_publisher: cmake_check_build_system
 speed_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/build
 .PHONY : speed_publisher/fast
+
+#=============================================================================
+# Target rules for targets named control_mode_client
+
+# Build rule for target.
+control_mode_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 control_mode_client
+.PHONY : control_mode_client
+
+# fast build rule for target.
+control_mode_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_mode_client.dir/build.make CMakeFiles/control_mode_client.dir/build
+.PHONY : control_mode_client/fast
 
 #=============================================================================
 # Target rules for targets named speed_subscriber
@@ -223,53 +249,101 @@ speed_subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/build
 .PHONY : speed_subscriber/fast
 
-src/smart_car_core_demo/speed_publisher.o: src/smart_car_core_demo/speed_publisher.cpp.o
-.PHONY : src/smart_car_core_demo/speed_publisher.o
+src/control_mode_client.o: src/control_mode_client.cpp.o
+.PHONY : src/control_mode_client.o
 
 # target to build an object file
-src/smart_car_core_demo/speed_publisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.o
-.PHONY : src/smart_car_core_demo/speed_publisher.cpp.o
+src/control_mode_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_mode_client.dir/build.make CMakeFiles/control_mode_client.dir/src/control_mode_client.cpp.o
+.PHONY : src/control_mode_client.cpp.o
 
-src/smart_car_core_demo/speed_publisher.i: src/smart_car_core_demo/speed_publisher.cpp.i
-.PHONY : src/smart_car_core_demo/speed_publisher.i
+src/control_mode_client.i: src/control_mode_client.cpp.i
+.PHONY : src/control_mode_client.i
 
 # target to preprocess a source file
-src/smart_car_core_demo/speed_publisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.i
-.PHONY : src/smart_car_core_demo/speed_publisher.cpp.i
+src/control_mode_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_mode_client.dir/build.make CMakeFiles/control_mode_client.dir/src/control_mode_client.cpp.i
+.PHONY : src/control_mode_client.cpp.i
 
-src/smart_car_core_demo/speed_publisher.s: src/smart_car_core_demo/speed_publisher.cpp.s
-.PHONY : src/smart_car_core_demo/speed_publisher.s
+src/control_mode_client.s: src/control_mode_client.cpp.s
+.PHONY : src/control_mode_client.s
 
 # target to generate assembly for a file
-src/smart_car_core_demo/speed_publisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/smart_car_core_demo/speed_publisher.cpp.s
-.PHONY : src/smart_car_core_demo/speed_publisher.cpp.s
+src/control_mode_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control_mode_client.dir/build.make CMakeFiles/control_mode_client.dir/src/control_mode_client.cpp.s
+.PHONY : src/control_mode_client.cpp.s
 
-src/smart_car_core_demo/speed_subscriber.o: src/smart_car_core_demo/speed_subscriber.cpp.o
-.PHONY : src/smart_car_core_demo/speed_subscriber.o
+src/keyboard_input.o: src/keyboard_input.cpp.o
+.PHONY : src/keyboard_input.o
 
 # target to build an object file
-src/smart_car_core_demo/speed_subscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o
-.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.o
+src/keyboard_input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.o
+.PHONY : src/keyboard_input.cpp.o
 
-src/smart_car_core_demo/speed_subscriber.i: src/smart_car_core_demo/speed_subscriber.cpp.i
-.PHONY : src/smart_car_core_demo/speed_subscriber.i
+src/keyboard_input.i: src/keyboard_input.cpp.i
+.PHONY : src/keyboard_input.i
 
 # target to preprocess a source file
-src/smart_car_core_demo/speed_subscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.i
-.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.i
+src/keyboard_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.i
+.PHONY : src/keyboard_input.cpp.i
 
-src/smart_car_core_demo/speed_subscriber.s: src/smart_car_core_demo/speed_subscriber.cpp.s
-.PHONY : src/smart_car_core_demo/speed_subscriber.s
+src/keyboard_input.s: src/keyboard_input.cpp.s
+.PHONY : src/keyboard_input.s
 
 # target to generate assembly for a file
-src/smart_car_core_demo/speed_subscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.s
-.PHONY : src/smart_car_core_demo/speed_subscriber.cpp.s
+src/keyboard_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_input.dir/build.make CMakeFiles/keyboard_input.dir/src/keyboard_input.cpp.s
+.PHONY : src/keyboard_input.cpp.s
+
+src/speed_publisher.o: src/speed_publisher.cpp.o
+.PHONY : src/speed_publisher.o
+
+# target to build an object file
+src/speed_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o
+.PHONY : src/speed_publisher.cpp.o
+
+src/speed_publisher.i: src/speed_publisher.cpp.i
+.PHONY : src/speed_publisher.i
+
+# target to preprocess a source file
+src/speed_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.i
+.PHONY : src/speed_publisher.cpp.i
+
+src/speed_publisher.s: src/speed_publisher.cpp.s
+.PHONY : src/speed_publisher.s
+
+# target to generate assembly for a file
+src/speed_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_publisher.dir/build.make CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.s
+.PHONY : src/speed_publisher.cpp.s
+
+src/speed_subscriber.o: src/speed_subscriber.cpp.o
+.PHONY : src/speed_subscriber.o
+
+# target to build an object file
+src/speed_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o
+.PHONY : src/speed_subscriber.cpp.o
+
+src/speed_subscriber.i: src/speed_subscriber.cpp.i
+.PHONY : src/speed_subscriber.i
+
+# target to preprocess a source file
+src/speed_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i
+.PHONY : src/speed_subscriber.cpp.i
+
+src/speed_subscriber.s: src/speed_subscriber.cpp.s
+.PHONY : src/speed_subscriber.s
+
+# target to generate assembly for a file
+src/speed_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_subscriber.dir/build.make CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s
+.PHONY : src/speed_subscriber.cpp.s
 
 # Help Target
 help:
@@ -286,14 +360,22 @@ help:
 	@echo "... test"
 	@echo "... smart_car_core_demo_uninstall"
 	@echo "... uninstall"
+	@echo "... control_mode_client"
+	@echo "... keyboard_input"
 	@echo "... speed_publisher"
 	@echo "... speed_subscriber"
-	@echo "... src/smart_car_core_demo/speed_publisher.o"
-	@echo "... src/smart_car_core_demo/speed_publisher.i"
-	@echo "... src/smart_car_core_demo/speed_publisher.s"
-	@echo "... src/smart_car_core_demo/speed_subscriber.o"
-	@echo "... src/smart_car_core_demo/speed_subscriber.i"
-	@echo "... src/smart_car_core_demo/speed_subscriber.s"
+	@echo "... src/control_mode_client.o"
+	@echo "... src/control_mode_client.i"
+	@echo "... src/control_mode_client.s"
+	@echo "... src/keyboard_input.o"
+	@echo "... src/keyboard_input.i"
+	@echo "... src/keyboard_input.s"
+	@echo "... src/speed_publisher.o"
+	@echo "... src/speed_publisher.i"
+	@echo "... src/speed_publisher.s"
+	@echo "... src/speed_subscriber.o"
+	@echo "... src/speed_subscriber.i"
+	@echo "... src/speed_subscriber.s"
 .PHONY : help
 
 

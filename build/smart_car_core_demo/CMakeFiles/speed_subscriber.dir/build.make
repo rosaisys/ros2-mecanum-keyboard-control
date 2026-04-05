@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo
+CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
@@ -69,28 +69,28 @@ include CMakeFiles/speed_subscriber.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/speed_subscriber.dir/flags.make
 
-CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/flags.make
-CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o: /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp
-CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o -MF CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o.d -o CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o -c /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/flags.make
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -MF CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o.d -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -c /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp
 
-CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp > CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.i
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp > CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i
 
-CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo/src/smart_car_core_demo/speed_subscriber.cpp -o CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.s
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s
 
 # Object files for target speed_subscriber
 speed_subscriber_OBJECTS = \
-"CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o"
+"CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o"
 
 # External object files for target speed_subscriber
 speed_subscriber_EXTERNAL_OBJECTS =
 
-speed_subscriber: CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o
+speed_subscriber: CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o
 speed_subscriber: CMakeFiles/speed_subscriber.dir/build.make
 speed_subscriber: /opt/ros/humble/lib/librclcpp.so
 speed_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -183,6 +183,6 @@ CMakeFiles/speed_subscriber.dir/clean:
 .PHONY : CMakeFiles/speed_subscriber.dir/clean
 
 CMakeFiles/speed_subscriber.dir/depend:
-	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo /home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_subscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_subscriber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speed_subscriber.dir/depend
 

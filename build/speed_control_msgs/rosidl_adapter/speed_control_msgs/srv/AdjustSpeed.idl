@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speed_control_msgs/srv/AdjustSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module speed_control_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求消息")
+    struct AdjustSpeed_Request {
+      @verbatim (language="comment", text=
+        "方向：1=增加，-1=减少，0=重置")
+      int8 direction;
+
+      @verbatim (language="comment", text=
+        "调整步长（默认0.1）")
+      double step;
+    };
+    @verbatim (language="comment", text=
+      "响应消息")
+    struct AdjustSpeed_Response {
+      boolean success;
+
+      string message;
+
+      double current_linear;
+
+      double current_angular;
+    };
+  };
+};

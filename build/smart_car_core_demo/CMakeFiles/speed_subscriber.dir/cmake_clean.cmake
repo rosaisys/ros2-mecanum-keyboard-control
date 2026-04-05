@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o"
-  "CMakeFiles/speed_subscriber.dir/src/smart_car_core_demo/speed_subscriber.cpp.o.d"
+  "CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o"
+  "CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o.d"
   "speed_subscriber"
   "speed_subscriber.pdb"
 )

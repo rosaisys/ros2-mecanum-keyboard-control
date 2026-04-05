@@ -272,7 +272,7 @@ SITE:STRING=raspberrypi
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib/libspeed_control_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -391,6 +391,9 @@ foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
+//Dependencies for the target
+keyboard_input_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
 
@@ -506,13 +509,16 @@ smart_car_core_demo_BINARY_DIR:STATIC=/home/ubuntu/ros2_wsorincp/build/smart_car
 smart_car_core_demo_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-smart_car_core_demo_SOURCE_DIR:STATIC=/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo
+smart_car_core_demo_SOURCE_DIR:STATIC=/home/ubuntu/ros2_wsorincp/src/peripherals
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
 spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
+
+//The directory containing a CMake configuration file for speed_control_msgs.
+speed_control_msgs_DIR:PATH=/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/share/speed_control_msgs/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=/opt/ros/humble/share/statistics_msgs/cmake
@@ -624,7 +630,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ubuntu/ros2_wsorincp/ros2_core_examples/smart_car_core_demo
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ubuntu/ros2_wsorincp/src/peripherals
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
