@@ -7,5 +7,6 @@
 #include "ros_robot_controller_msgs/msg/detail/servo_position__struct.hpp"
 #include "ros_robot_controller_msgs/msg/detail/servo_position__builder.hpp"
 #include "ros_robot_controller_msgs/msg/detail/servo_position__traits.hpp"
+#include "ros_robot_controller_msgs/msg/detail/servo_position__type_support.hpp"
 
 #endif  // ROS_ROBOT_CONTROLLER_MSGS__MSG__SERVO_POSITION_HPP_

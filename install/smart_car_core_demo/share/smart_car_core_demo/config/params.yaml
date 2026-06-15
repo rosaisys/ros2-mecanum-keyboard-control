@@ -1,22 +1,40 @@
-# 智能车核心示例参数配置文件
-# 这些参数可以在运行时动态调整
+# 智能车键盘控制示例参数配置文件
+# 按节点名分组，launch 统一加载这一份配置
 
-smart_car_core_demo:
+ros_robot_controller:
   ros__parameters:
-    # 车速控制参数
-    linear_speed: 0.5      # 线速度 (m/s)
-    angular_speed: 0.2     # 角速度 (rad/s)
-    publish_rate: 10.0     # 发布频率 (Hz)
-    
-    # 安全参数
-    emergency_stop_threshold: 0.1  # 紧急停止阈值
-    battery_warning_level: 11.5    # 电池警告电压 (V)
-    battery_critical_level: 11.0   # 电池临界电压 (V)
-    
-    # 动作参数
-    countdown_duration: 10.0       # 倒计时持续时间 (秒)
-    navigation_timeout: 30.0       # 导航超时时间 (秒)
-    
-    # 调试参数
-    debug_mode: false              # 调试模式
-    log_level: "INFO"              # 日志级别
+    imu_frame: imu_link
+
+speed_publisher:
+  ros__parameters:
+    command_topic: cmd_vel
+    control_mode_service: set_control_mode
+    robot_type: ""
+    queue_depth: 10
+    publish_rate: 100.0
+    default_linear_velocity: 0.2
+    default_angular_velocity: 0.5
+    acceleration_limit: 2.5
+    angular_acceleration_limit: 4.0
+    ackermann_wheelbase: 0.213
+    ackermann_steering_angle: 0.628
+    stop_threshold_linear: 0.002
+    stop_threshold_angular: 0.005
+    publish_threshold_linear: 0.0001
+    publish_threshold_angular: 0.0002
+
+speed_subscriber:
+  ros__parameters:
+    command_topic: cmd_vel
+    motor_topic: ros_robot_controller/set_motor
+    wheelbase: 0.216
+    track_width: 0.195
+    wheel_diameter: 0.097
+    max_linear_x: 0.5
+    max_linear_y: 0.2
+    max_angular_z: 0.5
+    queue_depth: 10
+
+control_mode_client:
+  ros__parameters:
+    service_name: set_control_mode

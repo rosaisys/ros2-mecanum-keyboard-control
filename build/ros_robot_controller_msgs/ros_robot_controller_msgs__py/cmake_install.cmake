@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/ros2_wsorincp/build/ros_robot_controller_msgs/ros_robot_controller_msgs__py
+# Install script for directory: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/ros_robot_controller_msgs/ros_robot_controller_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/ros_robot_controller_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

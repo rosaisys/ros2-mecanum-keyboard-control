@@ -233,93 +233,52 @@ class ControlModeClient : public rclcpp::Node {
             }
             RCLCPP_INFO(this->get_logger(), "等待%s服务可用...", service_name_.c_str());
         }
-        /**
-         * @brief 异步调用服务切换控制模式
-         *
-         * @param smooth_mode true为平滑模式，false为原始模式
-         */
-        void switchMode(bool smooth_mode) {
-            while (!client_->wait_for_service(1s)) {
-                if (!rclcpp::ok()) {
-                    RCLCPP_ERROR(this->get_logger(), "等待服务时被中断");
-                    return;
-                }
-                RCLCPP_INFO(this->get_logger(), "等待set_control_mode服务可用...");
-            }
 
-            auto request = std::make_shared<std_srvs::srv::SetBool::Request>();
-            request->data = smooth_mode;
+        auto request = std::make_shared<std_srvs::srv::SetBool::Request>();
+        request->data = smooth_mode;
 
-            auto result = client_->async_send_request(request);
-            // spin_until_future_complete会阻塞当前线程直到服务调用完成，返回FutureReturnCode，表示调用结果
-            if (rclcpp::spin_until_future_complete(this->shared_from_this(), result) ==
-                rclcpp::FutureReturnCode::SUCCESS) {
-                auto response = result.get();
-                if (response->success) {
-                    RCLCPP_INFO(this->get_logger(), "模式切换成功: %s", response->message.c_str());
-                    //
-                } else {
-                    RCLCPP_ERROR(this->get_logger(), "模式切换失败: %s", response->message.c_str());
-                }
+        auto result = client_->async_send_request(request);
+        if (rclcpp::spin_until_future_complete(this->shared_from_this(), result) == rclcpp::FutureReturnCode::SUCCESS) {
+            auto response = result.get();
+            if (response->success) {
+                RCLCPP_INFO(this->get_logger(), "模式切换成功: %s", response->message.c_str());
             } else {
-                RCLCPP_ERROR(this->get_logger(), "服务调用失败");
+                RCLCPP_ERROR(this->get_logger(), "模式切换失败: %s", response->message.c_str());
             }
+        } else {
+            RCLCPP_ERROR(this->get_logger(), "服务调用失败");
         }
-        void adjust_speed(int direction, float step) {
-            while (!client_->wait_for_service(1s)) {
-                if (!rclcpp::ok()) {
-                    RCLCPP_ERROR(this->get_logger(), "等待服务时被中断");
-                    return;
-                }
-                RCLCPP_INFO(this->get_logger(), "等待adjust_speed服务可用...");
-            }
-            auto request = std::make_shared<speed_control_msgs::srv::AdjustSpeed::Request>();
-            request->direction = direction;
-            request->step = step;
-            auto result = adjust_speed_client_->async_send_request(request);
-            if (rclcpp::spin_until_future_complete(this->shared_from_this(), result) ==
-                rclcpp::FutureReturnCode::SUCCESS) {
-                auto response = result.get();
-                if (response->success) {
-                    RCLCPP_INFO(this->get_logger(), "速度切换成功: %s", response->message.c_str());
-                    //
-                } else {
-                    RCLCPP_ERROR(this->get_logger(), "速度切换失败: %s", response->message.c_str());
-                }
-            } else {
-                RCLCPP_ERROR(this->get_logger(), "速度服务调用失败");
-            }
-        }
-    };
-    /**
-     * @brief 主函数：演示如何切换控制模式
-     */
-    int main(int argc, char* argv[]) {
-        rclcpp::init(argc, argv);
-        auto client_node = std::make_shared<ControlModeClient>();
-        RCLCPP_INFO(client_node->get_logger(), "控制模式切换客户端已启动");
-        RCLCPP_INFO(client_node->get_logger(), "按 's' 切换到平滑模式，按 'o' 切换到原始模式，按 'q' 退出");
-
-        while (rclcpp::ok()) {
-            std::string key = KeyboardInput::getInstance().getKey();  // 获取按键
-
-            if (!key.empty()) {
-                if (key == "s") {
-                    RCLCPP_INFO(client_node->get_logger(), "切换到平滑模式...");
-                    client_node->switchMode(true);
-                } else if (key == "o") {
-                    RCLCPP_INFO(client_node->get_logger(), "切换到原始暴躁模式（竞速模式）...");
-                    client_node->switchMode(false);
-                } else if (key == "q") {  // 退出程序
-                    RCLCPP_INFO(client_node->get_logger(), "退出程序");
-                    break;
-                }
-            }
-
-            // 短暂休眠，避免CPU占用过高
-            std::this_thread::sleep_for(std::chrono::milliseconds(50));
-        }
-
-        rclcpp::shutdown();
-        return 0;
     }
+};
+
+/**
+ * @brief 主函数：演示如何切换控制模式
+ */
+int main(int argc, char* argv[]) {
+    rclcpp::init(argc, argv);
+    auto client_node = std::make_shared<ControlModeClient>();
+    RCLCPP_INFO(client_node->get_logger(), "控制模式切换客户端已启动");
+    RCLCPP_INFO(client_node->get_logger(), "按 's' 切换到平滑模式，按 'o' 切换到原始模式，按 'q' 退出");
+
+    while (rclcpp::ok()) {
+        std::string key = KeyboardInput::getInstance().getKey();
+
+        if (!key.empty()) {
+            if (key == "s") {
+                RCLCPP_INFO(client_node->get_logger(), "切换到平滑模式...");
+                client_node->switchMode(true);
+            } else if (key == "o") {
+                RCLCPP_INFO(client_node->get_logger(), "切换到原始暴躁模式（竞速模式）...");
+                client_node->switchMode(false);
+            } else if (key == "q") {
+                RCLCPP_INFO(client_node->get_logger(), "退出程序");
+                break;
+            }
+        }
+
+        std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    }
+
+    rclcpp::shutdown();
+    return 0;
+}

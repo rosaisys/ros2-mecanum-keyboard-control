@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
+CMAKE_SOURCE_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
+CMAKE_BINARY_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

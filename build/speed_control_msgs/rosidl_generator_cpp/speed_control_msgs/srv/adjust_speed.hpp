@@ -7,5 +7,6 @@
 #include "speed_control_msgs/srv/detail/adjust_speed__struct.hpp"
 #include "speed_control_msgs/srv/detail/adjust_speed__builder.hpp"
 #include "speed_control_msgs/srv/detail/adjust_speed__traits.hpp"
+#include "speed_control_msgs/srv/detail/adjust_speed__type_support.hpp"
 
 #endif  // SPEED_CONTROL_MSGS__SRV__ADJUST_SPEED_HPP_

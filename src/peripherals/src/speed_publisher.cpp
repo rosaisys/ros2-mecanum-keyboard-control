@@ -364,6 +364,11 @@ class SpeedPublisher : public rclcpp::Node {
     }
 
     /**
+     * @brief 请求停止控制循环
+     */
+    void stop() { should_stop_ = true; }
+
+    /**
      * @brief 根据机器类型配置速度参数
      */
     void configureSpeedParameters() {
@@ -546,7 +551,6 @@ class SpeedPublisher : public rclcpp::Node {
             // 线速度保持不变，实现惯性滑行
         }
     }
-}
 
     /**
      * @brief 速度平滑处理函数
@@ -558,159 +562,158 @@ class SpeedPublisher : public rclcpp::Node {
      */
     void smoothVelocity(double target_linear_vel, double target_angular_vel, double acceleration,
                         double angular_acceleration) {
-    // 使用宏定义的时间步长
-    const double dt = control_dt_;
+        // 使用宏定义的时间步长
+        const double dt = control_dt_;
 
-    // 线速度平滑处理
-    double linear_diff = target_linear_vel - control_linear_vel_;
-    double max_linear_change = acceleration * dt;
+        // 线速度平滑处理
+        double linear_diff = target_linear_vel - control_linear_vel_;
+        double max_linear_change = acceleration * dt;
 
-    if (std::abs(linear_diff) > max_linear_change) {
-        control_linear_vel_ += (linear_diff > 0 ? max_linear_change : -max_linear_change);
-    } else {
-        control_linear_vel_ = target_linear_vel;
+        if (std::abs(linear_diff) > max_linear_change) {
+            control_linear_vel_ += (linear_diff > 0 ? max_linear_change : -max_linear_change);
+        } else {
+            control_linear_vel_ = target_linear_vel;
+        }
+
+        // 角速度平滑处理
+        double angular_diff = target_angular_vel - control_angular_vel_;
+        double max_angular_change = angular_acceleration * dt;
+
+        if (std::abs(angular_diff) > max_angular_change) {
+            control_angular_vel_ += (angular_diff > 0 ? max_angular_change : -max_angular_change);
+        } else {
+            control_angular_vel_ = target_angular_vel;
+        }
     }
 
-    // 角速度平滑处理
-    double angular_diff = target_angular_vel - control_angular_vel_;
-    double max_angular_change = angular_acceleration * dt;
+    /**
+     * @brief 平滑停止函数
+     *
+     * @param acceleration 线减速度限制 (m/s²)
+     * @param angular_acceleration 角减速度限制 (rad/s²)
+     */
+    void smoothStop(double acceleration, double angular_acceleration) {
+        RCLCPP_INFO(this->get_logger(), "执行平滑停止...");
 
-    if (std::abs(angular_diff) > max_angular_change) {
-        control_angular_vel_ += (angular_diff > 0 ? max_angular_change : -max_angular_change);
-    } else {
-        control_angular_vel_ = target_angular_vel;
-    }
-}
+        // 逐步减速到零（使用宏定义的停止阈值）
+        while ((std::abs(control_linear_vel_) > stop_threshold_linear_ ||
+                std::abs(control_angular_vel_) > stop_threshold_angular_) &&
+               rclcpp::ok()) {
+            smoothVelocity(0.0, 0.0, acceleration, angular_acceleration);
+            publishVelocityIfChanged();
+            std::this_thread::sleep_for(std::chrono::milliseconds(control_period_ms_));
+        }
 
-/**
- * @brief 平滑停止函数
- *
- * @param acceleration 线减速度限制 (m/s²)
- * @param angular_acceleration 角减速度限制 (rad/s²)
- */
-void smoothStop(double acceleration, double angular_acceleration) {
-    RCLCPP_INFO(this->get_logger(), "执行平滑停止...");
-
-    // 逐步减速到零（使用宏定义的停止阈值）
-    while ((std::abs(control_linear_vel_) > stop_threshold_linear_ ||
-            std::abs(control_angular_vel_) > stop_threshold_angular_) &&
-           rclcpp::ok()) {
-        smoothVelocity(0.0, 0.0, acceleration, angular_acceleration);
-        publishVelocityIfChanged();
-        std::this_thread::sleep_for(std::chrono::milliseconds(control_period_ms_));
+        RCLCPP_INFO(this->get_logger(), "平滑停止完成");
     }
 
-    RCLCPP_INFO(this->get_logger(), "平滑停止完成");
-}
+    /**
+     * @brief 发布速度指令（仅在速度变化时发布）
+     */
+    void publishVelocityIfChanged() {
+        // 检查速度是否有变化（使用宏定义的发布阈值）
+        bool linear_changed = std::abs(control_linear_vel_ - last_published_linear_) > publish_threshold_linear_;
+        bool angular_changed = std::abs(control_angular_vel_ - last_published_angular_) > publish_threshold_angular_;
 
-/**
- * @brief 发布速度指令（仅在速度变化时发布）
- */
-void publishVelocityIfChanged() {
-    // 检查速度是否有变化（使用宏定义的发布阈值）
-    bool linear_changed = std::abs(control_linear_vel_ - last_published_linear_) > publish_threshold_linear_;
-    bool angular_changed = std::abs(control_angular_vel_ - last_published_angular_) > publish_threshold_angular_;
+        if (linear_changed || angular_changed || control_angular_vel_ != 0.0) {
+            auto twist = std::make_unique<geometry_msgs::msg::Twist>();
+            twist->linear.x = control_linear_vel_;
+            twist->linear.y = 0.0;
+            twist->linear.z = 0.0;
+            twist->angular.x = 0.0;
+            twist->angular.y = 0.0;
+            twist->angular.z = control_angular_vel_;
 
-    if (linear_changed || angular_changed || control_angular_vel_ != 0.0) {
-        auto twist = std::make_unique<geometry_msgs::msg::Twist>();
-        twist->linear.x = control_linear_vel_;
-        twist->linear.y = 0.0;
-        twist->linear.z = 0.0;
-        twist->angular.x = 0.0;
-        twist->angular.y = 0.0;
-        twist->angular.z = control_angular_vel_;
+            publisher_->publish(*twist);
 
-        publisher_->publish(*twist);
+            // 更新最后发布的速度值
+            last_published_linear_ = control_linear_vel_;
+            last_published_angular_ = control_angular_vel_;
 
-        // 更新最后发布的速度值
-        last_published_linear_ = control_linear_vel_;
-        last_published_angular_ = control_angular_vel_;
-
-        // 显示当前速度
-        std::cout << "\r[控制指令] 线速度: " << std::fixed << std::setprecision(2) << twist->linear.x
-                  << " m/s | 角速度: " << twist->angular.z << " rad/s        " << std::flush;
+            // 显示当前速度
+            std::cout << "\r[控制指令] 线速度: " << std::fixed << std::setprecision(2) << twist->linear.x
+                      << " m/s | 角速度: " << twist->angular.z << " rad/s        " << std::flush;
+        }
     }
-}
 
-/**
- * @brief 发布停止指令
- */
-void publishStopCommand() {
-    auto stop_twist = std::make_unique<geometry_msgs::msg::Twist>();
-    stop_twist->linear.x = 0.0;
-    stop_twist->linear.y = 0.0;
-    stop_twist->linear.z = 0.0;
-    stop_twist->angular.x = 0.0;
-    stop_twist->angular.y = 0.0;
-    stop_twist->angular.z = 0.0;
+    /**
+     * @brief 发布停止指令
+     */
+    void publishStopCommand() {
+        auto stop_twist = std::make_unique<geometry_msgs::msg::Twist>();
+        stop_twist->linear.x = 0.0;
+        stop_twist->linear.y = 0.0;
+        stop_twist->linear.z = 0.0;
+        stop_twist->angular.x = 0.0;
+        stop_twist->angular.y = 0.0;
+        stop_twist->angular.z = 0.0;
 
-    publisher_->publish(*stop_twist);
-    last_published_linear_ = 0.0;
-    last_published_angular_ = 0.0;
-    RCLCPP_INFO(this->get_logger(), "已发送停止指令");
-}
+        publisher_->publish(*stop_twist);
+        last_published_linear_ = 0.0;
+        last_published_angular_ = 0.0;
+        RCLCPP_INFO(this->get_logger(), "已发送停止指令");
+    }
 
-/**
- * @brief 显示控制说明（改进版）
- */
-void printControlInstructions() {
-    std::cout << "\n=============================================\n";
-    std::cout << "        智能车键盘控制说明（改进版）\n";
-    std::cout << "=============================================\n";
-    std::cout << "移动方向：\n";
-    std::cout << "            w (前进)\n";
-    std::cout << "    a (左转)   s (后退)   d (右转)\n";
-    std::cout << "\n特殊按键：\n";
-    std::cout << "    空格键 : 紧急停止\n";
-    std::cout << "    CTRL-C : 退出控制程序\n";
-    std::cout << "\n改进特性：\n";
-    std::cout << "    • 速度平滑：避免速度突变\n";
-    std::cout << "    • 紧急停止：按空格键立即停止\n";
-    std::cout << "    • 终端恢复：程序异常退出时自动恢复终端设置\n";
-    std::cout << "=============================================\n\n";
-}
+    /**
+     * @brief 显示控制说明（改进版）
+     */
+    void printControlInstructions() {
+        std::cout << "\n=============================================\n";
+        std::cout << "        智能车键盘控制说明（改进版）\n";
+        std::cout << "=============================================\n";
+        std::cout << "移动方向：\n";
+        std::cout << "            w (前进)\n";
+        std::cout << "    a (左转)   s (后退)   d (右转)\n";
+        std::cout << "\n特殊按键：\n";
+        std::cout << "    空格键 : 紧急停止\n";
+        std::cout << "    CTRL-C : 退出控制程序\n";
+        std::cout << "\n改进特性：\n";
+        std::cout << "    • 速度平滑：避免速度突变\n";
+        std::cout << "    • 紧急停止：按空格键立即停止\n";
+        std::cout << "    • 终端恢复：程序异常退出时自动恢复终端设置\n";
+        std::cout << "=============================================\n\n";
+    }
 
-// ROS2发布者：用于发布速度指令
-rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+    // ROS2发布者：用于发布速度指令
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
 
-// 服务对象
-rclcpp::Service<std_srvs::srv::SetBool>::SharedPtr set_control_mode_service_;
+    // 服务对象
+    rclcpp::Service<std_srvs::srv::SetBool>::SharedPtr set_control_mode_service_;
 
-// 机器类型和速度参数
-std::string machine_type_;
-std::string command_topic_;
-std::string control_mode_service_;
-int queue_depth_;
-double publish_rate_;
-double default_linear_velocity_;
-double default_angular_velocity_;
-double acceleration_limit_;
-double angular_acceleration_limit_;
-double ackermann_wheelbase_;
-double ackermann_steering_angle_;
-double stop_threshold_linear_;
-double stop_threshold_angular_;
-double publish_threshold_linear_;
-double publish_threshold_angular_;
-int control_period_ms_;
-double control_dt_;
-double linear_velocity_;
-double angular_velocity_;
+    // 机器类型和速度参数
+    std::string machine_type_;
+    std::string command_topic_;
+    std::string control_mode_service_;
+    int queue_depth_;
+    double publish_rate_;
+    double default_linear_velocity_;
+    double default_angular_velocity_;
+    double acceleration_limit_;
+    double angular_acceleration_limit_;
+    double ackermann_wheelbase_;
+    double ackermann_steering_angle_;
+    double stop_threshold_linear_;
+    double stop_threshold_angular_;
+    double publish_threshold_linear_;
+    double publish_threshold_angular_;
+    int control_period_ms_;
+    double control_dt_;
+    double linear_velocity_;
+    double angular_velocity_;
 
-// 控制变量
-double control_linear_vel_;
-double control_angular_vel_;
-double last_published_linear_;
-double last_published_angular_;
-int idle_count_;
+    // 控制变量
+    double control_linear_vel_;
+    double control_angular_vel_;
+    double last_published_linear_;
+    double last_published_angular_;
+    int idle_count_;
 
-// 控制标志
-std::atomic<bool> should_stop_;
+    // 控制标志
+    std::atomic<bool> should_stop_;
 
-// 控制模式：true为平滑模式，false为原始模式
-bool smooth_mode_;
-}
-;
+    // 控制模式：true为平滑模式，false为原始模式
+    bool smooth_mode_;
+};
 
 /**
  * @brief 主函数：ROS2节点入口点

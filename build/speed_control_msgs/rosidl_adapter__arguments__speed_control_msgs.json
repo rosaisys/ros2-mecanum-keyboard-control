@@ -1,6 +1,6 @@
 {
   "package_name": "speed_control_msgs",
   "non_idl_tuples": [
-    "/home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs:srv/AdjustSpeed.srv"
+    "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/driver/speed_control_msgs:srv/AdjustSpeed.srv"
   ]
 }

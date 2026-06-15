@@ -7,5 +7,6 @@
 #include "ros_robot_controller_msgs/msg/detail/button_state__struct.hpp"
 #include "ros_robot_controller_msgs/msg/detail/button_state__builder.hpp"
 #include "ros_robot_controller_msgs/msg/detail/button_state__traits.hpp"
+#include "ros_robot_controller_msgs/msg/detail/button_state__type_support.hpp"
 
 #endif  // ROS_ROBOT_CONTROLLER_MSGS__MSG__BUTTON_STATE_HPP_

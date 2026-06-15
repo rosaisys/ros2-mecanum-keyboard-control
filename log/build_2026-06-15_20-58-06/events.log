@@ -1,0 +1,448 @@
+[0.000000] (-) TimerEvent: {}
+[0.001209] (-) JobUnselected: {'identifier': 'ros_robot_controller'}
+[0.001326] (-) JobUnselected: {'identifier': 'ros_robot_controller_msgs'}
+[0.001425] (-) JobUnselected: {'identifier': 'speed_control_msgs'}
+[0.001897] (smart_car_core_demo) JobQueued: {'identifier': 'smart_car_core_demo', 'dependencies': OrderedDict()}
+[0.001994] (smart_car_core_demo) JobStarted: {'identifier': 'smart_car_core_demo'}
+[0.017953] (smart_car_core_demo) JobProgress: {'identifier': 'smart_car_core_demo', 'progress': 'cmake'}
+[0.021988] (smart_car_core_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals', '-DCMAKE_INSTALL_PREFIX=/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/smart_car_core_demo'], 'cwd': '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('USER', 'ros2user'), ('GIT_EDITOR', ':'), ('GIT_ASKPASS', '/home/ros2user/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/ros2user'), ('OLDPWD', '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7a63526d-1e06-42ca-b60c-747779780e30.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2user/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2user/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ros2user/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PREVENT_SHELL_HISTORY', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2user'), ('NAME', 'DESKTOP-UOGLKSL'), ('WSL_INTEROP', '/run/WSL/435_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2user/.cargo/bin:/home/ros2user/.local/bin:/home/ros2user/.cargo/bin:/home/ros2user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros2user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ros2user/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/bin/remote-cli:/home/ros2user/.cargo/bin:/home/ros2user/.local/bin:/home/ros2user/.cargo/bin:/home/ros2user/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Java/jdk-17/bin:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/d/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/禁用:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/FeverApps/apache-maven-3.9.12-bin/apache-maven-3.9.12/bin:/mnt/d/A Program Download/mysql-9.4.0-winx64:/mnt/d/A Program Download/mysql-9.4.0-winx64/bin:/mnt/d/A Program Download/vscode/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/mySQL/MySQL Server 5.0/bin:/mnt/d/Program Files/nodejs/node_global/node_modules:/mnt/d/FeverApps/apache-maven-3.9.12-bin/apache-maven-3.9.12/bin:/mnt/d/apache-tomcat-9.0.115/bin:/mnt/c/Program Files/nodejs/:/mnt/d/Program Files/Git/cmd:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/G15YS/.local/bin:/mnt/d/Users/G15YS/anaconda3:/mnt/d/Users/G15YS/anaconda3/Library/mingw-w64/bin:/mnt/d/Users/G15YS/anaconda3/Library/usr/bin:/mnt/d/Users/G15YS/anaconda3/Library/bin:/mnt/d/Users/G15YS/anaconda3/Scripts:/mnt/d/Java/jdk-17/bin:/mnt/d/apache-tomcat-9.0.115/lib:/mnt/d/apache-tomcat-9.0.115/bin:/mnt/c/Users/G15YS/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/IntelliJ IDEA 2025.2.1/bin:/mnt/d/Users/G15YS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/DataGrip 2025.2.3/bin:/mnt/d/Program Files/JetBrains/PyCharm 2025.2.1.1/bin:/mnt/d/Program Files/nodejs/node_global:/mnt/c/Users/G15YS/AppData/Roaming/npm:/mnt/d/Users/G15YS/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/G15YS/AppData/Local/Microsoft/WinGet/Packages/BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe/ripgrep-15.1.0-x86_64-pc-windows-msvc:/mnt/c/Users/G15YS/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/home/ros2user/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ros2user/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-557ab729e6590bdd.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/ros2user/.vscode-server/data/User/workspaceStorage/26e4d31409a354e4267cbbced7ae907a/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3c26a113b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '11b8bf10-97cb-4c0c-a2ad-7caef400b088'), ('GIT_PAGER', 'cat'), ('PWD', '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo'), ('GIT_MERGE_AUTOEDIT', 'no'), ('NPMRC', '/dev/null'), ('COPILOT_DEBUG_NONCE', '96ac04b983970a8a417bfa2f4644fe06'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098935] (-) TimerEvent: {}
+[0.199515] (-) TimerEvent: {}
+[0.300403] (-) TimerEvent: {}
+[0.401010] (-) TimerEvent: {}
+[0.501825] (-) TimerEvent: {}
+[0.602535] (-) TimerEvent: {}
+[0.703244] (-) TimerEvent: {}
+[0.769821] (smart_car_core_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.803476] (-) TimerEvent: {}
+[0.904121] (-) TimerEvent: {}
+[1.004725] (-) TimerEvent: {}
+[1.105645] (-) TimerEvent: {}
+[1.206218] (-) TimerEvent: {}
+[1.306895] (-) TimerEvent: {}
+[1.407675] (-) TimerEvent: {}
+[1.508468] (-) TimerEvent: {}
+[1.609277] (-) TimerEvent: {}
+[1.710045] (-) TimerEvent: {}
+[1.810806] (-) TimerEvent: {}
+[1.911985] (-) TimerEvent: {}
+[2.013042] (-) TimerEvent: {}
+[2.114056] (-) TimerEvent: {}
+[2.215055] (-) TimerEvent: {}
+[2.316000] (-) TimerEvent: {}
+[2.417141] (-) TimerEvent: {}
+[2.517974] (-) TimerEvent: {}
+[2.618792] (-) TimerEvent: {}
+[2.719515] (-) TimerEvent: {}
+[2.820429] (-) TimerEvent: {}
+[2.921133] (-) TimerEvent: {}
+[3.021899] (-) TimerEvent: {}
+[3.122720] (-) TimerEvent: {}
+[3.223453] (-) TimerEvent: {}
+[3.255601] (smart_car_core_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.323778] (-) TimerEvent: {}
+[3.424579] (-) TimerEvent: {}
+[3.525501] (-) TimerEvent: {}
+[3.626315] (-) TimerEvent: {}
+[3.727131] (-) TimerEvent: {}
+[3.827999] (-) TimerEvent: {}
+[3.928792] (-) TimerEvent: {}
+[4.029514] (-) TimerEvent: {}
+[4.130175] (-) TimerEvent: {}
+[4.230949] (-) TimerEvent: {}
+[4.331665] (-) TimerEvent: {}
+[4.432258] (-) TimerEvent: {}
+[4.532919] (-) TimerEvent: {}
+[4.633666] (-) TimerEvent: {}
+[4.734420] (-) TimerEvent: {}
+[4.835274] (-) TimerEvent: {}
+[4.935959] (-) TimerEvent: {}
+[5.036503] (-) TimerEvent: {}
+[5.137425] (-) TimerEvent: {}
+[5.140377] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.237831] (-) TimerEvent: {}
+[5.338698] (-) TimerEvent: {}
+[5.439467] (-) TimerEvent: {}
+[5.540162] (-) TimerEvent: {}
+[5.640831] (-) TimerEvent: {}
+[5.741547] (-) TimerEvent: {}
+[5.780361] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.798515] (smart_car_core_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.800961] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.803629] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.815681] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.841748] (-) TimerEvent: {}
+[5.942481] (-) TimerEvent: {}
+[6.043100] (-) TimerEvent: {}
+[6.143807] (-) TimerEvent: {}
+[6.244736] (-) TimerEvent: {}
+[6.345330] (-) TimerEvent: {}
+[6.410421] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.425393] (smart_car_core_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.426230] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.426977] (smart_car_core_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.445568] (-) TimerEvent: {}
+[6.447056] (smart_car_core_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.545790] (-) TimerEvent: {}
+[6.646562] (-) TimerEvent: {}
+[6.747358] (-) TimerEvent: {}
+[6.821348] (smart_car_core_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.847684] (-) TimerEvent: {}
+[6.948288] (-) TimerEvent: {}
+[7.048938] (-) TimerEvent: {}
+[7.124188] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.149195] (-) TimerEvent: {}
+[7.250207] (-) TimerEvent: {}
+[7.351021] (-) TimerEvent: {}
+[7.451719] (-) TimerEvent: {}
+[7.552525] (-) TimerEvent: {}
+[7.653233] (-) TimerEvent: {}
+[7.753849] (-) TimerEvent: {}
+[7.854523] (-) TimerEvent: {}
+[7.955281] (-) TimerEvent: {}
+[8.056213] (-) TimerEvent: {}
+[8.128039] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.156322] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.156626] (-) TimerEvent: {}
+[8.192303] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.253927] (smart_car_core_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.256875] (-) TimerEvent: {}
+[8.323100] (smart_car_core_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.357072] (-) TimerEvent: {}
+[8.457937] (-) TimerEvent: {}
+[8.494686] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.508999] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.558186] (-) TimerEvent: {}
+[8.659199] (-) TimerEvent: {}
+[8.759962] (-) TimerEvent: {}
+[8.860664] (-) TimerEvent: {}
+[8.961302] (-) TimerEvent: {}
+[9.061991] (-) TimerEvent: {}
+[9.162689] (-) TimerEvent: {}
+[9.263301] (-) TimerEvent: {}
+[9.363957] (-) TimerEvent: {}
+[9.464596] (-) TimerEvent: {}
+[9.565184] (-) TimerEvent: {}
+[9.665862] (-) TimerEvent: {}
+[9.766488] (-) TimerEvent: {}
+[9.867190] (-) TimerEvent: {}
+[9.967982] (-) TimerEvent: {}
+[10.068867] (-) TimerEvent: {}
+[10.169678] (-) TimerEvent: {}
+[10.270661] (-) TimerEvent: {}
+[10.371313] (-) TimerEvent: {}
+[10.472068] (-) TimerEvent: {}
+[10.572737] (-) TimerEvent: {}
+[10.673644] (-) TimerEvent: {}
+[10.774456] (-) TimerEvent: {}
+[10.875278] (-) TimerEvent: {}
+[10.976398] (-) TimerEvent: {}
+[11.077063] (-) TimerEvent: {}
+[11.177818] (-) TimerEvent: {}
+[11.278675] (-) TimerEvent: {}
+[11.379639] (-) TimerEvent: {}
+[11.480319] (-) TimerEvent: {}
+[11.581036] (-) TimerEvent: {}
+[11.681731] (-) TimerEvent: {}
+[11.782443] (-) TimerEvent: {}
+[11.883465] (-) TimerEvent: {}
+[11.984271] (-) TimerEvent: {}
+[12.084959] (-) TimerEvent: {}
+[12.185642] (-) TimerEvent: {}
+[12.286348] (-) TimerEvent: {}
+[12.387031] (-) TimerEvent: {}
+[12.500970] (-) TimerEvent: {}
+[12.601819] (-) TimerEvent: {}
+[12.702637] (-) TimerEvent: {}
+[12.803332] (-) TimerEvent: {}
+[12.904083] (-) TimerEvent: {}
+[13.004940] (-) TimerEvent: {}
+[13.105656] (-) TimerEvent: {}
+[13.206375] (-) TimerEvent: {}
+[13.307361] (-) TimerEvent: {}
+[13.408160] (-) TimerEvent: {}
+[13.508848] (-) TimerEvent: {}
+[13.609477] (-) TimerEvent: {}
+[13.710162] (-) TimerEvent: {}
+[13.810974] (-) TimerEvent: {}
+[13.912210] (-) TimerEvent: {}
+[14.013414] (-) TimerEvent: {}
+[14.114198] (-) TimerEvent: {}
+[14.214902] (-) TimerEvent: {}
+[14.315954] (-) TimerEvent: {}
+[14.416727] (-) TimerEvent: {}
+[14.517438] (-) TimerEvent: {}
+[14.618169] (-) TimerEvent: {}
+[14.718828] (-) TimerEvent: {}
+[14.819547] (-) TimerEvent: {}
+[14.920396] (-) TimerEvent: {}
+[15.021042] (-) TimerEvent: {}
+[15.121896] (-) TimerEvent: {}
+[15.222782] (-) TimerEvent: {}
+[15.323747] (-) TimerEvent: {}
+[15.424484] (-) TimerEvent: {}
+[15.525230] (-) TimerEvent: {}
+[15.625813] (-) TimerEvent: {}
+[15.726524] (-) TimerEvent: {}
+[15.827343] (-) TimerEvent: {}
+[15.928653] (-) TimerEvent: {}
+[16.029417] (-) TimerEvent: {}
+[16.130344] (-) TimerEvent: {}
+[16.134424] (smart_car_core_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.230542] (-) TimerEvent: {}
+[16.331244] (-) TimerEvent: {}
+[16.432105] (-) TimerEvent: {}
+[16.532644] (-) TimerEvent: {}
+[16.633312] (-) TimerEvent: {}
+[16.733961] (-) TimerEvent: {}
+[16.834778] (-) TimerEvent: {}
+[16.935666] (-) TimerEvent: {}
+[17.036642] (-) TimerEvent: {}
+[17.137351] (-) TimerEvent: {}
+[17.238045] (-) TimerEvent: {}
+[17.338950] (-) TimerEvent: {}
+[17.439764] (-) TimerEvent: {}
+[17.540433] (-) TimerEvent: {}
+[17.641268] (-) TimerEvent: {}
+[17.741868] (-) TimerEvent: {}
+[17.842542] (-) TimerEvent: {}
+[17.943148] (-) TimerEvent: {}
+[18.043911] (-) TimerEvent: {}
+[18.144608] (-) TimerEvent: {}
+[18.245271] (-) TimerEvent: {}
+[18.345849] (-) TimerEvent: {}
+[18.446582] (-) TimerEvent: {}
+[18.547196] (-) TimerEvent: {}
+[18.647843] (-) TimerEvent: {}
+[18.748624] (-) TimerEvent: {}
+[18.849442] (-) TimerEvent: {}
+[18.950158] (-) TimerEvent: {}
+[19.050746] (-) TimerEvent: {}
+[19.151311] (-) TimerEvent: {}
+[19.252015] (-) TimerEvent: {}
+[19.352753] (-) TimerEvent: {}
+[19.453470] (-) TimerEvent: {}
+[19.554148] (-) TimerEvent: {}
+[19.654797] (-) TimerEvent: {}
+[19.755409] (-) TimerEvent: {}
+[19.856097] (-) TimerEvent: {}
+[19.957121] (-) TimerEvent: {}
+[20.057786] (-) TimerEvent: {}
+[20.158403] (-) TimerEvent: {}
+[20.259100] (-) TimerEvent: {}
+[20.359742] (-) TimerEvent: {}
+[20.460493] (-) TimerEvent: {}
+[20.561049] (-) TimerEvent: {}
+[20.661584] (-) TimerEvent: {}
+[20.762139] (-) TimerEvent: {}
+[20.862647] (-) TimerEvent: {}
+[20.963238] (-) TimerEvent: {}
+[21.064050] (-) TimerEvent: {}
+[21.164597] (-) TimerEvent: {}
+[21.265192] (-) TimerEvent: {}
+[21.365740] (-) TimerEvent: {}
+[21.466463] (-) TimerEvent: {}
+[21.567028] (-) TimerEvent: {}
+[21.667660] (-) TimerEvent: {}
+[21.768515] (-) TimerEvent: {}
+[21.869249] (-) TimerEvent: {}
+[21.969826] (-) TimerEvent: {}
+[22.070412] (-) TimerEvent: {}
+[22.171029] (-) TimerEvent: {}
+[22.271755] (-) TimerEvent: {}
+[22.372356] (-) TimerEvent: {}
+[22.392483] (smart_car_core_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[22.472525] (-) TimerEvent: {}
+[22.573105] (-) TimerEvent: {}
+[22.673704] (-) TimerEvent: {}
+[22.774294] (-) TimerEvent: {}
+[22.874873] (-) TimerEvent: {}
+[22.975506] (-) TimerEvent: {}
+[23.076128] (-) TimerEvent: {}
+[23.176633] (-) TimerEvent: {}
+[23.277129] (-) TimerEvent: {}
+[23.377713] (-) TimerEvent: {}
+[23.478319] (-) TimerEvent: {}
+[23.578894] (-) TimerEvent: {}
+[23.679459] (-) TimerEvent: {}
+[23.780119] (-) TimerEvent: {}
+[23.880795] (-) TimerEvent: {}
+[23.981475] (-) TimerEvent: {}
+[24.082276] (-) TimerEvent: {}
+[24.182896] (-) TimerEvent: {}
+[24.283503] (-) TimerEvent: {}
+[24.384129] (-) TimerEvent: {}
+[24.484725] (-) TimerEvent: {}
+[24.585302] (-) TimerEvent: {}
+[24.685996] (-) TimerEvent: {}
+[24.786589] (-) TimerEvent: {}
+[24.887494] (-) TimerEvent: {}
+[24.988248] (-) TimerEvent: {}
+[25.089126] (-) TimerEvent: {}
+[25.189783] (-) TimerEvent: {}
+[25.290663] (-) TimerEvent: {}
+[25.391360] (-) TimerEvent: {}
+[25.492300] (-) TimerEvent: {}
+[25.593050] (-) TimerEvent: {}
+[25.693686] (-) TimerEvent: {}
+[25.794495] (-) TimerEvent: {}
+[25.895078] (-) TimerEvent: {}
+[25.995709] (-) TimerEvent: {}
+[26.096373] (-) TimerEvent: {}
+[26.197209] (-) TimerEvent: {}
+[26.297839] (-) TimerEvent: {}
+[26.398359] (-) TimerEvent: {}
+[26.498940] (-) TimerEvent: {}
+[26.599489] (-) TimerEvent: {}
+[26.700033] (-) TimerEvent: {}
+[26.800604] (-) TimerEvent: {}
+[26.901163] (-) TimerEvent: {}
+[27.001887] (-) TimerEvent: {}
+[27.102658] (-) TimerEvent: {}
+[27.203203] (-) TimerEvent: {}
+[27.303786] (-) TimerEvent: {}
+[27.404327] (-) TimerEvent: {}
+[27.507721] (-) TimerEvent: {}
+[27.608478] (-) TimerEvent: {}
+[27.709141] (-) TimerEvent: {}
+[27.809722] (-) TimerEvent: {}
+[27.910331] (-) TimerEvent: {}
+[28.010902] (-) TimerEvent: {}
+[28.111486] (-) TimerEvent: {}
+[28.212134] (-) TimerEvent: {}
+[28.312671] (-) TimerEvent: {}
+[28.413285] (-) TimerEvent: {}
+[28.513833] (-) TimerEvent: {}
+[28.614453] (-) TimerEvent: {}
+[28.715199] (-) TimerEvent: {}
+[28.815779] (-) TimerEvent: {}
+[28.916345] (-) TimerEvent: {}
+[29.016941] (-) TimerEvent: {}
+[29.117489] (-) TimerEvent: {}
+[29.218062] (-) TimerEvent: {}
+[29.318758] (-) TimerEvent: {}
+[29.419867] (-) TimerEvent: {}
+[29.520749] (-) TimerEvent: {}
+[29.622057] (-) TimerEvent: {}
+[29.722605] (-) TimerEvent: {}
+[29.823186] (-) TimerEvent: {}
+[29.923741] (-) TimerEvent: {}
+[30.024342] (-) TimerEvent: {}
+[30.124999] (-) TimerEvent: {}
+[30.225633] (-) TimerEvent: {}
+[30.326331] (-) TimerEvent: {}
+[30.427148] (-) TimerEvent: {}
+[30.528386] (-) TimerEvent: {}
+[30.629048] (-) TimerEvent: {}
+[30.729615] (-) TimerEvent: {}
+[30.830159] (-) TimerEvent: {}
+[30.930773] (-) TimerEvent: {}
+[31.031453] (-) TimerEvent: {}
+[31.132087] (-) TimerEvent: {}
+[31.232657] (-) TimerEvent: {}
+[31.333239] (-) TimerEvent: {}
+[31.434304] (-) TimerEvent: {}
+[31.534887] (-) TimerEvent: {}
+[31.635471] (-) TimerEvent: {}
+[31.735982] (-) TimerEvent: {}
+[31.836531] (-) TimerEvent: {}
+[31.937259] (-) TimerEvent: {}
+[32.038133] (-) TimerEvent: {}
+[32.138766] (-) TimerEvent: {}
+[32.239362] (-) TimerEvent: {}
+[32.340050] (-) TimerEvent: {}
+[32.355878] (smart_car_core_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[32.425592] (smart_car_core_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[32.440265] (-) TimerEvent: {}
+[32.540807] (-) TimerEvent: {}
+[32.641380] (-) TimerEvent: {}
+[32.741934] (-) TimerEvent: {}
+[32.843047] (-) TimerEvent: {}
+[32.943737] (-) TimerEvent: {}
+[32.970150] (smart_car_core_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[32.971074] (smart_car_core_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[33.044000] (-) TimerEvent: {}
+[33.144640] (-) TimerEvent: {}
+[33.245225] (-) TimerEvent: {}
+[33.345759] (-) TimerEvent: {}
+[33.446300] (-) TimerEvent: {}
+[33.479387] (smart_car_core_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[33.481456] (smart_car_core_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[33.546636] (-) TimerEvent: {}
+[33.647693] (-) TimerEvent: {}
+[33.699749] (smart_car_core_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[33.744720] (smart_car_core_demo) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[33.748350] (-) TimerEvent: {}
+[33.778117] (smart_car_core_demo) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[33.848582] (-) TimerEvent: {}
+[33.949304] (-) TimerEvent: {}
+[34.049990] (-) TimerEvent: {}
+[34.150648] (-) TimerEvent: {}
+[34.251482] (-) TimerEvent: {}
+[34.352343] (-) TimerEvent: {}
+[34.453160] (-) TimerEvent: {}
+[34.553852] (-) TimerEvent: {}
+[34.654737] (-) TimerEvent: {}
+[34.755310] (-) TimerEvent: {}
+[34.856030] (-) TimerEvent: {}
+[34.956583] (-) TimerEvent: {}
+[35.057239] (-) TimerEvent: {}
+[35.157791] (-) TimerEvent: {}
+[35.258355] (-) TimerEvent: {}
+[35.358924] (-) TimerEvent: {}
+[35.459534] (-) TimerEvent: {}
+[35.560653] (-) TimerEvent: {}
+[35.661384] (-) TimerEvent: {}
+[35.761915] (-) TimerEvent: {}
+[35.862535] (-) TimerEvent: {}
+[35.963543] (-) TimerEvent: {}
+[36.064141] (-) TimerEvent: {}
+[36.164809] (-) TimerEvent: {}
+[36.265602] (-) TimerEvent: {}
+[36.366626] (-) TimerEvent: {}
+[36.467235] (-) TimerEvent: {}
+[36.568109] (-) TimerEvent: {}
+[36.668650] (-) TimerEvent: {}
+[36.769214] (-) TimerEvent: {}
+[36.869829] (-) TimerEvent: {}
+[36.970512] (-) TimerEvent: {}
+[37.071253] (-) TimerEvent: {}
+[37.172641] (-) TimerEvent: {}
+[37.273206] (-) TimerEvent: {}
+[37.373750] (-) TimerEvent: {}
+[37.474252] (-) TimerEvent: {}
+[37.574798] (-) TimerEvent: {}
+[37.675363] (-) TimerEvent: {}
+[37.775960] (-) TimerEvent: {}
+[37.876445] (-) TimerEvent: {}
+[37.976964] (-) TimerEvent: {}
+[38.077528] (-) TimerEvent: {}
+[38.178067] (-) TimerEvent: {}
+[38.278574] (-) TimerEvent: {}
+[38.379133] (-) TimerEvent: {}
+[38.479745] (-) TimerEvent: {}
+[38.580447] (-) TimerEvent: {}
+[38.681267] (-) TimerEvent: {}
+[38.781840] (-) TimerEvent: {}
+[38.784195] (smart_car_core_demo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (find_package):\n'}
+[38.784665] (smart_car_core_demo) StderrLine: {'line': b'  By not providing "Findros_robot_controller_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[38.784764] (smart_car_core_demo) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[38.784845] (smart_car_core_demo) StderrLine: {'line': b'  by "ros_robot_controller_msgs", but CMake did not find one.\n'}
+[38.784906] (smart_car_core_demo) StderrLine: {'line': b'\n'}
+[38.784959] (smart_car_core_demo) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[38.785020] (smart_car_core_demo) StderrLine: {'line': b'  "ros_robot_controller_msgs" with any of the following names:\n'}
+[38.785080] (smart_car_core_demo) StderrLine: {'line': b'\n'}
+[38.785182] (smart_car_core_demo) StderrLine: {'line': b'    ros_robot_controller_msgsConfig.cmake\n'}
+[38.785275] (smart_car_core_demo) StderrLine: {'line': b'    ros_robot_controller_msgs-config.cmake\n'}
+[38.785330] (smart_car_core_demo) StderrLine: {'line': b'\n'}
+[38.785391] (smart_car_core_demo) StderrLine: {'line': b'  Add the installation prefix of "ros_robot_controller_msgs" to\n'}
+[38.785483] (smart_car_core_demo) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ros_robot_controller_msgs_DIR" to a directory\n'}
+[38.785539] (smart_car_core_demo) StderrLine: {'line': b'  containing one of the above files.  If "ros_robot_controller_msgs" provides\n'}
+[38.785592] (smart_car_core_demo) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[38.785689] (smart_car_core_demo) StderrLine: {'line': b'\n'}
+[38.785795] (smart_car_core_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[38.785865] (smart_car_core_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[38.785985] (smart_car_core_demo) StdoutLine: {'line': b'See also "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles/CMakeOutput.log".\n'}
+[38.803056] (smart_car_core_demo) CommandEnded: {'returncode': 1}
+[38.845771] (smart_car_core_demo) JobEnded: {'identifier': 'smart_car_core_demo', 'rc': 1}
+[38.849350] (-) EventReactorShutdown: {}

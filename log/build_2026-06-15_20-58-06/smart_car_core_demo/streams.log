@@ -1,0 +1,54 @@
+[0.025s] Invoking command in '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals -DCMAKE_INSTALL_PREFIX=/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/smart_car_core_demo
+[0.768s] -- The C compiler identification is GNU 11.4.0
+[3.254s] -- The CXX compiler identification is GNU 11.4.0
+[5.139s] -- Detecting C compiler ABI info
+[5.779s] -- Detecting C compiler ABI info - done
+[5.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.799s] -- Detecting C compile features
+[5.802s] -- Detecting C compile features - done
+[5.814s] -- Detecting CXX compiler ABI info
+[6.409s] -- Detecting CXX compiler ABI info - done
+[6.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.424s] -- Detecting CXX compile features
+[6.425s] -- Detecting CXX compile features - done
+[6.445s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.820s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.123s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[8.126s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.155s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.191s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.493s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.507s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.133s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[22.391s] -- Found FastRTPS: /opt/ros/humble/include  
+[32.354s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[32.424s] -- Looking for pthread.h
+[32.969s] -- Looking for pthread.h - found
+[32.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[33.478s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33.480s] -- Found Threads: TRUE  
+[33.698s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[33.743s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[33.776s] -- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+[38.783s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[38.783s]   By not providing "Findros_robot_controller_msgs.cmake" in CMAKE_MODULE_PATH
+[38.783s]   this project has asked CMake to find a package configuration file provided
+[38.783s]   by "ros_robot_controller_msgs", but CMake did not find one.
+[38.783s] 
+[38.783s]   Could not find a package configuration file provided by
+[38.783s]   "ros_robot_controller_msgs" with any of the following names:
+[38.783s] 
+[38.783s]     ros_robot_controller_msgsConfig.cmake
+[38.783s]     ros_robot_controller_msgs-config.cmake
+[38.783s] 
+[38.783s]   Add the installation prefix of "ros_robot_controller_msgs" to
+[38.783s]   CMAKE_PREFIX_PATH or set "ros_robot_controller_msgs_DIR" to a directory
+[38.784s]   containing one of the above files.  If "ros_robot_controller_msgs" provides
+[38.784s]   a separate development package or SDK, be sure it has been installed.
+[38.784s] 
+[38.784s] [0m
+[38.784s] -- Configuring incomplete, errors occurred!
+[38.784s] See also "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles/CMakeOutput.log".
+[38.802s] Invoked command in '/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals -DCMAKE_INSTALL_PREFIX=/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/smart_car_core_demo

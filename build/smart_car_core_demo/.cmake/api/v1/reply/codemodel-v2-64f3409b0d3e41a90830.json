@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b8f13901601df8418876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "smart_car_core_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "control_mode_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_mode_client-1d37807e7a4a536ace14.json",
+					"name" : "control_mode_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_input-3d996b3954877f51e097.json",
+					"name" : "keyboard_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_car_core_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_car_core_demo_uninstall-0cfa15a972b5ac0fded8.json",
+					"name" : "smart_car_core_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_publisher-84a95dab40aa30fa100f.json",
+					"name" : "speed_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_subscriber-ba554b235533acf85ed8.json",
+					"name" : "speed_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cc6971d69eb6226f2054.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo",
+		"source" : "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

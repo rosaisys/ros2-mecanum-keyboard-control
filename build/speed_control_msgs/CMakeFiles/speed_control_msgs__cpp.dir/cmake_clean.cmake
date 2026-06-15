@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/speed_control_msgs/srv/detail/adjust_speed__builder.hpp"
   "rosidl_generator_cpp/speed_control_msgs/srv/detail/adjust_speed__struct.hpp"
   "rosidl_generator_cpp/speed_control_msgs/srv/detail/adjust_speed__traits.hpp"
+  "rosidl_generator_cpp/speed_control_msgs/srv/detail/adjust_speed__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

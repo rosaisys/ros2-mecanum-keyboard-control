@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/ros2_wsorincp/src/peripherals
+# Install script for directory: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/ros2_wsorincp/install/smart_car_core_demo")
+  set(CMAKE_INSTALL_PREFIX "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/smart_car_core_demo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/speed_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/speed_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_publisher"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib:/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/speed_control_msgs/lib:/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_publisher")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/control_mode_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/control_mode_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/control_mode_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/control_mode_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/control_mode_client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/control_mode_client"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ubuntu/ros2_wsorincp/install/speed_control_msgs/lib:/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/speed_control_msgs/lib:/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/control_mode_client")
@@ -89,12 +89,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/speed_subscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE EXECUTABLE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/speed_subscriber")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/ros_robot_controller_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/speed_subscriber")
@@ -109,7 +109,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/libkeyboard_input.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE SHARED_LIBRARY FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/libkeyboard_input.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo" TYPE SHARED_LIBRARY FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/libkeyboard_input.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/libkeyboard_input.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/smart_car_core_demo/libkeyboard_input.so")
     file(RPATH_CHANGE
@@ -126,15 +126,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ubuntu/ros2_wsorincp/src/peripherals/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ubuntu/ros2_wsorincp/src/peripherals/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ubuntu/ros2_wsorincp/src/peripherals/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/smart_car_core_demo" TYPE DIRECTORY FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -142,15 +142,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/smart_car_core_demo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/smart_car_core_demo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -158,7 +158,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -166,54 +166,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/environment" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/packages/smart_car_core_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_index/share/ament_index/resource_index/packages/smart_car_core_demo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo/cmake" TYPE FILE FILES
-    "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_core/smart_car_core_demoConfig.cmake"
-    "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_core/smart_car_core_demoConfig-version.cmake"
+    "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_core/smart_car_core_demoConfig.cmake"
+    "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/ament_cmake_core/smart_car_core_demoConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ubuntu/ros2_wsorincp/src/peripherals/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smart_car_core_demo" TYPE FILE FILES "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -224,5 +224,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

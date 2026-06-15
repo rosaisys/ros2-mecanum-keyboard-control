@@ -7,5 +7,6 @@
 #include "ros_robot_controller_msgs/msg/detail/motor_state__struct.hpp"
 #include "ros_robot_controller_msgs/msg/detail/motor_state__builder.hpp"
 #include "ros_robot_controller_msgs/msg/detail/motor_state__traits.hpp"
+#include "ros_robot_controller_msgs/msg/detail/motor_state__type_support.hpp"
 
 #endif  // ROS_ROBOT_CONTROLLER_MSGS__MSG__MOTOR_STATE_HPP_

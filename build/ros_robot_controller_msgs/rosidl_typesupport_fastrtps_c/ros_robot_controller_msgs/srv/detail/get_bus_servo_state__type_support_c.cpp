@@ -102,6 +102,16 @@ static bool _GetBusServoState_Request__cdr_deserialize(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.getState();
+    bool correct_size = cdr.jump(size);
+    cdr.setState(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->cmd.data) {
       ros_robot_controller_msgs__msg__GetBusServoCmd__Sequence__fini(&ros_message->cmd);
     }
@@ -377,6 +387,16 @@ static bool _GetBusServoState_Response__cdr_deserialize(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.getState();
+    bool correct_size = cdr.jump(size);
+    cdr.setState(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->state.data) {
       ros_robot_controller_msgs__msg__BusServoState__Sequence__fini(&ros_message->state);
     }

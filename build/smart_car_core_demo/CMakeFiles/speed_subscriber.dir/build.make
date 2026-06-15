@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
+CMAKE_SOURCE_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
+CMAKE_BINARY_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/speed_subscriber.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/speed_subscriber.dir/progress.make
 include CMakeFiles/speed_subscriber.dir/flags.make
 
 CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/flags.make
-CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp
+CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/src/peripherals/src/speed_subscriber.cpp
 CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o: CMakeFiles/speed_subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -MF CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o.d -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -c /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -MF CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o.d -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.o -c "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/src/speed_subscriber.cpp"
 
 CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp > CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/src/speed_subscriber.cpp" > CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.i
 
 CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ros2_wsorincp/src/peripherals/src/speed_subscriber.cpp -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals/src/speed_subscriber.cpp" -o CMakeFiles/speed_subscriber.dir/src/speed_subscriber.cpp.s
 
 # Object files for target speed_subscriber
 speed_subscriber_OBJECTS = \
@@ -99,12 +99,12 @@ speed_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastr
 speed_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 speed_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 speed_subscriber: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_c.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_c.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_cpp.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_cpp.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_py.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_c.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_c.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_introspection_cpp.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_cpp.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_py.so
 speed_subscriber: /opt/ros/humble/lib/liblibstatistics_collector.so
 speed_subscriber: /opt/ros/humble/lib/librcl.so
 speed_subscriber: /opt/ros/humble/lib/librmw_implementation.so
@@ -146,7 +146,7 @@ speed_subscriber: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 speed_subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 speed_subscriber: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-speed_subscriber: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+speed_subscriber: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 speed_subscriber: /opt/ros/humble/lib/librmw.so
 speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 speed_subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -158,9 +158,9 @@ speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 speed_subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 speed_subscriber: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_c.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_typesupport_c.so
 speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-speed_subscriber: /home/ubuntu/ros2_wsorincp/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_c.so
+speed_subscriber: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/install/ros_robot_controller_msgs/lib/libros_robot_controller_msgs__rosidl_generator_c.so
 speed_subscriber: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 speed_subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 speed_subscriber: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -169,9 +169,9 @@ speed_subscriber: /opt/ros/humble/lib/librosidl_typesupport_c.so
 speed_subscriber: /opt/ros/humble/lib/librcpputils.so
 speed_subscriber: /opt/ros/humble/lib/librosidl_runtime_c.so
 speed_subscriber: /opt/ros/humble/lib/librcutils.so
-speed_subscriber: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+speed_subscriber: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 speed_subscriber: CMakeFiles/speed_subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable speed_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable speed_subscriber"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speed_subscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/speed_subscriber.dir/clean:
 .PHONY : CMakeFiles/speed_subscriber.dir/clean
 
 CMakeFiles/speed_subscriber.dir/depend:
-	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/speed_subscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles/speed_subscriber.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/speed_subscriber.dir/depend
 

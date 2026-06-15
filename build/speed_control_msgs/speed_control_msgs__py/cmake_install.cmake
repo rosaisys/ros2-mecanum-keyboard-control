@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/ros2_wsorincp/build/speed_control_msgs/speed_control_msgs__py
+# Install script for directory: /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/speed_control_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/ros2_wsorincp/install/speed_control_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/install/speed_control_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

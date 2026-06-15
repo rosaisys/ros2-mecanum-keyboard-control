@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/peripherals
+CMAKE_SOURCE_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo
+CMAKE_BINARY_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo"
 
 # Utility rule file for smart_car_core_demo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/smart_car_core_demo_uninstall.dir/compiler_depend.make
 include CMakeFiles/smart_car_core_demo_uninstall.dir/progress.make
 
 CMakeFiles/smart_car_core_demo_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard\ control\ for\ the\ Mellen\ car/build/smart_car_core_demo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 smart_car_core_demo_uninstall: CMakeFiles/smart_car_core_demo_uninstall
 smart_car_core_demo_uninstall: CMakeFiles/smart_car_core_demo_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/smart_car_core_demo_uninstall.dir/clean:
 .PHONY : CMakeFiles/smart_car_core_demo_uninstall.dir/clean
 
 CMakeFiles/smart_car_core_demo_uninstall.dir/depend:
-	cd /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/src/peripherals /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo /home/ubuntu/ros2_wsorincp/build/smart_car_core_demo/CMakeFiles/smart_car_core_demo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/peripherals" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/smart_car_core_demo/CMakeFiles/smart_car_core_demo_uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/smart_car_core_demo_uninstall.dir/depend
 

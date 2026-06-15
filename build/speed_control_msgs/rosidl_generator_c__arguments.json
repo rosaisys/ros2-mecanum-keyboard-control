@@ -1,9 +1,9 @@
 {
   "package_name": "speed_control_msgs",
-  "output_dir": "/home/ubuntu/ros2_wsorincp/build/speed_control_msgs/rosidl_generator_c/speed_control_msgs",
+  "output_dir": "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/rosidl_generator_c/speed_control_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/ubuntu/ros2_wsorincp/build/speed_control_msgs/rosidl_adapter/speed_control_msgs:srv/AdjustSpeed.idl"
+    "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/rosidl_adapter/speed_control_msgs:srv/AdjustSpeed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/ubuntu/ros2_wsorincp/build/speed_control_msgs/rosidl_adapter/speed_control_msgs/srv/AdjustSpeed.idl"
+    "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/rosidl_adapter/speed_control_msgs/srv/AdjustSpeed.idl"
   ]
 }

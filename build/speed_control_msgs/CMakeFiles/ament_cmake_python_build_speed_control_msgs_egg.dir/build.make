@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs
+CMAKE_SOURCE_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/driver/speed_control_msgs"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_wsorincp/build/speed_control_msgs
+CMAKE_BINARY_DIR = "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs"
 
 # Utility rule file for ament_cmake_python_build_speed_control_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg:
-	cd /home/ubuntu/ros2_wsorincp/build/speed_control_msgs/ament_cmake_python/speed_control_msgs && /usr/bin/python3 setup.py egg_info
+	cd "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/ament_cmake_python/speed_control_msgs" && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_speed_control_msgs_egg: CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg
 ament_cmake_python_build_speed_control_msgs_egg: CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/depend:
-	cd /home/ubuntu/ros2_wsorincp/build/speed_control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs /home/ubuntu/ros2_wsorincp/src/driver/speed_control_msgs /home/ubuntu/ros2_wsorincp/build/speed_control_msgs /home/ubuntu/ros2_wsorincp/build/speed_control_msgs /home/ubuntu/ros2_wsorincp/build/speed_control_msgs/CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/driver/speed_control_msgs" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/src/driver/speed_control_msgs" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs" "/home/ros2user/raspbros2+my_ws/src/Myself_WS/Keyboard control for the Mellen car/build/speed_control_msgs/CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_speed_control_msgs_egg.dir/depend
 

@@ -52,7 +52,7 @@ cdr_deserialize(
   cdr >> ros_message.step;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_speed_control_msgs
@@ -298,7 +298,7 @@ cdr_deserialize(
   cdr >> ros_message.current_angular;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_speed_control_msgs
